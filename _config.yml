@@ -1,0 +1,44 @@
+locale: ko-KR
+title: Dev & Hack
+description: "Chanwoo Lim's development and security notes."
+url: "https://panwoo1.github.io"
+baseurl: ""
+words_per_minute: 200
+author:
+  name: Chanwoo Lim
+  bio: Noob Developer.
+  location: Seoul, Korea
+  email: hvcloc@gmail.com
+  github: panwoo1
+  avatar: /assets/images/paka.jpg
+
+include:
+  - _pages
+
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Seoul
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

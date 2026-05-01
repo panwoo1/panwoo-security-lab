@@ -1,0 +1,22 @@
+<div class="post-list">
+  {% for post in include.posts %}
+    <article class="post-card">
+      <div class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        {% if post.categories and post.categories.size > 0 %}
+          <span>{{ post.categories | join: ", " }}</span>
+        {% endif %}
+      </div>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 132 }}</p>
+      {% if post.tags and post.tags.size > 0 %}
+        <div class="tag-row">
+          {% for tag in post.tags %}
+            <span>{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <a class="read-more" href="{{ post.url | relative_url }}">Read post</a>
+    </article>
+  {% endfor %}
+</div>

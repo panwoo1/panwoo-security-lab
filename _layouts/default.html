@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'ko-KR' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+    <main class="site-main">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <span>{{ site.title }}</span>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+    </footer>
+  </body>
+</html>

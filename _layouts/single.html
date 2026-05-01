@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    {% if page.categories and page.categories.size > 0 %}
+      <a class="post-kicker" href="{{ '/categories/' | relative_url }}#{{ page.categories[0] | slugify }}">{{ page.categories[0] }}</a>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% assign words_per_minute = site.words_per_minute | default: 200 %}
+    {% assign read_minutes = content | number_of_words | divided_by: words_per_minute | plus: 1 %}
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+      <span>{{ read_minutes }} min read</span>
+    </div>
+    {% if page.tags and page.tags.size > 0 %}
+      <div class="tag-row">
+        {% for tag in page.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+  <div class="content">
+    {{ content }}
+  </div>
+  <nav class="post-nav" aria-label="Post navigation">
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}">
+        <span>Previous</span>
+        {{ page.previous.title }}
+      </a>
+    {% endif %}
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}">
+        <span>Next</span>
+        {{ page.next.title }}
+      </a>
+    {% endif %}
+  </nav>
+</article>

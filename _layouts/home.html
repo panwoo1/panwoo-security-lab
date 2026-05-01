@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{% assign featured = site.posts | first %}
+<section class="intro">
+  <div class="intro-copy">
+    <p class="eyebrow">Security Lab Notes</p>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </div>
+  {% if featured %}
+    <article class="featured-post">
+      <div class="post-meta">
+        <time datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: "%Y.%m.%d" }}</time>
+        {% if featured.categories and featured.categories.size > 0 %}
+          <span>{{ featured.categories | join: ", " }}</span>
+        {% endif %}
+      </div>
+      <h2><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h2>
+      <p>{{ featured.excerpt | strip_html | normalize_whitespace | truncate: 170 }}</p>
+      <a class="read-more" href="{{ featured.url | relative_url }}">Read featured</a>
+    </article>
+  {% endif %}
+</section>
+
+<div class="home-grid">
+  <section>
+    <div class="section-heading">
+      <h2>Latest Posts</h2>
+      <a href="{{ '/year-archive/' | relative_url }}">Archive</a>
+    </div>
+
+    {% assign regular_posts = site.posts | slice: 1, site.posts.size %}
+    {% include post-list.html posts=regular_posts %}
+  </section>
+
+  <aside class="home-sidebar">
+    <section class="profile-panel">
+      <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+      <div>
+        <strong>{{ site.author.name }}</strong>
+        <span>{{ site.author.location }}</span>
+      </div>
+      <p>{{ site.author.bio }}</p>
+      <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
+    </section>
+
+    <section class="topic-panel">
+      <h2>Topics</h2>
+      <div class="topic-list">
+        {% for category in site.categories %}
+          <a href="{{ '/categories/' | relative_url }}#{{ category[0] | slugify }}">
+            <span>{{ category[0] }}</span>
+            <strong>{{ category[1].size }}</strong>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  </aside>
+</div>
