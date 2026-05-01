@@ -1,0 +1,13 @@
+{
+  "name": "panwoo-security-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "proxy:dreamhack": "node proxy/dreamhack-proxy.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}

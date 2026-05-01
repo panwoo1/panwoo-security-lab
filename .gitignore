@@ -4,6 +4,10 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 vendor/
+node_modules/
+.env
+__pycache__/
+*.pyc
 
 # Local agent/workspace files
 .agents/

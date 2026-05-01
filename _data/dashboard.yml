@@ -1,4 +1,7 @@
 tools:
+  - title: DreamHack Proxy
+    url: http://127.0.0.1:5000
+    meta: local proxy :5000
   - title: Burp Suite
     url: http://127.0.0.1:8080
     meta: 127.0.0.1:8080
@@ -13,6 +16,12 @@ tools:
     meta: writeups
 
 feeds:
+  - name: KISA 보안공지
+    url: https://www.boho.or.kr/kr/rss.do?bbsId=B0000133
+  - name: KISA 취약점정보
+    url: https://www.boho.or.kr/kr/rss.do?bbsId=B0000302
+  - name: ASEC KR
+    url: https://asec.ahnlab.com/ko/feed/
   - name: CISA
     url: https://www.cisa.gov/cybersecurity-advisories/all.xml
   - name: BleepingComputer

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T10:50:35.257237+00:00",
+  "generated_at": "2026-05-01T10:58:34.069402+00:00",
   "items": [
     {
       "source": "The Hacker News",
@@ -126,6 +126,90 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
       "published": "Thu, 30 Apr 26 12:00:00 +0000",
       "summary": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and ear"
+    },
+    {
+      "source": "CISA",
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "published": "Thu, 30 Apr 26 12:00:00 +0000",
+      "summary": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system products. Note: IEC 618"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "April KB5083769 Windows 11 update causes backup software failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+      "published": "Thu, 30 Apr 2026 11:23:03 -0400",
+      "summary": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+      "published": "Thu, 30 Apr 2026 10:02:12 -0400",
+      "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New Linux ‘Copy Fail’ flaw gives hackers root on major distros",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+      "published": "Thu, 30 Apr 2026 09:54:47 -0400",
+      "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root permissions. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+      "published": "Thu, 30 Apr 2026 07:40:31 -0400",
+      "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+      "published": "Thu, 30 Apr 2026 07:21:02 -0400",
+      "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]"
+    },
+    {
+      "source": "KISA 보안공지",
+      "title": "Linux Kernel 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72039",
+      "published": "2026-04-30",
+      "summary": ""
+    },
+    {
+      "source": "The Hacker News",
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "published": "Wed, 29 Apr 2026 21:56:00 +0530",
+      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, Onapsis, OX Securi"
+    },
+    {
+      "source": "The Hacker News",
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "published": "Wed, 29 Apr 2026 20:13:00 +0530",
+      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@vali"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "published": "Wed, 29 Apr 2026 18:43:44 -0400",
+      "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "published": "Wed, 29 Apr 2026 18:13:15 -0400",
+      "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]"
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "published": "Wed, 29 Apr 2026 17:32:00 +0530",
+      "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talking about AI writing bet"
     }
   ],
   "errors": []

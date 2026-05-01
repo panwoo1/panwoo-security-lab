@@ -10,13 +10,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 FEEDS = [
+    ("KISA 보안공지", "https://www.boho.or.kr/kr/rss.do?bbsId=B0000133"),
+    ("KISA 취약점정보", "https://www.boho.or.kr/kr/rss.do?bbsId=B0000302"),
+    ("ASEC KR", "https://asec.ahnlab.com/ko/feed/"),
     ("CISA", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
     ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews"),
 ]
 
 OUT = Path("assets/data/security-news.json")
-MAX_ITEMS = 18
+MAX_ITEMS = 30
 
 
 def clean(value):
@@ -42,7 +45,13 @@ def parsed_date(value):
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed
     except Exception:
-        return datetime.min.replace(tzinfo=timezone.utc)
+        pass
+    for fmt in ("%Y-%m-%d", "%Y.%m.%d", "%Y/%m/%d"):
+        try:
+            return datetime.strptime(value[:10], fmt).replace(tzinfo=timezone.utc)
+        except Exception:
+            pass
+    return datetime.min.replace(tzinfo=timezone.utc)
 
 
 def fetch_feed(source, url):

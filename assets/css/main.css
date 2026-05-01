@@ -312,6 +312,19 @@ input {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
 }
 
+.panel-hint {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.panel-hint code {
+  padding: 2px 5px;
+  color: var(--text);
+  background: var(--surface-muted);
+  border-radius: 6px;
+}
+
 .tool-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
