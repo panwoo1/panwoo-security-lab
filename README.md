@@ -1,34 +1,39 @@
 # Panwoo Security Lab
 
-A personal security dashboard and Jekyll note archive for CTF workflow, security news, and writeups.
+A personal Next.js + MDX security dashboard for CTF workflow, security news, proxy access, and writeups.
 
 ## Structure
 
-- `_layouts/`: page, post, archive, and home templates
-- `_includes/`: shared UI blocks (header, post list)
-- `_pages/`: static pages and archive entry points
-- `_posts/`: markdown posts
-- `assets/css/main.css`: custom design system and responsive layout
+- `app/`: Next.js App Router pages and API routes
+- `components/`: dashboard UI components
+- `content/notes/`: MDX/Markdown notes migrated from the old blog
+- `public/files/`: downloadable files such as PDFs
+- `public/images/`: static images
 - `proxy/dreamhack-proxy.mjs`: local/hosted DreamHack reverse proxy
-- `scripts/fetch_security_news.py`: RSS fetcher for dashboard news
 
 ## Local development
 
 ```bash
-bundle install
-bundle exec jekyll serve
+npm install
+npm run dev
 ```
 
-Then open `http://127.0.0.1:4000`.
+Then open `http://127.0.0.1:3000`.
+
+Production build:
+
+```bash
+npm run build
+npm run start
+```
 
 ## DreamHack proxy
 
-GitHub Pages is static hosting, so it cannot run the Node proxy process. Run the proxy locally or deploy it to a Node runtime such as Replit, Render, Fly.io, or a small VPS.
+GitHub Pages is static hosting, so it cannot run the Node proxy process or the Next.js API routes. Deploy the dashboard to a Node runtime such as Vercel, Replit, Render, Fly.io, or a small VPS. Run the proxy locally or deploy it separately to a Node runtime.
 
 Local run:
 
 ```bash
-npm install
 npm run proxy:dreamhack
 ```
 
