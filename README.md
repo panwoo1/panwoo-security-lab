@@ -1,6 +1,14 @@
 # Panwoo Security Lab
 
-A lightweight Jekyll blog migrated from `panwoo1/panwoo1.github.io` without the Minimal Mistakes fork.
+A modern, content-first Jekyll blog scaffold optimized for personal security/dev notes.
+
+## Structure
+
+- `_layouts/`: page, post, archive, and home templates
+- `_includes/`: shared UI blocks (header, post list)
+- `_pages/`: static pages and archive entry points
+- `_posts/`: markdown posts
+- `assets/css/main.css`: custom design system and responsive layout
 
 ## Local development
 
@@ -8,3 +16,5 @@ A lightweight Jekyll blog migrated from `panwoo1/panwoo1.github.io` without the 
 bundle install
 bundle exec jekyll serve
 ```
+
+Then open `http://127.0.0.1:4000`.

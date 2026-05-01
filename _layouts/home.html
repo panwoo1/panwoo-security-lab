@@ -27,10 +27,11 @@ layout: default
   <section>
     <div class="section-heading">
       <h2>Latest Posts</h2>
-      <a href="{{ '/year-archive/' | relative_url }}">Archive</a>
+      <a href="{{ '/year-archive/' | relative_url }}">All posts</a>
     </div>
 
-    {% assign regular_posts = site.posts | slice: 1, site.posts.size %}
+    {% assign latest_count = site.home.latest_count | default: 6 %}
+    {% assign regular_posts = site.posts | slice: 1, latest_count %}
     {% include post-list.html posts=regular_posts %}
   </section>
 
@@ -48,7 +49,7 @@ layout: default
     <section class="topic-panel">
       <h2>Topics</h2>
       <div class="topic-list">
-        {% for category in site.categories %}
+        {% for category in site.categories limit: 10 %}
           <a href="{{ '/categories/' | relative_url }}#{{ category[0] | slugify }}">
             <span>{{ category[0] }}</span>
             <strong>{{ category[1].size }}</strong>

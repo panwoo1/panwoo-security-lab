@@ -4,6 +4,8 @@ description: "Chanwoo Lim's development and security notes."
 url: "https://panwoo1.github.io"
 baseurl: ""
 words_per_minute: 200
+timezone: Asia/Seoul
+
 author:
   name: Chanwoo Lim
   bio: Noob Developer.
@@ -12,13 +14,27 @@ author:
   github: panwoo1
   avatar: /assets/images/paka.jpg
 
+navigation:
+  - title: Posts
+    url: /
+  - title: Archive
+    url: /year-archive/
+  - title: Categories
+    url: /categories/
+  - title: Tags
+    url: /tags/
+  - title: About
+    url: /about/
+
+home:
+  latest_count: 6
+
 include:
   - _pages
 
 permalink: /:categories/:title/
 markdown: kramdown
 highlighter: rouge
-timezone: Asia/Seoul
 
 kramdown:
   input: GFM
