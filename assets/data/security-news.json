@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T04:08:51.212583+00:00",
+  "generated_at": "2026-05-03T08:15:14.218045+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -402,6 +402,16 @@
       "summary": ""
     },
     {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "12c77eec7a30",
+      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisa-adds-actively-exploited-linux-root.html",
+      "published": "Sun, 03 May 2026 11:56:00 +0530",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evide"
+    },
+    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "b102df01b8af",
@@ -590,16 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fwindows-11-kb5083631-update-released-with-34-changes-and-fixes%2F",
       "published": "Fri, 01 May 2026 06:00:53 -0400",
       "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance impro"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "53090d061b00",
-      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-      "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F04%2Fpytorch-lightning-compromised-in-pypi.html",
-      "published": "Thu, 30 Apr 2026 22:01:00 +0530",
-      "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aikido Security, OX Secu"
     }
   ],
   "errors": []
