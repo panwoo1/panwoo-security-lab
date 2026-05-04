@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T14:28:52.404582+00:00",
+  "generated_at": "2026-05-04T19:53:56.442528+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -284,22 +284,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "524312ed62d5",
-      "title": "2026년 3월 다크웹 이슈 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93321/",
+      "slug": "3d6e8bea65d7",
+      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
+      "url": "https://asec.ahnlab.com/ko/93332/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "알림 본 보고서는 딥웹 및 다크웹 출처 기반 자료를 요약한 것이며 일부 사실관계는 출처 특성상 완전 확인이 어려운 내용이 포함되어 있다. 주요 이슈 BreachForums 내부 붕괴와 재구축 시도가 관측되었다. 운영자 배신과 자금 이동 정황으로 신뢰가 손상되었으며 다수 클론(.ac, .us 등)과 사칭 도메인 난립으로 이용자 혼선이 심화되었다. BreachForums는 Vect 및 Spear"
+      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
     },
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "1eb23152149c",
-      "title": "2026년 3월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93322/",
+      "slug": "3faa2ecd143e",
+      "title": "2026년 3월 다크웹 침해사고 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "알림 본 보고서는 딥웹·다크웹에서 활동하는 핵티비스트 중심 동향을 정리한 자료다. 일부 주장된 공격은 독립적 기술 검증이 제한되어 관측 결과로 표기되었다. 주요 이슈 Handala의 다각적 공세가 두드러졌다. FBI 연계 도메인 공격 주장, Lockheed Martin 이스라엘 지사 DDoS 주장, 미국 의료기기 제조사 Stryker 대상 Wiper 주장, 요르단 연료 인프라·전력 지도 공개"
+      "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
     },
     {
       "source": "KISA 취약점정보",
@@ -404,6 +404,36 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "423da35cd9d4",
+      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+      "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fphishing-campaign-hits-80-orgs-using.html",
+      "published": "Mon, 04 May 2026 23:36:00 +0530",
+      "summary": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compro"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "2f4f35446dc4",
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fprogress-patches-critical-moveit.html",
+      "published": "Mon, 04 May 2026 22:04:00 +0530",
+      "summary": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "4885450a3111",
+      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fweekly-recap-ai-powered-phishing.html",
+      "published": "Mon, 04 May 2026 19:53:00 +0530",
+      "summary": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pip"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "86ea4b30666e",
       "title": "2026: The Year of AI-Assisted Attacks",
       "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
@@ -430,6 +460,26 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcritical-cpanel-vulnerability.html",
       "published": "Mon, 04 May 2026 14:57:00 +0530",
       "summary": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, "
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "5cbff7bea3fa",
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fbackdoored-pytorch-lightning-package-drops-credential-stealer%2F",
+      "published": "Mon, 04 May 2026 13:15:27 -0400",
+      "summary": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "3db9958278d7",
+      "title": "Trellix discloses data breach after source code repository hack",
+      "url": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ftrellix-discloses-data-breach-after-source-code-repository-hack%2F",
+      "published": "Mon, 04 May 2026 12:25:07 -0400",
+      "summary": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
     },
     {
       "source": "The Hacker News",
@@ -532,16 +582,6 @@
       "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
     },
     {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "b102df01b8af",
-      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcritrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks%2F",
-      "published": "Sat, 02 May 2026 17:54:00 -0400",
-      "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]"
-    },
-    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "d871604e8f42",
@@ -552,16 +592,6 @@
       "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and "
     },
     {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "598778c616e2",
-      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fconsentfix-v3-attacks-target-azure-with-automated-oauth-abuse%2F",
-      "published": "Sat, 02 May 2026 10:32:25 -0400",
-      "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
-    },
-    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "c964fa83825e",
@@ -570,36 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2F30000-facebook-accounts-hacked-via.html",
       "published": "Fri, 01 May 2026 23:39:00 +0530",
       "summary": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed Ac"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "40a5d9dea62a",
-      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
-      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcybercrime-groups-using-vishing-and-sso.html",
-      "published": "Fri, 01 May 2026 19:56:00 +0530",
-      "summary": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions. "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "5807671cf89d",
-      "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
-      "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fchina-linked-hackers-target-asian.html",
-      "published": "Fri, 01 May 2026 19:32:00 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "b9da97533179",
-      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
-      "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftop-five-sales-challenges-costing-msps.html",
-      "published": "Fri, 01 May 2026 16:00:00 +0530",
-      "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenu"
     }
   ],
   "errors": []
