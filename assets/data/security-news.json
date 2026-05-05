@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T03:47:46.254945+00:00",
+  "generated_at": "2026-05-05T08:26:37.055549+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,12 +404,32 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "f264b34da332",
+      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+      "url": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fweaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "published": "Tue, 05 May 2026 13:07:00 +0530",
+      "summary": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild. The vulnerability (CVE-2026-22679, CVSS scor"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "c770a3b5aae9",
+      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmicrosoft-details-phishing-campaign.html",
+      "published": "Tue, 05 May 2026 12:05:00 +0530",
+      "summary": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "423da35cd9d4",
       "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
       "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fphishing-campaign-hits-80-orgs-using.html",
       "published": "Mon, 04 May 2026 23:36:00 +0530",
-      "summary": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compro"
+      "summary": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to comprom"
     },
     {
       "source": "The Hacker News",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisa-adds-actively-exploited-linux-root.html",
       "published": "Sun, 03 May 2026 11:56:00 +0530",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evide"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "d871604e8f42",
-      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-      "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftrellix-confirms-source-code-breach.html",
-      "published": "Sat, 02 May 2026 12:11:00 +0530",
-      "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "c964fa83825e",
-      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
-      "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2F30000-facebook-accounts-hacked-via.html",
-      "published": "Fri, 01 May 2026 23:39:00 +0530",
-      "summary": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts. The activity has been codenamed Ac"
     }
   ],
   "errors": []
