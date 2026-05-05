@@ -6,6 +6,7 @@ Gemfile.lock
 vendor/
 node_modules/
 .next/
+out/
 tsconfig.tsbuildinfo
 .env
 __pycache__/

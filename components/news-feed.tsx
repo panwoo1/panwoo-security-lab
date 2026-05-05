@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 type NewsItem = {
@@ -41,13 +42,14 @@ export function NewsFeed({
   const [items, setItems] = useState<NewsItem[]>([]);
   const [failed, setFailed] = useState(false);
   const [query, setQuery] = useState("");
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   useEffect(() => {
-    fetch("/api/news")
+    fetch(`${basePath}/api/news/`)
       .then((response) => response.json())
       .then((payload) => setItems(payload.items || []))
       .catch(() => setFailed(true));
-  }, []);
+  }, [basePath]);
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = normalize(query);
@@ -100,9 +102,9 @@ export function NewsFeed({
               </span>
               <time>{formatDate(item.published)}</time>
             </div>
-            <a href={`/news/${item.slug}`}>
+            <Link href={`/news/${item.slug}`}>
               {item.title}
-            </a>
+            </Link>
             {item.summary ? <p>{item.summary}</p> : null}
             {item.translateUrl ? (
               <a className="translate-link" href={item.translateUrl} target="_blank" rel="noreferrer">
