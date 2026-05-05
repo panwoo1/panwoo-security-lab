@@ -34,6 +34,11 @@ jobs:
       - name: Install
         run: npm install
 
+      - name: Prepare static data
+        run: |
+          mkdir -p public/assets/data
+          cp assets/data/security-news.json public/assets/data/security-news.json
+
       - name: Build static Next site
         run: npm run build
 

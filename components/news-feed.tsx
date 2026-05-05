@@ -45,7 +45,9 @@ export function NewsFeed({
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   useEffect(() => {
-    fetch(`${basePath}/api/news/`)
+    const newsUrl = basePath ? `${basePath}/assets/data/security-news.json` : "/api/news/";
+
+    fetch(newsUrl)
       .then((response) => response.json())
       .then((payload) => setItems(payload.items || []))
       .catch(() => setFailed(true));
