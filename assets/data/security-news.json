@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-05-04T19:53:56.442528+00:00",
+  "generated_at": "2026-05-05T03:47:46.254945+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "9a5cc07ce0a1",
+      "title": "AI 인재양성 주도할 ‘AI중심대학’ 7개교 선정",
+      "url": "http://www.boannews.com/media/view.asp?idx=143476&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Tue, 5 May 2026 12:00:00 +0900",
+      "summary": "기존 SW중심대학에서 AI중심대학으로 전환하는 7개 대학 선정 완료SW중심대학 외 대학을 대상으로 AI중심대학 3개교 선정 예정(6월중)최장 8년간 최대 240억원 지원(연 30억원 규모)[보안뉴스 원병철 기자] 과학기술정보통신부(부총리 겸 과기정통부 장관 배경훈)는 올해 새롭게 추진하는 인공지능(AI)중심대학에 참여할 대학 10개교 중 7개교를 선정했다고"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "1376ea32baa0",
+      "title": "아마존의 간편 이메일 서비스 악용하는 피싱 이메일 급증",
+      "url": "http://www.boannews.com/media/view.asp?idx=143477&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Tue, 5 May 2026 10:36:00 +0900",
+      "summary": "아마존 SES 악용해 SPF, DKIM, DMARC 프로토콜과 같은 인증 검사 통과공격자들, 오픈소스 ‘TruffleHog’ 유틸리티를 기반으로 구축된 봇 등 자동화된 공격 활용[보안뉴스 원병철 기자] 아마존의 간편 이메일 서비스(SES)를 이용해 보안 필터를 우회하고 평판 기반 차단을 무력화하는 정교한 피싱 이메일을 발송하는 악용 사례가 급증하고 있다."
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "1e91b24fa04a",
+      "title": "쿤텍, 공급망 보안 플랫폼 ‘이지즈(AEZIZ) 3.0’ 출시... SBOM 넘어 AI-BOM까지 확장",
+      "url": "http://www.boannews.com/media/view.asp?idx=143475&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Tue, 5 May 2026 09:30:00 +0900",
+      "summary": "SW 개발 전 과정 공급망 보안 통합 관리할 오픈소스·바이너리·레파지토리 통합 플랫폼 구현AI-BOM 도입해 AI 공급망 보안 대응 및 공공·국방·금융 검증된 레퍼런스 기반 안정성 확보[보안뉴스 원병철 기자] 융합보안 전문기업 쿤텍(대표 방혁준)이 SBOM 및 AI-BOM(AI 모델 구성 요소 검증) 기반으로 전체 공급망 보안을 통합적으로 관리할 수 있는"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -70,36 +100,6 @@
       "translateUrl": "",
       "published": "Sun, 3 May 2026 22:18:00 +0900",
       "summary": "보안 정보 관리와 보안 이벤트 관리의 만남... 로그 분석 넘어 데이터 플랫폼으로 발전[설문조사] SIEM 운용을 위한 연간 운용비용 ‘1000~3000만원’이 가장 많아SIEM 솔루션 전문기업 집중분석: 로그프레소, 쿼리시스템즈[보안뉴스 원병철 기자] 최근 국내·외에서 발생한 주요 보안 사고에서 공통으로 꼽히는 보안 솔루션이 있다. 바로 SIEM(Secu"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "3e3867afe412",
-      "title": "[해킹을 결제하시겠습니까?] #2.결제한 적 없는 카드 결제 문자가 왔다면?",
-      "url": "http://www.boannews.com/media/view.asp?idx=143380&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Sun, 3 May 2026 21:56:00 +0900",
-      "summary": "정상 승인 문자로 위장한 카드 결제 문자 피싱 확산발신번호·링크·승인정보·공식 앱 확인 중심의 사전 점검 필요검색 광고형 피싱 주의와 카드사 공식 확인 경로 점검 중요[보안뉴스 강초희 기자] 인터넷뱅킹과 온라인 쇼핑, 결제가 일상화되면서 피싱과 사기 수법도 더 교묘해지고 있다. 특히 최근에는 정상 서비스와 구분이 어려워 사용자가 평소처럼 이용하는 과정에서"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "654457216559",
-      "title": "[속담으로 배우는 100가지 보안 습관-8] 꺼진 불도 다시 보자(8)-공용 PC 로그인, 절대 하면 안 되는 이유",
-      "url": "http://www.boannews.com/media/view.asp?idx=143039&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Sun, 3 May 2026 21:53:00 +0900",
-      "summary": "카페 등 공용 PC에서 금융 거래나 로그인을 하지 마세요[보안뉴스 박미영 기자] 공용장치가 악성 코드에 노출되거나 남은 쿠키·자동로그인 정보로 계정이 탈취될 위험이 크기 때문에, 카페 등 공용 PC에서 금융 거래나 로그인을 하지 말아야 한다. 급히 이용해야 한다면 공인인증서·보안카드·비밀번호를 인터넷에 저장하지 말고, OTP·보안토큰 등 이중인증을 쓰며,"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "c3aa56b033c0",
-      "title": "검색한 카카오톡 설치 페이지, 알고보니 피싱... “국가 배후 해킹 의심”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143468&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Sun, 3 May 2026 18:42:00 +0900",
-      "summary": "[보안뉴스 강현주 기자] 검색 결과 상단에 공식 노출된 ‘카카오톡’ 설치 페이지를 통해 560건의 악성코드가 다운로드된 것으로 나타났다. 3일 한국인터넷진흥원(KISA)는 국가 배후로 의심되는 미상의 해킹 조직이 카카오톡 공식 다운로드 페이지를 사칭한 피싱 사이트를 제작해 유포했다고 밝혔다. 이용자들이 구글과 빙 등 검색 엔진에서 ‘카카오톡 PC 버전’을"
     },
     {
       "source": "KISA 보안공지",
@@ -284,22 +284,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "3d6e8bea65d7",
-      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
-      "url": "https://asec.ahnlab.com/ko/93332/",
-      "translateUrl": "",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "3faa2ecd143e",
       "title": "2026년 3월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
       "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "524312ed62d5",
+      "title": "2026년 3월 다크웹 이슈 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93321/",
+      "translateUrl": "",
+      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
+      "summary": "알림 본 보고서는 딥웹 및 다크웹 출처 기반 자료를 요약한 것이며 일부 사실관계는 출처 특성상 완전 확인이 어려운 내용이 포함되어 있다. 주요 이슈 BreachForums 내부 붕괴와 재구축 시도가 관측되었다. 운영자 배신과 자금 이동 정황으로 신뢰가 손상되었으며 다수 클론(.ac, .us 등)과 사칭 도메인 난립으로 이용자 혼선이 심화되었다. BreachForums는 Vect 및 Spear"
     },
     {
       "source": "KISA 취약점정보",
@@ -432,6 +432,16 @@
       "summary": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pip"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "afef2e0ad516",
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fweaver-e-cology-critical-bug-exploited-in-attacks-since-march%2F",
+      "published": "Mon, 04 May 2026 18:12:57 -0400",
+      "summary": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "86ea4b30666e",
@@ -450,6 +460,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fsilver-fox-deploys-abcdoor-malware-via.html",
       "published": "Mon, 04 May 2026 17:27:00 +0530",
       "summary": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "629d3dca418d",
+      "title": "Amazon SES increasingly abused in phishing to evade detection",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Famazon-ses-increasingly-abused-in-phishing-to-evade-detection%2F",
+      "published": "Mon, 04 May 2026 16:03:28 -0400",
+      "summary": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
     },
     {
       "source": "The Hacker News",
@@ -552,16 +572,6 @@
       "summary": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
     },
     {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "f8a96b7cb0a6",
-      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fmicrosoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha%2F",
-      "published": "Sun, 03 May 2026 14:11:25 -0400",
-      "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]"
-    },
-    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "12c77eec7a30",
@@ -570,16 +580,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisa-adds-actively-exploited-linux-root.html",
       "published": "Sun, 03 May 2026 11:56:00 +0530",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evide"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "25dc67657c4d",
-      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-      "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ftelegram-mini-apps-abused-for-crypto-scams-android-malware-delivery%2F",
-      "published": "Sun, 03 May 2026 10:11:21 -0400",
-      "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
     },
     {
       "source": "The Hacker News",
