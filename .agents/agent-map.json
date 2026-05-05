@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "agents": [
+    {
+      "id": "master",
+      "display_name": "완고하며 주도적이고 교묘한 파우스트",
+      "profile": ".agents/agents/master.md",
+      "skill": ".agents/skills/faust-master-orchestrator/SKILL.md",
+      "docs": [
+        "AGENTS.md",
+        "docs/harness/00_HARNESS_OVERVIEW.md",
+        "docs/harness/05_HANDOFF_PROTOCOL.md",
+        "docs/harness/06_TASK_PACKET_TEMPLATE.md"
+      ]
+    },
+    {
+      "id": "coder",
+      "display_name": "냉철하고 똑똑한 파우스트",
+      "profile": ".agents/agents/coder.md",
+      "skill": ".agents/skills/faust-coder-implementation/SKILL.md",
+      "docs": [
+        "AGENTS.md",
+        "docs/harness/02_CODER_AGENT.md",
+        "docs/harness/07_VALIDATION_RUNBOOK.md"
+      ]
+    },
+    {
+      "id": "qa",
+      "display_name": "위대하고 근엄한 파우스트",
+      "profile": ".agents/agents/qa.md",
+      "skill": ".agents/skills/faust-qa-validation/SKILL.md",
+      "docs": [
+        "AGENTS.md",
+        "docs/harness/03_QA_AGENT.md",
+        "docs/harness/07_VALIDATION_RUNBOOK.md"
+      ]
+    },
+    {
+      "id": "security",
+      "display_name": "사랑스럽고 음험한 파우스트",
+      "profile": ".agents/agents/security.md",
+      "skill": ".agents/skills/faust-security-review/SKILL.md",
+      "docs": [
+        "AGENTS.md",
+        "docs/harness/04_SECURITY_AGENT.md",
+        "docs/harness/09_REVIEW_CHECKLIST.md"
+      ]
+    }
+  ]
+}

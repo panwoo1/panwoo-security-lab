@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 type NewsItem = {
   source: string;
@@ -18,6 +18,7 @@ type Props = {
   title?: string;
   label?: string;
   className?: string;
+  searchable?: boolean;
 };
 
 function formatDate(value: string) {
@@ -26,9 +27,20 @@ function formatDate(value: string) {
   return new Intl.DateTimeFormat("ko", { month: "short", day: "numeric" }).format(date);
 }
 
-export function NewsFeed({ limit = 12, title = "Security News", label = "Intel", className = "" }: Props) {
+function normalize(value: string) {
+  return value.trim().toLowerCase();
+}
+
+export function NewsFeed({
+  limit = 12,
+  title = "Security News",
+  label = "Intel",
+  className = "",
+  searchable = false,
+}: Props) {
   const [items, setItems] = useState<NewsItem[]>([]);
   const [failed, setFailed] = useState(false);
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     fetch("/api/news")
@@ -36,6 +48,17 @@ export function NewsFeed({ limit = 12, title = "Security News", label = "Intel",
       .then((payload) => setItems(payload.items || []))
       .catch(() => setFailed(true));
   }, []);
+
+  const filteredItems = useMemo(() => {
+    const normalizedQuery = normalize(query);
+    if (!normalizedQuery) return items;
+
+    return items.filter((item) =>
+      [item.title, item.summary, item.source, item.region, item.published].join(" ").toLowerCase().includes(normalizedQuery),
+    );
+  }, [items, query]);
+
+  const visibleItems = filteredItems.slice(0, limit);
 
   return (
     <section className={`panel news-panel ${className}`} id="security-news">
@@ -45,10 +68,30 @@ export function NewsFeed({ limit = 12, title = "Security News", label = "Intel",
           <h2>{title}</h2>
         </div>
       </div>
+      {searchable ? (
+        <div className="news-search-panel">
+          <label className="news-search">
+            <span>Search news</span>
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search title, summary, source..."
+              type="search"
+            />
+          </label>
+          <p aria-live="polite">
+            {filteredItems.length} news
+            {query.trim() ? " matched" : ""}
+          </p>
+        </div>
+      ) : null}
       <div className="news-list">
         {failed ? <p className="empty-state">Security news is unavailable.</p> : null}
         {!failed && items.length === 0 ? <p className="empty-state">Loading security news...</p> : null}
-        {items.slice(0, limit).map((item) => (
+        {!failed && items.length > 0 && visibleItems.length === 0 ? (
+          <p className="empty-state">No news match this search.</p>
+        ) : null}
+        {visibleItems.map((item) => (
           <article className="news-item" key={`${item.source}-${item.url}`}>
             <div>
               <span>

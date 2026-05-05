@@ -25,6 +25,50 @@ layout: default
 </section>
 
 <div class="dashboard-grid">
+  <section class="dashboard-panel proxy-panel">
+    <div class="panel-heading">
+      <div>
+        <span class="panel-label">DreamHack Proxy</span>
+        <h2>DreamHack Proxy Launcher</h2>
+      </div>
+    </div>
+    <p class="panel-copy">
+      Replit에서 실행 중인 DreamHack reverse proxy를 새 탭으로 엽니다.
+      GitHub Pages는 프록시 서버가 아니며, 실제 DreamHack 접속은 Replit이 처리합니다.
+    </p>
+    <form class="proxy-form" data-replit-proxy-form>
+      <label>
+        <span>Replit App URL</span>
+        <input
+          type="url"
+          name="proxyUrl"
+          placeholder="https://your-replit-app.replit.app or https://your-replit-dev-url.replit.dev"
+          autocomplete="off"
+        >
+      </label>
+      <div class="launcher-actions">
+        <button class="button" type="button" data-save-replit-proxy>Save URL</button>
+        <button class="button" type="button" data-check-replit-health>Health Check</button>
+        <button class="button primary" type="submit">Open Proxy</button>
+      </div>
+      <label class="preview-toggle">
+        <input type="checkbox" data-toggle-replit-preview>
+        <span>iframe preview</span>
+      </label>
+    </form>
+    <div class="proxy-status-card" data-replit-proxy-status>
+      <span>Current Proxy Status</span>
+      <strong>status: not configured</strong>
+      <p>Save a Replit App URL before running a health check.</p>
+    </div>
+    <div class="proxy-status-card">
+      <span>Current Target</span>
+      <strong data-replit-target>Unknown</strong>
+      <p>Replit 환경변수 또는 코드 CONFIG에서 target을 변경하세요.</p>
+    </div>
+    <iframe class="proxy-preview" title="DreamHack proxy preview" data-replit-proxy-preview hidden></iframe>
+  </section>
+
   <section class="dashboard-panel news-panel">
     <div class="panel-heading">
       <div>

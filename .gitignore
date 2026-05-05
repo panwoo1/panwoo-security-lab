@@ -12,11 +12,8 @@ __pycache__/
 *.pyc
 
 # Local agent/workspace files
-.agents/
 .codex/
-AGENTS.md
 README_APPLY.md
-docs/
 
 # Source files copied into the blog
 /ctf_offline_all_in_one_guide.pdf

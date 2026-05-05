@@ -243,6 +243,12 @@ input {
   line-height: 1.2;
 }
 
+.panel-copy {
+  margin: -6px 0 18px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .status-pill {
   padding: 5px 10px;
   color: var(--accent-strong);
@@ -250,6 +256,90 @@ input {
   border-radius: 999px;
   font-size: 12px;
   font-weight: 820;
+}
+
+.proxy-form {
+  display: grid;
+  gap: 12px;
+}
+
+.proxy-form label {
+  display: grid;
+  gap: 6px;
+}
+
+.proxy-form label span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 820;
+}
+
+.proxy-form input[type="url"] {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 14px;
+  color: var(--text);
+  background: var(--surface-muted);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  outline: none;
+}
+
+.proxy-form input[type="url"]:focus {
+  background: #ffffff;
+  border-color: rgb(15 118 110 / 45%);
+  box-shadow: 0 0 0 4px rgb(15 118 110 / 12%);
+}
+
+.launcher-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.preview-toggle {
+  display: inline-flex !important;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  width: fit-content;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.proxy-status-card {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  background: var(--surface-muted);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.proxy-status-card span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 820;
+}
+
+.proxy-status-card strong {
+  color: var(--text);
+  font-size: 15px;
+}
+
+.proxy-status-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.proxy-preview {
+  width: 100%;
+  min-height: 360px;
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
 }
 
 .tool-grid {

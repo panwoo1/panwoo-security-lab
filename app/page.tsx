@@ -12,8 +12,8 @@ export default function DashboardPage() {
       <section className="hero-grid">
         <div className="hero-card">
           <p className="eyebrow">Private Security Dashboard</p>
-          <h1>보안 노트와 최신 정보를 한 화면에서 관리한다.</h1>
-          <p>개인 writeup, 리버싱 기록, 보안 뉴스를 빠르게 훑어보는 전용 대시보드다.</p>
+          <h1>Panwoo Security Lab</h1>
+          <p>Research notes, writeups, and security intelligence in one place.</p>
           <div className="hero-actions">
             <Link className="button primary" href="/notes">
               Notes
