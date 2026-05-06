@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-05-06T04:01:30.198177+00:00",
+  "generated_at": "2026-05-06T14:44:26.075274+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "53d21d12577e",
+      "title": "[K-시큐리티 글로벌 도약 - 뭉쳐야산다] ③외산에 안밀리려면 외산 손잡아야... ‘연동’ 나선다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143503&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 18:29:00 +0900",
+      "summary": "글로벌 플랫폼과 연동해 잠재 고객 확보 및 기술 시너지적극 나서는 CTI 기업들... 정부도 연동 중요성 강조[보안뉴스 강현주 기자] 국내 보안 기업들의 글로벌 경쟁력 강화를 위한 전략으로 기업간 ‘협업’이 중요해지는 가운데, 해외 시장을 겨냥해 글로벌 플랫폼과의 연동에 박차를 가하는 기업들이 눈길을 끈다. 최근 공격표면관리(ASM), 위협 인텔리전스(CT"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d1da5928d781",
+      "title": "피넛AI/옵시아, IAEA CyberCon 2026서 논문 발표 및 CTF 운영",
+      "url": "http://www.boannews.com/media/view.asp?idx=143499&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 18:20:00 +0900",
+      "summary": "원자력 보안 분야 권위 행사... 한국 민간 보안 기술 존재감 각인[보안뉴스 원병철 기자] 원자력 및 산업 제어 시스템(OT/ICS) 보안 전문 기업 피넛AI/옵시아(OPCIA)가 5월 오스트리아 빈에서 개최되는 ‘제2회 국제 원자력 사이버보안 컨퍼런스’(IAEA CyberCon 2026)에 참가해 논문 4편 발표와 실전형 CTF 운영을 동시에 수행한다.이"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "5f2debd94183",
+      "title": "[보안 습관 테스트] ① 재택 및 카페에서의 업무, 당신의 자료는 안전한가요?",
+      "url": "http://www.boannews.com/media/view.asp?idx=143496&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 17:26:00 +0900",
+      "summary": "공공장소에서의 와이파이 이용은 주의 필요보안은 작은 습관의 실천부터 시작[보안뉴스 엄호식 기자] 재택근무와 유연 근무제가 확산하면서 집이나 카페에서 업무를 보는 경우가 많아졌다. 하지만 편리함 뒤에는 보안 위험이 숨어 있기 마련이다. 특히 공용 와이파이를 사용할 때는 회사 자료가 해킹이나 데이터 유출 위험에 노출될 수 있지만, 많은 사람이 이를 간과하거나"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "4a66cd5a2797",
+      "title": "[Global Security TOP 100] 윤우희 에스케어 대표 “탐지·대응 넘어 ‘제로 공격 표면’ 선도”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143466&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 16:27:00 +0900",
+      "summary": "진화된 선제적 보안 패러다임 ‘제로 공격 표면’EDR·AI 거버넌스 폭발적 수요 속 동반 성장 누려[보안뉴스 강현주 기자] AI 확산 등으로 사이버 위협 환경이 급변하는 가운데, 에스케어는 새 보안 패러다임을 선도하는 파트너들과 함께 두드러지는 동반 성장을 누리고 있다. 특히 AI 기반 엔드포인트 탐지 및 대응(EDR) 등 현재 시장에서 집중 각광 받는 보"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "2ecfffc818f4",
+      "title": "“생성형 AI 유출 통제한다” 세이퍼존, 다중 계층 ‘네트워크 AI DLP’ 출시",
+      "url": "http://www.boannews.com/media/view.asp?idx=143497&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 16:18:00 +0900",
+      "summary": "엔드포인트부터 네트워크 게이트웨이 아우르는 다계층 방어 체계 구축제로 트러스트 및 국가망보안체계(N2SF) 기조 맞춘 통합 보안 아키텍처 제공[보안뉴스 조재호 기자] 세이퍼존이 수산INT와 기술 협력을 통해 생성형 AI 서비스 활용 중 중요 정보 유출을 막는 ‘세이퍼존 AI DLP’(SaferZone AI DLP)를 출시했다고 6일 밝혔다.SaferZone"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d12c63fdb9a4",
+      "title": "헝가리 미디어 기업 ‘미디어웍스’ 8.5TB 정보 유출... 공격 배후는 ‘월드리크스’",
+      "url": "http://www.boannews.com/media/view.asp?idx=143488&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 16:02:00 +0900",
+      "summary": "기업 내부 기밀 데이터 무방비 유출되며 보안 취약점 노출우크라이나 비방 목적의 편집 지침 공개로 신뢰도 추락 위기[보안뉴스 김형근 기자] 헝가리 대형 미디어 기업 미디어웍스(Mediaworks)가 랜섬웨어 조직의 공격을 받아 8.5테라바이트(TB) 규모의 내부 기밀 데이터가 유출된 것으로 파악됐다. 이번 공격 배후인 월드리크스(World Leaks)는 탈취"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "bfd36b1ea114",
+      "title": "이지서티, 맥락 읽는 AI 개인정보보호 솔루션 ‘EZRO’ 시리즈 런칭",
+      "url": "http://www.boannews.com/media/view.asp?idx=143494&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 13:28:00 +0900",
+      "summary": "TTA의 엄격한 품질 심사 통과하며 인공지능(AI) 보안 기술 완성도 입증NH농협손해보험 납품 계약 동시 성사시키며 하반기 금융권 시장 공략 박차[보안뉴스 조재호 기자] 이지서티가 AI 기반 개인정보보호 솔루션 ‘이지로’(EZRO) 시리즈를 공식 런칭하고, 첫 제품인 ‘EZRO-PSM V4.0’을 출시했다고 6일 밝혔다. EZRO는 AI 기반으로 개인정보보"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "efe458fb1cec",
+      "title": "카카오-경찰청, 피싱 범죄 대응 맞손",
+      "url": "http://www.boannews.com/media/view.asp?idx=143495&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 13:24:00 +0900",
+      "summary": "‘피싱 범죄 피해예방 및 근절을 위한 업무협약’ 체결경찰청 최신 범행 데이터 활용... 운영정책 및 이용자 보호 프로세스 고도화, 범행 계정 신속 제한[보안뉴스 한세희 기자] 카카오(대표 정신아)는 경찰청(청장 직무대행 유재성)과 6일 경찰청 통합대응단 회의실에서 ‘피싱 범죄 피해예방 및 근절을 위한 업무협약’을 체결했다고 밝혔다. 협약식엔 조석영 카카오"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d4b297fdd85e",
+      "title": "[디지털 문단속] #2. 길고 복잡할수록 좋아, 공유기 비밀번호 설정법",
+      "url": "http://www.boannews.com/media/view.asp?idx=143490&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 6 May 2026 13:22:00 +0900",
+      "summary": "영문과 숫자 조합한 10자리 이상 비밀번호로 무차별 대입 공격 원천 차단[보안뉴스 조재호 기자] 우리의 일상을 편리하게 만들어주는 사물인터넷(IoT) 기기가 내 사생활을 훔쳐보는 눈과 귀로 변할 수도 있다. 거실의 스마트 TV부터 로봇청소기, 홈캠 등 집안의 모든 기기가 인터넷으로 연결된 초연결 시대, 무심코 지나친 기본 설정과 방치된 비밀번호는 해커들에게"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -10,96 +100,6 @@
       "translateUrl": "",
       "published": "Wed, 6 May 2026 12:00:00 +0900",
       "summary": "과기정통부, 개방형 양자 테스트베드 고도화·확산 사업 공모양자통신기술 상용화 촉진, 국가 간 연결, 차세대 기술 확보 위한 거점 확대[보안뉴스 한세희 기자] 우리나라 개방형 양자 테스트베드를 해외로 확대하고 차세대 기술을 확보하기 위한 지원 사업이 시작된다. 과학기술정보통신부(부총리 겸 장관 배경훈’)는 6일 ‘개방형 양자 테스트베드 고도화·확산 사업’ 공"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "2358971dc46f",
-      "title": "[양자와 보안] 정부, 양자내성암호 실증 확대 나선다... 핵심 기술 개발도 본격 착수",
-      "url": "http://www.boannews.com/media/view.asp?idx=143489&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 12:00:00 +0900",
-      "summary": "의료·에너지·행정 넘어 통신·금융·교통·국방·우주까지 시범전환 확대수작업 없는 PQC 자율 전환 기술 등 4대 핵심 기술개발 과제 착수[보안뉴스 한세희 기자] 기업 내 암호자산을 탐지하고 양자내성암호(PQC) 체계로 자동 전환하는 자율 전환 기술이 개발된다. 국가 과학기술 연구망에 대한 PQC 전환 실증 작업이 시작된다. 과학기술정보통신부(부총리 겸 장관"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "507d037d6cf0",
-      "title": "넷앤드, AI로 ISMS·ISMS-P 준비 효율 높이는 기술 특허 등록",
-      "url": "http://www.boannews.com/media/view.asp?idx=143493&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 11:38:00 +0900",
-      "summary": "ISMS·ISMS-P 다단계 자동 적합성 판단’ 특허 등록컨설턴트 주관적 편차 해소 및 증적 자료 분석 시간 단축[보안뉴스 강현주 기자] 통합 접근제어 및 계정관리(IAM) 솔루션 전문 기업 넷앤드(대표 신호철)가 정보보호 관리체계(ISMS·ISMS-P) 인증 대응의 효율성과 정확도를 비약적으로 높일 수 있는 핵심 기술에 대한 특허 등록을 마쳤다고 6일 밝"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "bdefc4ade9b8",
-      "title": "그룹아이비(Group-IB), 가트너 매직쿼더런트 최초 ‘사이버 위협 인텔리전스 기술’ 부문 ‘리더’ 선정",
-      "url": "http://www.boannews.com/media/view.asp?idx=143492&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 11:37:00 +0900",
-      "summary": "공격자 중심 예측형 위협 인텔리전스 플랫폼으로 피해 입기 전 차단할 수 있는 가시성 제공[보안뉴스 원병철 기자] 디지털 범죄를 조사, 예방 및 대응하기 위한 사이버 보안 기술 분야의 글로벌 선도적 기업인 그룹아이비(Group-IB, 지사장 김기태)는 6일, 2026년 Gartner® 사이버 위협 인텔리전스 기술 Magic Quadrant™에서 ‘리더’(Le"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "bc5165333f6e",
-      "title": "[속담으로 배우는 100가지 보안 습관-9] 꺼진 불도 다시 보자(9)-자리 비울 때 화면 안 잠그면 생기는 일",
-      "url": "http://www.boannews.com/media/view.asp?idx=143040&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 11:17:00 +0900",
-      "summary": "PC를 켜둔 채 자리를 비울 때는 반드시 화면 잠금(Win+L)을 하세요[보안뉴스 박미영 기자] PC를 켜둔 채 자리를 비울 때는 화면을 잠그는 것이 개인정보·업무자료 노출을 막는 가장 기본적인 방법이다. 화면보호기 비밀번호 설정과 함께 Win+L 단축키로 즉시 잠그는 습관을 들이면, 잠금 전 노출 시간을 줄일 수 있다.PC를 잠그는 방법△즉시 잠그기: W"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "6229431ca200",
-      "title": "[Global Security TOP 100] 최일환 세환엠에스 대표이사 “설치부터 유지보수까지 ‘원팀 체계’가 핵심 경쟁력”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143360&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 11:05:00 +0900",
-      "summary": "출입통제 게이트 기반 통합형 물리보안 운영 체계 구축금속 탐지기·액체 폭발물 검사 장비 중심 제품군 확대기술 투자와 제조 경쟁력 강화를 위한 산업 구조 개선 필요[보안뉴스 강초희 기자] 출입통제 게이트를 중심으로 국내 물리보안 시장을 개척해 온 세환엠에스가 통합형 보안 솔루션 기업으로의 확장을 이어가고 있다. 보안 장비 공급에 그치지 않고 설계·시공·유지보"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "7b2e4850dc2d",
-      "title": "MS 위장한 ‘마이크로스틸러’ 습격... 사회공학적 기만술에 통신·교육분야 비상",
-      "url": "http://www.boannews.com/media/view.asp?idx=143484&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 10:51:00 +0900",
-      "summary": "가짜 소프트웨어 설치 프로그램으로 관리자 권한 획득 후 활성 세션 탈취미국과 독일 등 세계 전역서 확산... 기업 내부망 침투 위한 교두보 활용[보안뉴스 김형근 기자] 마이크로소프트(MS)를 사칭해 시스템 권한을 탈취하고 기업의 핵심 정보를 빼가는 신종 악성코드 ‘마이크로스틸러’(MicroStealer)가 세계 통신과 교육 분야를 공격하고 있다.글로벌 보안"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "7863af7bab68",
-      "title": "‘재난안전기업 사업화 역량 강화 컨설팅’으로 해외시장 진출 수월하게... 참여기업 공고",
-      "url": "http://www.boannews.com/media/view.asp?idx=143485&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 10:46:00 +0900",
-      "summary": "5월 27일까지 공모 접수... 사업화·해외 인증 분야 1:1 맞춤형 지원제품 고도화·해외 인증·수출 확대 지원으로 재난안전기업 판로 강화[보안뉴스 강초희 기자] 행정안전부(장관 윤호중)는 ‘2026년 재난안전기업 사업화 역량 강화 컨설팅’에 참가할 기업을 5월 27일까지 공모한다.‘재난안전기업 사업화 역량 강화 컨설팅’은 우수한 기술과 제품을 보유하고 있"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "555ef62d9833",
-      "title": "[카드뉴스] “눈앞의 트럭이 사라졌다?”… 인지 조작하는 ‘고스트 픽셀’ 해킹의 실체",
-      "url": "http://www.boannews.com/media/view.asp?idx=143487&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 10:35:00 +0900",
-      "summary": "혼합현실(MR) 기기의 영상 처리 과정(렌더링 파이프라인)에 침투하여 사용자에게 가짜 시각 정보를 전달하거나 실제 위험 요소를 삭제하는 ‘고스트 픽셀’ 공격이 새로운 위협으로 부상했다. 이러한 인지 조작 공격은 스마트 팩토리의 작업 공정이나 정밀 의료 수술 등 고도의 시각 정보가 필요한 현장에서 심각한 신체적 사고와 물리적 피해를 야기할 수 있다. 기술의"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "098f1148adfb",
-      "title": "“취약점 공개 후 공격시간, 4.76일→1일로 대폭 단축”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143486&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 6 May 2026 10:30:00 +0900",
-      "summary": "AI 공격 도구, 다크웹서 일반 SW처럼 판매랜섬웨어 피해 전년 대비 389% 급증... 제조·서비스·소매업 타격[보안뉴스 강현주 기자] 2025년 한 해동안 취약점 공개 후 평균 공격 시간이 전년 4.76일에서 24시간~48시간으로 대폭 단축됐다. AI 공격 도구가 다크웹에서 일반 소프트웨어처럼 판매되는 등 해킹 진입 장벽이 낮아졌다. 랜섬웨어 피해는 전"
     },
     {
       "source": "KISA 보안공지",
@@ -244,22 +244,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "bd15b0b8d079",
-      "title": "2026년 3월 APT 그룹 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93415/",
-      "translateUrl": "",
-      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
-      "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "bd127bf26a96",
       "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
       "url": "https://asec.ahnlab.com/ko/93420/",
       "translateUrl": "",
       "published": "Thu, 16 Apr 2026 15:00:00 +0000",
       "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "bd15b0b8d079",
+      "title": "2026년 3월 APT 그룹 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93415/",
+      "translateUrl": "",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
+      "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
     },
     {
       "source": "ASEC KR",
@@ -284,22 +284,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "3d6e8bea65d7",
-      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
-      "url": "https://asec.ahnlab.com/ko/93332/",
-      "translateUrl": "",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "3faa2ecd143e",
       "title": "2026년 3월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
       "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "524312ed62d5",
+      "title": "2026년 3월 다크웹 이슈 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93321/",
+      "translateUrl": "",
+      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
+      "summary": "알림 본 보고서는 딥웹 및 다크웹 출처 기반 자료를 요약한 것이며 일부 사실관계는 출처 특성상 완전 확인이 어려운 내용이 포함되어 있다. 주요 이슈 BreachForums 내부 붕괴와 재구축 시도가 관측되었다. 운영자 배신과 자금 이동 정황으로 신뢰가 손상되었으며 다수 클론(.ac, .us 등)과 사칭 도메인 난립으로 이용자 혼선이 심화되었다. BreachForums는 Vect 및 Spear"
     },
     {
       "source": "KISA 취약점정보",
@@ -404,6 +404,106 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "e322187aad2c",
+      "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+      "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmuddywater-uses-microsoft-teams-to.html",
+      "published": "Wed, 06 May 2026 18:30:00 +0530",
+      "summary": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The atta"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "27d7c5c74a44",
+      "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
+      "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthe-hacker-news-launches-cybersecurity.html",
+      "published": "Wed, 06 May 2026 17:33:00 +0530",
+      "summary": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leade"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "74d64b7c0a4c",
+      "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+      "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fyour-ai-agents-are-already-inside.html",
+      "published": "Wed, 06 May 2026 16:27:00 +0530",
+      "summary": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "b2ae90eae831",
+      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fandroid-apps-get-public-verification.html",
+      "published": "Wed, 06 May 2026 14:43:00 +0530",
+      "summary": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to "
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "a1cdb348c73c",
+      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
+      "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwindows-phone-link-exploited-by-cloudz.html",
+      "published": "Wed, 06 May 2026 14:04:00 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft. \""
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "f9fc304e4a9a",
+      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+      "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fpalo-alto-pan-os-flaw-under-active.html",
+      "published": "Wed, 06 May 2026 11:44:00 +0530",
+      "summary": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild. The vulnerability, tracked as CVE-2026-0300, has been described as "
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "22679691a209",
+      "title": "Why ransomware attacks succeed even when backups exist",
+      "url": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwhy-ransomware-attacks-succeed-even-when-backups-exist%2F",
+      "published": "Wed, 06 May 2026 10:04:14 -0400",
+      "summary": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "60be78d41f09",
+      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fmuddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks%2F",
+      "published": "Wed, 06 May 2026 09:02:52 -0400",
+      "summary": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "3cff6d0d4ee6",
+      "title": "Webinar: Why network incidents escalate and how to fix response gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-why-network-incidents-escalate-and-how-to-fix-response-gaps%2F",
+      "published": "Wed, 06 May 2026 08:56:32 -0400",
+      "summary": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "9c1e560966da",
+      "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fpalo-alto-networks-warns-of-actively-exploited-firewall-zero-day%2F",
+      "published": "Wed, 06 May 2026 05:18:16 -0400",
+      "summary": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "36c123dc150c",
       "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
       "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
@@ -452,16 +552,6 @@
       "summary": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in mos"
     },
     {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "620e4bcce787",
-      "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
-      "url": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmetinfo-cms-cve-2026-29014-exploited.html",
-      "published": "Tue, 05 May 2026 17:26:00 +0530",
-      "summary": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck. The vulnerability in question is CVE-202"
-    },
-    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "d67855837393",
@@ -470,16 +560,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Finstructure-hacker-claims-data-theft-from-8-800-schools-universities%2F",
       "published": "Tue, 05 May 2026 17:20:23 -0400",
       "summary": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "0642acc78f56",
-      "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
-      "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwe-scanned-1-million-exposed-ai.html",
-      "published": "Tue, 05 May 2026 16:00:00 +0530",
-      "summary": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM i"
     },
     {
       "source": "BleepingComputer",
@@ -492,16 +572,6 @@
       "summary": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
     },
     {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "65c3aaad2cfc",
-      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
-      "url": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fscarcruft-hacks-gaming-platform-to.html",
-      "published": "Tue, 05 May 2026 14:37:00 +0530",
-      "summary": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called BirdCallto likely targe"
-    },
-    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "e667a8e7e1fd",
@@ -510,26 +580,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fstudent-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes%2F",
       "published": "Tue, 05 May 2026 13:34:09 -0400",
       "summary": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "f264b34da332",
-      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
-      "url": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fweaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "published": "Tue, 05 May 2026 13:07:00 +0530",
-      "summary": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild. The vulnerability (CVE-2026-22679, CVSS scor"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "c770a3b5aae9",
-      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
-      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmicrosoft-details-phishing-campaign.html",
-      "published": "Tue, 05 May 2026 12:05:00 +0530",
-      "summary": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and"
     },
     {
       "source": "CISA",
@@ -550,56 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-03",
       "published": "Tue, 05 May 26 12:00:00 +0000",
       "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerabil"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "219ad03d2c36",
-      "title": "Hitachi Energy PCM600",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-01",
-      "published": "Tue, 05 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Hitachi Energy is aware of a vulnerability that affects the Hitachi Energy PCM600 product versions listed in this document. An attacker successfully exploiting this vulnerability can impact integrity of"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "0fec7cc020c6",
-      "title": "Johnson Controls CEM AC2000",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-05",
-      "published": "Tue, 05 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a standard user to escalate privileges on the host machine. The following versions of Johnson Controls CEM AC2000 are affected: CEM AC2000 12.0 "
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "c31ef4f22830",
-      "title": "ABB B&R PVI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-02",
-      "published": "Tue, 05 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attacker who successfully exp"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "ce2ce23020f2",
-      "title": "FTC to ban data broker Kochava from selling Americans’ location data",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fftc-to-ban-data-broker-kochava-from-selling-americans-location-data%2F",
-      "published": "Tue, 05 May 2026 10:39:53 -0400",
-      "summary": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data co"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "a2f753358176",
-      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-      "url": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fthe-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss%2F",
-      "published": "Tue, 05 May 2026 10:00:10 -0400",
-      "summary": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for "
     }
   ],
   "errors": []
