@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T14:44:26.075274+00:00",
+  "generated_at": "2026-05-06T20:00:49.843505+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -244,22 +244,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "bd127bf26a96",
-      "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
-      "url": "https://asec.ahnlab.com/ko/93420/",
-      "translateUrl": "",
-      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
-      "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "bd15b0b8d079",
       "title": "2026년 3월 APT 그룹 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93415/",
       "translateUrl": "",
       "published": "Thu, 16 Apr 2026 15:00:00 +0000",
       "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "bd127bf26a96",
+      "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
+      "url": "https://asec.ahnlab.com/ko/93420/",
+      "translateUrl": "",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
+      "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
     },
     {
       "source": "ASEC KR",
@@ -284,22 +284,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
+      "slug": "3d6e8bea65d7",
+      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
+      "url": "https://asec.ahnlab.com/ko/93332/",
+      "translateUrl": "",
+      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
+      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
       "slug": "3faa2ecd143e",
       "title": "2026년 3월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
       "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
-      "slug": "524312ed62d5",
-      "title": "2026년 3월 다크웹 이슈 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93321/",
-      "translateUrl": "",
-      "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "알림 본 보고서는 딥웹 및 다크웹 출처 기반 자료를 요약한 것이며 일부 사실관계는 출처 특성상 완전 확인이 어려운 내용이 포함되어 있다. 주요 이슈 BreachForums 내부 붕괴와 재구축 시도가 관측되었다. 운영자 배신과 자금 이동 정황으로 신뢰가 손상되었으며 다수 클론(.ac, .us 등)과 사칭 도메인 난립으로 이용자 혼선이 심화되었다. BreachForums는 Vect 및 Spear"
     },
     {
       "source": "KISA 취약점정보",
@@ -442,6 +442,26 @@
       "summary": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to "
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "298d764f2a07",
+      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcritical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts%2F",
+      "published": "Wed, 06 May 2026 14:38:38 -0400",
+      "summary": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "f5e4cc2d87c4",
+      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-cisco-dos-flaw-requires-manual-reboot-to-revive-devices%2F",
+      "published": "Wed, 06 May 2026 14:06:21 -0400",
+      "summary": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "a1cdb348c73c",
@@ -450,6 +470,26 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwindows-phone-link-exploited-by-cloudz.html",
       "published": "Wed, 06 May 2026 14:04:00 +0530",
       "summary": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft. \""
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "33140aa340b1",
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fdaemon-tools-devs-confirm-breach-release-malware-free-version%2F",
+      "published": "Wed, 06 May 2026 12:43:30 -0400",
+      "summary": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "9df8307b8a7f",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F06%2Fcisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Wed, 06 May 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-0300 Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability This type of"
     },
     {
       "source": "The Hacker News",
@@ -560,46 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Finstructure-hacker-claims-data-theft-from-8-800-schools-universities%2F",
       "published": "Tue, 05 May 2026 17:20:23 -0400",
       "summary": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "3f3dcc72323a",
-      "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
-      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fdaemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor%2F",
-      "published": "Tue, 05 May 2026 15:21:18 -0400",
-      "summary": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "e667a8e7e1fd",
-      "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
-      "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fstudent-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes%2F",
-      "published": "Tue, 05 May 2026 13:34:09 -0400",
-      "summary": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "09ade6dcee4a",
-      "title": "ABB B&R Automation Studio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-04",
-      "published": "Tue, 05 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enab"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "cc5e8fedd36e",
-      "title": "ABB B&R Automation Runtime",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-125-03",
-      "published": "Tue, 05 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerabil"
     }
   ],
   "errors": []
