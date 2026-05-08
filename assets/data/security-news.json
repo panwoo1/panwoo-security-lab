@@ -1,105 +1,115 @@
 {
-  "generated_at": "2026-05-08T03:51:17.019484+00:00",
+  "generated_at": "2026-05-08T07:56:13.042476+00:00",
   "items": [
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "3b973231d0c1",
-      "title": "정보보호 공시의무 기업, 전년 대비 27개사 증가",
-      "url": "http://www.boannews.com/media/view.asp?idx=143522&kind=&sub_kind=",
+      "slug": "bd1835559d23",
+      "title": "[카드뉴스] “범인 잡던 CCTV, 이제 매출 올린다”… 경영진이 주목하는 ‘제3의 눈’ 정체",
+      "url": "http://www.boannews.com/media/view.asp?idx=143533&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 11:52:00 +0900",
-      "summary": "과기정통부, 공시의무 대상 기업 693개사 공개[보안뉴스 강현주 기자] 정보보호 공시의무 기업이 전년 대비 27개사가 증가했다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 8일 정보보호 공시제도에 따른 2026년 정보보호 공시의무 대상 기업(안) 693개사를 공개했다.‘정보보호산업의 진흥에 관한 법률’에 의거한 정보보호 공시 제도는 정보보호 투자, 전담인"
+      "published": "Fri, 8 May 2026 15:58:00 +0900",
+      "summary": "지능형 CCTV가 단순한 물리 보안을 넘어 고객의 동선과 체류 시간 등을 분석해 경영 전략을 수립하는 ‘비즈니스 인텔리전스(BI)’ 도구로 진화하고 있다.기업 보안 카메라가 수집하는 영상이 수익 창출을 위한 핵심 ‘데이터 자산’으로 간주되면서, 보안에 대한 인식이 단순 비용 지출에서 가치 투자로 전환되는 추세다. 다만 정밀한 데이터 추출 과정에서 발생할 수"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "8abd3c808d3a",
-      "title": "중앙대, 과기정통부 ‘연구안보센터’ 선정... 사립대 거점 연구보안 생태계 구축",
-      "url": "http://www.boannews.com/media/view.asp?idx=143527&kind=&sub_kind=",
+      "slug": "b0fc3adeaddc",
+      "title": "과기정통부, 글로벌 AI 보안 파장 정조준... “한국형 특화 모델로 방어”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143531&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 11:46:00 +0900",
-      "summary": "사립대 유일 거점기관으로 선정돼 3년간 약 18.3억 지원연구생태계 보호 및 기술주권 확보 주도[보안뉴스 강현주 기자] 중앙대학교(총장 박세현)가 과학기술정보통신부(이하 과기정통부)가 신설한 ‘연구안보센터’ 지원사업에 최종 선정됐다. 이로써 중앙대는 사립대 거점기관으로서 국가 연구생태계 보호와 기술주권 확보에 본격적으로 나서게 됐다.과기정통부와 한국연구재단"
+      "published": "Fri, 8 May 2026 15:46:00 +0900",
+      "summary": "8일 산학연 간담회 열고 앤트로픽 등 빅테크 보안 프로젝트 파급력 및 대응 논의3만여 개사 CISO 대상 대비 태세 점검 완료 및 인공지능 보안 가이드라인 선제 배포[보안뉴스 조재호 기자] 미국 앤트로픽과 오픈AI 등 빅테크 기업들의 독자적인 보안 프로젝트 전개에 맞서 정부가 대응에 나섰다. 과학기술정보통신부는 국내 3만여 CISO 대상 대비 태세 점검에"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "89ceed21515a",
-      "title": "[2026 스마트보안등·스마트폴 제품 리포트] 골목 밝히던 빛, 도시를 연결한다",
-      "url": "http://www.boannews.com/media/view.asp?idx=143377&kind=&sub_kind=",
+      "slug": "3597b8521870",
+      "title": "방화벽이 뚫렸다... 팔로알토 PAN-OS, ‘루트 권한’ 내주는 중대 보안 구멍",
+      "url": "http://www.boannews.com/media/view.asp?idx=143530&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 11:43:00 +0900",
-      "summary": "CCTV·비상벨·센서·공공 와이파이 결합 중심 생활밀착형 안전 기능 확장스마트보안등의 안전 인프라 역할 강화와 스마트폴의 데이터 거점화응답자 72.3%가 꼽은 스마트보안등·스마트폴 확산의 핵심 과제로서 유지관리 체계 확보도시 안전·데이터 운영·행정 효율을 잇는 통합형 공공 인프라 고도화스마트보안등·스마트폴 제품 전문업체 집중 분석: 이스온[보안뉴스 강초희"
+      "published": "Fri, 8 May 2026 15:09:00 +0900",
+      "summary": "[보안뉴스 김형근 기자] 팔로알토 네트웍스의 PAN-OS 소프트웨어에서 인증 없이 원격으로 코드를 실행할 수 있는 취약점(CVE-2026-0300)이 발견됐다. 이 결함은 사용자 인증 포털 서비스의 버퍼 오버플로우 취약점으로, 공격자가 특수 제작된 패킷을 보내 루트 권한을 탈취할 수 있게 한다. 보안 위험 점수인 CVSS가 10점 만점에 무려 9.3에 달하"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "c47ab16d9047",
-      "title": "안랩, 대만 ‘사이버섹 2026’서 엔드포인트·CPS 보안 플랫폼 소개",
-      "url": "http://www.boannews.com/media/view.asp?idx=143524&kind=&sub_kind=",
+      "slug": "8ea6dd49a2b8",
+      "title": "[Global Security TOP] 박윤하 스피어AX 대표이사 “엣지에서 완성되는 AI 영상보안, 현장에서 즉시 판단하다”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143361&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 11:29:00 +0900",
-      "summary": "엔드포인트 플러스·안랩 CPS 플러스 등 통합 보안 플랫폼 전시[보안뉴스 강현주 기자] 안랩(대표 강석균)이 5일부터 7일까지 대만 타이베이 난강전람관에서 열린 사이버 보안 전시회 ‘사이버섹 2026’(CYBERSEC 2026)에서 중화권 고객 환경에 최적화된 엔드포인트 및 사이버물리시스템(CPS) 보안 플랫폼을 선보였다. 사이버섹은 매년 약 2만 명이 참"
+      "published": "Fri, 8 May 2026 15:03:00 +0900",
+      "summary": "온디바이스 AI 기반 엣지 중심 영상보안 플랫폼 확장자체 AI 모델·dara 기반 공공·산업안전 적용 확대NPU 협력 기반 엣지 AI 통합 솔루션 시장 확대[보안뉴스 강초희 기자] AI 영상보안 기술이 엣지 중심으로 전환되는 가운데, 스피어AX가 온디바이스 AI 기반 통합 플랫폼 전략을 앞세워 시장 확대에 나서고 있다. 자체 AI 모델과 플랫폼 ‘dara’"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "a37069a44592",
-      "title": "[테크톡톡] 지능형 영상분석, ‘AI’가 먼저 찾고 ‘상황’까지 판단한다",
-      "url": "http://www.boannews.com/media/view.asp?idx=143393&kind=&sub_kind=",
+      "slug": "9c36ace78ed0",
+      "title": "오만 정부 12개 부처 뚫렸다... 이란 연계 해커, 웹쉘과 SQL 동원 공습",
+      "url": "http://www.boannews.com/media/view.asp?idx=143529&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 11:02:00 +0900",
-      "summary": "CCTV 관제, ‘실시간 수색·판단 플랫폼’으로 진화[보안뉴스= 강왕재 렉스젠 기술 연구소 소장] 지능형 영상분석 시장은 지금 빠르게 재편되고 있다. 과거 CCTV는 단순 기록과 사후 확인을 위한 수단에 머물렀지만, 최근에는 AI 기술을 기반으로 위험을 사전에 감지하고 상황을 분석하는 능동형 시스템으로 전환되고 있다. 단순 영상 저장 장비에서 벗어나, 의미"
+      "published": "Fri, 8 May 2026 15:02:00 +0900",
+      "summary": "이번 캠페인, 과거 이란 정보통신부(MOIS)와 연계된 조직 수법과 일치하는 것으로 밝혀져[보안뉴스 김형근 기자] 이란과 연계된 것으로 추정되는 해커 조직이 오만의 12개 정부 부처를 대상으로 정밀한 사이버 공격을 감행했다. 이번 공격의 실체는 공격자들이 UAE에 구축한 전초기지인 스테이징 서버(Staging Server)의 디렉토리를 인증 없이 접근 가능"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "6f61f8e2293a",
-      "title": "부천시, CCTV 1만여대 통합 관리하며 스마트도시 기반 강화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143521&kind=&sub_kind=",
+      "slug": "839859d8aea0",
+      "title": "“AI 위협, AI로 잡는다” KISA, 120억 투입해 차세대 보안기업 육성",
+      "url": "http://www.boannews.com/media/view.asp?idx=143523&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 10:30:00 +0900",
-      "summary": "상황판·영상분석 운영관리 S/W 도입으로 도시 상황 관리 및 부정주차 검출 기능 고도화BEMS 연계 건물관리플랫폼 구축 통해 에너지 사용량 실시간 모니터링 기반 마련[보안뉴스 강초희 기자] 부천시(시장 조용익)는 스마트도시 통합운영센터 기반시설 정보화 사업을 완료하고 5월 7일 스마트비전룸에서 준공보고회를 열었다.이번 사업은 CCTV 1만1000여대를 하나"
+      "published": "Fri, 8 May 2026 14:58:00 +0900",
+      "summary": "[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 과학기술정보통신부와 함께 차세대 보안 제품 및 서비스 개발을 위한 지원 사업에 돌입했다. AI 보안과 제로트러스트 등 4대 핵심 분야에 120억원의 예산을 투입해 50개 수행기업을 집중 육성하며 2026년 국가 사이버안보 거버넌스의 질적 상향을 주도할 방침이다.KISA는 이와 같은 내용의 ‘2026년 정"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "5e04d286d6dc",
-      "title": "사천시, 센서형 태양광 LED 주소정보시설물 구축 완료",
-      "url": "http://www.boannews.com/media/view.asp?idx=143520&kind=&sub_kind=",
+      "slug": "9dc1a598b2dd",
+      "title": "[속담으로 배우는 100가지 보안 습관-11] 돌다리도 두드려 보고 건너라(1)-문자 링크 하나 눌렀다가 털리는 이유",
+      "url": "http://www.boannews.com/media/view.asp?idx=143236&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Fri, 8 May 2026 10:28:00 +0900",
-      "summary": "태양광 충전·동작 감지 센서를 적용해 전력 소모를 줄이면서 야간 시인성 강화조도 부족 지역과 CCTV 설치 구간 중심으로 배치... 긴급상황 위치 확인 지원 및 안전사고 예방 기대[보안뉴스 강초희 기자] 사천시(시장 박동식)는 시민들의 야간 보행 안전을 강화하고 주소정보 이용 편의를 높이기 위해 ‘센서형 태양광 LED 주소정보시설물’ 설치를 완료했다고 7일"
+      "published": "Fri, 8 May 2026 13:32:00 +0900",
+      "summary": "출처가 불분명한 문자(SMS) 내 링크는 절대 클릭하지 마세요[보안뉴스 박미영 기자] 출처가 불분명한 문자(SMS)나 이메일의 링크를 클릭하는 것은 안전하지 않을 가능성이 있다. 이러한 메일이나 메시지에서 제공되는 링크에는 악성 코드나 바이러스가 포함돼 있을 수도 있으며, 개인정보 유출 등의 위험이 따를 수 있다. 특히 택배 조회·청첩장·쿠폰·정부지원금 등"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "23c9cfe8b4e2",
-      "title": "美 CISA, 기반 시설 공급망에 ‘회복력’ 촉구... 방어보다 ‘운영 연속성’",
-      "url": "http://www.boannews.com/media/view.asp?idx=143507&kind=&sub_kind=",
+      "slug": "709b54348a41",
+      "title": "[배종찬의 보안 빅데이터] ‘자율형 AI’ 시대, 인류에게 천당인가 지옥인가",
+      "url": "http://www.boannews.com/media/view.asp?idx=143525&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 7 May 2026 16:48:00 +0900",
-      "summary": "대만 침공 등 유사시 겨냥한 적대국의 사보타주 대비해 OT 네트워크 고립 전략 권고공격 피해 격리 실패 시 즉각적인 수동 운영 전환 등 강력한 서비스 복원력 훈련 강조[보안뉴스 김형근 기자] 미국 사이버보안및인프라보안국(CISA)은 국가 기반 시설 운영자들이 대규모 사이버 공격을 받았을 때에도 필수 서비스를 유지할 수 있도록 시스템을 요새화할 것을 촉구하는"
+      "published": "Fri, 8 May 2026 13:28:00 +0900",
+      "summary": "효율성 극대화 이면의 딜레마, 통제 불가능한 자율형 AI 책임은 누구에게?[보안뉴스= 배종찬 인사이트케이 연구소장] 인류 역사상 기술의 발전은 언제나 ‘인간의 노동력을 어떻게 효율적으로 대체하거나 확장할 것인가’에 초점을 맞춰 왔다. 증기기관이 근력을, 컴퓨터가 계산 능력을 보조했다면 최근의 AI는 인간의 사고와 창의 영역을 파고들고 있다. 단순히 질문에"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "63011a1ae6d6",
-      "title": "집 안으로 들어온 AI, 미국은 ‘오케스트레이터’ 중국은 ‘생활형 비서’",
-      "url": "http://www.boannews.com/media/view.asp?idx=143509&kind=&sub_kind=",
+      "slug": "d4032fd28a85",
+      "title": "한국인공지능협회, 창립 10주년 비전 선포... “실세계 AI 주도권 잡는다”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143526&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 7 May 2026 15:36:00 +0900",
-      "summary": "미국 스마트홈 시장은 ‘매터’(Matter) 기반 연결성과 플랫폼 생태계 중심으로 성장중국은 AI 가전 앞세워 생활 편의와 자동 수행 기능 중심 스마트홈 경쟁 전개글로벌 스마트홈 시장, AI 기반 생활형 플랫폼으로 빠르게 진화[보안뉴스 강초희 기자] 불과 몇 년 전만 해도 스마트홈은 음성 명령으로 조명이나 가전을 켜고 끄는 수준에 머물렀다. 하지만 최근에는"
+      "published": "Fri, 8 May 2026 13:24:00 +0900",
+      "summary": "AI EXPO KOREA서 ‘인류에 의한 AGI’ 비전 및 4대 거버넌스 체계 발표가상공간 넘어 제조·물류 등 실세계 데이터 기반 피지컬 인공지능(AI) 경쟁력 강조[보안뉴스 조재호 기자] 한국인공지능협회(KORAIA)는 지난 7일 AI EXPO KOREA 현장에서 ‘창립 10주년 비전 선포식’을 개최하고 대한민국 인공지능(AI) 산업의 다음 10년을 향한"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "d84d66de8092",
-      "title": "동형암호 기반 데이터 분석을 SaaS로... 디사일로 데이터 클린룸, CSAP 획득",
-      "url": "http://www.boannews.com/media/view.asp?idx=143519&kind=&sub_kind=",
+      "slug": "ddee4289a66b",
+      "title": "[Global Security TOP 100] 서상덕 S2W 대표 “전산업 혁신 데이터 인텔리전스 기업 도약”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143453&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 7 May 2026 15:30:00 +0900",
-      "summary": "공공기관 대상 공급 기반 마련...B2G 시장 확대 가속화[보안뉴스 강현주 기자] 프라이버시 강화 기술(PET) 딥테크 기업 디사일로(대표 이승명)는 동형암호 기반 민감 데이터 분석 서비스를 클라우드로 이용할 수 있는 ‘디사일로 데이터클린룸’(DESILO Data Clean Room)이 클라우드 서비스 보안인증(CSAP) SaaS 표준등급을 획득했다고 7일"
+      "published": "Fri, 8 May 2026 13:08:00 +0900",
+      "summary": "축적해 온 AI·빅데이터 기술로 다양한 산업 혁신2년 연속 해외 매출 비중 20% 상회[보안뉴스 강현주 기자] ‘아시아의 팔란티어’를 꿈꾸는 S2W는 탄탄하게 쌓아온 AI·빅데이터 기술력으로 다양한 산업 분야를 혁신하는 데이터 인텔리전스 기업으로 향해가고 있다. 서상덕 대표를 만나 S2W의 AI 시대 사이버 보안 리더십과 글로벌 전산업으로의 도약 비전을 들"
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "4ee4dc9817e6",
+      "title": "Cisco 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72046",
+      "translateUrl": "",
+      "published": "2026-05-08",
+      "summary": ""
     },
     {
       "source": "KISA 보안공지",
@@ -209,16 +219,6 @@
       "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72036",
       "translateUrl": "",
       "published": "2026-04-28",
-      "summary": ""
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "dbe6c787ec93",
-      "title": "PackageKit 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72035",
-      "translateUrl": "",
-      "published": "2026-04-27",
       "summary": ""
     },
     {
@@ -404,6 +404,26 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "6306faaad2c1",
+      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+      "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Flinux-kernel-dirty-frag-lpe-exploit.html",
+      "published": "Fri, 08 May 2026 10:42:00 +0530",
+      "summary": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "dd319165afcf",
+      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges%2F",
+      "published": "Fri, 08 May 2026 03:45:24 -0400",
+      "summary": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "9b6419969ce3",
       "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
       "url": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcrypto-gang-member-gets-65-years-for-role-in-230-million-heist%2F",
       "published": "Thu, 07 May 2026 08:11:53 -0400",
       "summary": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "dfb2acb17eb3",
-      "title": "Webinar: Why modern attacks require both security and recovery",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-why-modern-attacks-require-both-security-and-recovery%2F",
-      "published": "Thu, 07 May 2026 08:00:08 -0400",
-      "summary": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "782494e78a9f",
-      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fpan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9%2F",
-      "published": "Thu, 07 May 2026 06:57:59 -0400",
-      "summary": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]"
     }
   ],
   "errors": []
