@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T14:14:33.569350+00:00",
+  "generated_at": "2026-05-08T19:43:49.256990+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,6 +404,36 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "209ca3a7fe4b",
+      "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
+      "url": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftclbanker-banking-trojan-targets.html",
+      "published": "Fri, 08 May 2026 23:42:00 +0530",
+      "summary": "Threat hunters have flagged a previously undocumented Brazilian banking trojan dubbed TCLBANKER that's capable of targeting 59 banking, fintech, and cryptocurrency platforms. The activity is being tracked by Elastic Secu"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "4cb29afddbd8",
+      "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
+      "url": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffake-call-history-apps-stole-payments.html",
+      "published": "Fri, 08 May 2026 20:38:00 +0530",
+      "summary": "Cybersecurity researchers have discovered fraudulent apps on the official Google Play Store for Android that falsely claimed to offer access to call histories for any phone number, only to trick users into joining a subs"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "1e603e108874",
+      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+      "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fone-click-total-shutdown-patient-zero.html",
+      "published": "Fri, 08 May 2026 19:31:00 +0530",
+      "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026,"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "0cb2317f1271",
       "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
       "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
@@ -430,6 +460,26 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fnew-linux-pamdoora-backdoor-uses-pam.html",
       "published": "Fri, 08 May 2026 14:11:00 +0530",
       "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is design"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "0bce879d8569",
+      "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
+      "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnvidia-confirms-geforce-now-data-breach-affecting-armenian-users%2F",
+      "published": "Fri, 08 May 2026 12:18:31 -0400",
+      "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "465c2a9ba1ed",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F08%2Fcisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Fri, 08 May 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42208 BerriAI LiteLLM SQL Injection Vulnerability This type of vulnerability "
     },
     {
       "source": "The Hacker News",
@@ -499,7 +549,7 @@
       "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges%2F",
       "published": "Fri, 08 May 2026 03:45:24 -0400",
-      "summary": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]"
+      "summary": "A new Linux zero-day exploit, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]"
     },
     {
       "source": "The Hacker News",
@@ -520,16 +570,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fpcpjack-credential-stealer-exploits-5.html",
       "published": "Thu, 07 May 2026 23:15:00 +0530",
       "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. \"The toolset "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "1e603e108874",
-      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-      "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fone-click-total-shutdown-patient-zero.html",
-      "published": "Thu, 07 May 2026 19:20:00 +0530",
-      "summary": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026,"
     },
     {
       "source": "The Hacker News",
@@ -560,46 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-tclbanker-malware-self-spreads-over-whatsapp-and-outlook%2F",
       "published": "Thu, 07 May 2026 18:06:52 -0400",
       "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "c50a45ca9d01",
-      "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthreatsday-bulletin-edge-plaintext.html",
-      "published": "Thu, 07 May 2026 17:03:00 +0530",
-      "summary": "Bad week. Turns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. S"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "e5b45b0f00e7",
-      "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
-      "url": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fday-zero-readiness-operational-gaps.html",
-      "published": "Thu, 07 May 2026 16:24:00 +0530",
-      "summary": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determin"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "b72553b3ceac",
-      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
-      "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-pcpjack-worm-steals-credentials-cleans-teampcp-infections%2F",
-      "published": "Thu, 07 May 2026 14:35:50 -0400",
-      "summary": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "2bb7eb91ba3d",
-      "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
-      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Faustralia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware%2F",
-      "published": "Thu, 07 May 2026 14:00:59 -0400",
-      "summary": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute the Vidar Stealer info-stealing malware. [...]"
     }
   ],
   "errors": []
