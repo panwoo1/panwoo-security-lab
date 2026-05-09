@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-08T19:43:49.256990+00:00",
+  "generated_at": "2026-05-09T03:53:15.603364+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "ea21ab00020d",
+      "title": "CVE 발급보다 빠른 AI의 역추론, 길 잃은 ‘책임감 있는 공개’",
+      "url": "http://www.boannews.com/media/view.asp?idx=143537&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 9 May 2026 12:50:00 +0900",
+      "summary": "‘더티 프래그’ 사태로 본 정보 비대칭의 위협, 즉시 공개 요청한 리눅스 진영쏟아지는 AI 리포트에 메인테이너 업무 과중... 기존 보안 거버넌스 무력화[보안뉴스 조재호 기자] 리눅스 커널 취약점 ‘더티 프래그’(Dirty Frag)의 엠바고 파기를 계기로 취약점 분석 체계가 한계를 드러내고 있다. AI를 활용한 코드 분석이 보편화되면서 ‘책임감 있는 공개"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -90,16 +100,6 @@
       "translateUrl": "",
       "published": "Fri, 8 May 2026 13:32:00 +0900",
       "summary": "출처가 불분명한 문자(SMS) 내 링크는 절대 클릭하지 마세요[보안뉴스 박미영 기자] 출처가 불분명한 문자(SMS)나 이메일의 링크를 클릭하는 것은 안전하지 않을 가능성이 있다. 이러한 메일이나 메시지에서 제공되는 링크에는 악성 코드나 바이러스가 포함돼 있을 수도 있으며, 개인정보 유출 등의 위험이 따를 수 있다. 특히 택배 조회·청첩장·쿠폰·정부지원금 등"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "709b54348a41",
-      "title": "[배종찬의 보안 빅데이터] ‘자율형 AI’ 시대, 인류에게 천당인가 지옥인가",
-      "url": "http://www.boannews.com/media/view.asp?idx=143525&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 8 May 2026 13:28:00 +0900",
-      "summary": "효율성 극대화 이면의 딜레마, 통제 불가능한 자율형 AI 책임은 누구에게?[보안뉴스= 배종찬 인사이트케이 연구소장] 인류 역사상 기술의 발전은 언제나 ‘인간의 노동력을 어떻게 효율적으로 대체하거나 확장할 것인가’에 초점을 맞춰 왔다. 증기기관이 근력을, 컴퓨터가 계산 능력을 보조했다면 최근의 AI는 인간의 사고와 창의 영역을 파고들고 있다. 단순히 질문에"
     },
     {
       "source": "KISA 보안공지",
@@ -294,12 +294,12 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "3d6e8bea65d7",
-      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
-      "url": "https://asec.ahnlab.com/ko/93332/",
+      "slug": "3faa2ecd143e",
+      "title": "2026년 3월 다크웹 침해사고 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
+      "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
     },
     {
       "source": "KISA 취약점정보",
