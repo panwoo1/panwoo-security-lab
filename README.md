@@ -1,52 +1,24 @@
-# Panwoo Security Lab
+# PanwooSecurityLab - Browser-Only Deployment Template
 
-A personal Next.js + MDX security dashboard for security news, notes, and writeups.
+제한된 네트워크(예: 80/443만 허용)에서도 브라우저 중심으로 운영 가능한 무료 우선 아키텍처 템플릿입니다.
 
-## Structure
+## 목표
+- GitHub 기반 코드/운영
+- Cloudflare Pages + Workers 조합
+- SSH 없이 배포 가능
+- 모바일 환경에서도 GitHub Web Editor/Codex로 수정 가능
 
-- `app/`: Next.js App Router pages and API routes
-- `components/`: dashboard UI components
-- `content/notes/`: MDX/Markdown notes migrated from the old blog
-- `public/files/`: downloadable files such as PDFs
-- `public/images/`: static images
-- `proxy/dreamhack-proxy.mjs`: Replit/Node reverse proxy for the DreamHack target
-
-## Local development
-
-```bash
-npm install
-npm run dev
+## 구조
+```txt
+/
+├─ apps/
+│  ├─ web/
+│  └─ worker/
+├─ docs/
+├─ .github/workflows/
+├─ .env.example
+├─ README.md
+└─ package.json
 ```
 
-Then open `http://127.0.0.1:3000`.
-
-Production build:
-
-```bash
-npm run build
-npm run start
-```
-
-## DreamHack Replit proxy
-
-Run the full reverse proxy on Replit or another Node runtime:
-
-```bash
-npm run proxy:dreamhack
-```
-
-The server listens on `process.env.PORT || 5000` and proxies `/` to the configured DreamHack target. `/health` is handled before the proxy middleware.
-
-Default target:
-
-```text
-http://host8.dreamhack.games:23403
-```
-
-Change the target with environment variables:
-
-```bash
-DH_PROTOCOL=http DH_HOST=host8.dreamhack.games DH_PORT=23403 npm run proxy:dreamhack
-```
-
-Put the Replit HTTPS URL into the dashboard launcher. The dashboard only stores and opens the Replit URL; it does not fetch the DreamHack host directly.
+자세한 내용은 `docs/` 문서를 확인하세요.
