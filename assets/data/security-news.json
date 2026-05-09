@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T13:50:12.150401+00:00",
+  "generated_at": "2026-05-09T19:20:25.622954+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -412,6 +412,16 @@
       "summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilitie"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "d5d38f3d7b7a",
+      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ffake-openai-repository-on-hugging-face-pushes-infostealer-malware%2F",
+      "published": "Sat, 09 May 2026 10:26:03 -0400",
+      "summary": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "209ca3a7fe4b",
@@ -590,16 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcanvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign%2F",
       "published": "Thu, 07 May 2026 18:36:54 -0400",
       "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "e2c9a7fe7af0",
-      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
-      "url": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-tclbanker-malware-self-spreads-over-whatsapp-and-outlook%2F",
-      "published": "Thu, 07 May 2026 18:06:52 -0400",
-      "summary": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]"
     }
   ],
   "errors": []
