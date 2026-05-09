@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-09T08:08:42.648497+00:00",
+  "generated_at": "2026-05-09T13:50:12.150401+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d3c79614b42d",
+      "title": "[Global Security TOP 100] 김기화 시큐인포 대표이사 “운영 최적화로 음성 기반 지능형 관제”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143362&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 9 May 2026 22:14:00 +0900",
+      "summary": "운영 최적화 중심 지능형 영상보안 관제 고도화음성 기반 온디바이스 관제 솔루션과 배리어프리 인터페이스 확대운영 데이터 기반 맞춤형 솔루션과 글로벌 시장 진출 강화[보안뉴스 강초희 기자] 영상보안 산업이 장비 중심에서 데이터 기반 운영을 거쳐 ‘운영 최적화’ 단계로 진입하고 있다. 이러한 흐름 속에서 시큐인포는 지능형 영상분석과 음성 기반 관제를 결합한 차세"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "21379248e034",
+      "title": "KISA 직접 운영으로 체계성 강화... 화이트햇스쿨 4기 선발 가이드 공개",
+      "url": "http://www.boannews.com/media/view.asp?idx=143539&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 9 May 2026 22:11:00 +0900",
+      "summary": "2026 화이트햇스쿨 4기 설명회 개최... 공간 제약 넘는 자기 주도적 성장 강조김지호 팀장 “수료증 하나로 실력 입증되는 독자적 보안 브랜드 구축할 것”[보안뉴스 조재호 기자] 정보보안 입문자를 중급 인재로 도약시키는 화이트햇스쿨 4기 모집설명회에 200여명의 청년들이 몰리며 뜨거운 열기를 입증했다. 420명의 정예 요원을 선발하는 이번 4기 과정은 전"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -80,26 +100,6 @@
       "translateUrl": "",
       "published": "Fri, 8 May 2026 15:02:00 +0900",
       "summary": "이번 캠페인, 과거 이란 정보통신부(MOIS)와 연계된 조직 수법과 일치하는 것으로 밝혀져[보안뉴스 김형근 기자] 이란과 연계된 것으로 추정되는 해커 조직이 오만의 12개 정부 부처를 대상으로 정밀한 사이버 공격을 감행했다. 이번 공격의 실체는 공격자들이 UAE에 구축한 전초기지인 스테이징 서버(Staging Server)의 디렉토리를 인증 없이 접근 가능"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "839859d8aea0",
-      "title": "“AI 위협, AI로 잡는다” KISA, 120억 투입해 차세대 보안기업 육성",
-      "url": "http://www.boannews.com/media/view.asp?idx=143523&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 8 May 2026 14:58:00 +0900",
-      "summary": "[보안뉴스 조재호 기자] 한국인터넷진흥원(KISA)이 과학기술정보통신부와 함께 차세대 보안 제품 및 서비스 개발을 위한 지원 사업에 돌입했다. AI 보안과 제로트러스트 등 4대 핵심 분야에 120억원의 예산을 투입해 50개 수행기업을 집중 육성하며 2026년 국가 사이버안보 거버넌스의 질적 상향을 주도할 방침이다.KISA는 이와 같은 내용의 ‘2026년 정"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "9dc1a598b2dd",
-      "title": "[속담으로 배우는 100가지 보안 습관-11] 돌다리도 두드려 보고 건너라(1)-문자 링크 하나 눌렀다가 털리는 이유",
-      "url": "http://www.boannews.com/media/view.asp?idx=143236&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 8 May 2026 13:32:00 +0900",
-      "summary": "출처가 불분명한 문자(SMS) 내 링크는 절대 클릭하지 마세요[보안뉴스 박미영 기자] 출처가 불분명한 문자(SMS)나 이메일의 링크를 클릭하는 것은 안전하지 않을 가능성이 있다. 이러한 메일이나 메시지에서 제공되는 링크에는 악성 코드나 바이러스가 포함돼 있을 수도 있으며, 개인정보 유출 등의 위험이 따를 수 있다. 특히 택배 조회·청첩장·쿠폰·정부지원금 등"
     },
     {
       "source": "KISA 보안공지",
@@ -254,22 +254,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "bd15b0b8d079",
-      "title": "2026년 3월 APT 그룹 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93415/",
-      "translateUrl": "",
-      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
-      "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "bd127bf26a96",
       "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
       "url": "https://asec.ahnlab.com/ko/93420/",
       "translateUrl": "",
       "published": "Thu, 16 Apr 2026 15:00:00 +0000",
       "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "bd15b0b8d079",
+      "title": "2026년 3월 APT 그룹 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93415/",
+      "translateUrl": "",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
+      "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
     },
     {
       "source": "ASEC KR",
@@ -294,12 +294,12 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "3d6e8bea65d7",
-      "title": "2026년 1분기 윈도우 웹 서버 대상 악성코드 통계 보고서",
-      "url": "https://asec.ahnlab.com/ko/93332/",
+      "slug": "3faa2ecd143e",
+      "title": "2026년 3월 다크웹 침해사고 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93320/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "내용. AhnLab SEcurity intelligence Center(ASEC)는 AhnLab Smart Defense(ASD) 로그를 기반으로 2026년 1분기 윈도우 웹 서버 대상 공격 현황과 악성코드 통계를 분석했다. 분석 대상은 윈도우 환경의 Internet Information Services(IIS)와 아파치 톰캣 웹 서버이다. 웹쉘을 통한 명령 실행이 주요 침해 경로이며 권한 "
+      "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
     },
     {
       "source": "KISA 취약점정보",
