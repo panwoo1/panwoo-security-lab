@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-09T19:20:25.622954+00:00",
+  "generated_at": "2026-05-10T04:11:58.512343+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "05f4a4b0bd40",
+      "title": "[Global Security TOP 100] 김영민 성현시스템 부사장 “플랫폼과 AI 결합으로 통합보안 패전환 가속화”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143363&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 10 May 2026 09:53:00 +0900",
+      "summary": "출입통제 시스템의 보안 데이터 플랫폼 전환AI 기반 이상행동·연속 침입 탐지 체계 고도화특허 기반 통합보안 플랫폼과 지식재산 경쟁력 강화[보안뉴스 강초희 기자] 출입통제 시스템이 ‘문을 열고 닫는 장치’에서 보안 데이터 플랫폼으로 확장되고 있다. 단순 인증 여부를 확인하는 기존 방식으로는 내부 이상 행위나 반복 침입 시도를 포착하기 어려워지면서 업무 데이터"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "e0bdd0d8c82a",
+      "title": "가짜 전파에 멈춰선 대만 고속철... 23세 대학생 ‘스푸핑’ 공격에 인프라 마비",
+      "url": "http://www.boannews.com/media/view.asp?idx=143541&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 10 May 2026 09:49:00 +0900",
+      "summary": "가짜 비상 경보 송출로 열차 3대 정차 및 48분간 시스템 운행 지연 사태 발생테트라(Tetra) 통신망 노린 외부 전파 간섭 확인... 철도법 위반 등으로 피의자 기소[보안뉴스 김형근 기자] 대만 고속철도(THSR) 열차 3대를 비상 정차시킨 사건이 23세 대학생의 무선 신호 스푸핑 공격때문인 것으로 확인되면서, 국가 기반 시설의 통신망 취약점이 도마 위"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -80,26 +100,6 @@
       "translateUrl": "",
       "published": "Fri, 8 May 2026 15:09:00 +0900",
       "summary": "[보안뉴스 김형근 기자] 팔로알토 네트웍스의 PAN-OS 소프트웨어에서 인증 없이 원격으로 코드를 실행할 수 있는 취약점(CVE-2026-0300)이 발견됐다. 이 결함은 사용자 인증 포털 서비스의 버퍼 오버플로우 취약점으로, 공격자가 특수 제작된 패킷을 보내 루트 권한을 탈취할 수 있게 한다. 보안 위험 점수인 CVSS가 10점 만점에 무려 9.3에 달하"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "8ea6dd49a2b8",
-      "title": "[Global Security TOP] 박윤하 스피어AX 대표이사 “엣지에서 완성되는 AI 영상보안, 현장에서 즉시 판단하다”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143361&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 8 May 2026 15:03:00 +0900",
-      "summary": "온디바이스 AI 기반 엣지 중심 영상보안 플랫폼 확장자체 AI 모델·dara 기반 공공·산업안전 적용 확대NPU 협력 기반 엣지 AI 통합 솔루션 시장 확대[보안뉴스 강초희 기자] AI 영상보안 기술이 엣지 중심으로 전환되는 가운데, 스피어AX가 온디바이스 AI 기반 통합 플랫폼 전략을 앞세워 시장 확대에 나서고 있다. 자체 AI 모델과 플랫폼 ‘dara’"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "9c36ace78ed0",
-      "title": "오만 정부 12개 부처 뚫렸다... 이란 연계 해커, 웹쉘과 SQL 동원 공습",
-      "url": "http://www.boannews.com/media/view.asp?idx=143529&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 8 May 2026 15:02:00 +0900",
-      "summary": "이번 캠페인, 과거 이란 정보통신부(MOIS)와 연계된 조직 수법과 일치하는 것으로 밝혀져[보안뉴스 김형근 기자] 이란과 연계된 것으로 추정되는 해커 조직이 오만의 12개 정부 부처를 대상으로 정밀한 사이버 공격을 감행했다. 이번 공격의 실체는 공격자들이 UAE에 구축한 전초기지인 스테이징 서버(Staging Server)의 디렉토리를 인증 없이 접근 가능"
     },
     {
       "source": "KISA 보안공지",
@@ -254,22 +254,22 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "bd127bf26a96",
-      "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
-      "url": "https://asec.ahnlab.com/ko/93420/",
-      "translateUrl": "",
-      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
-      "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "bd15b0b8d079",
       "title": "2026년 3월 APT 그룹 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93415/",
       "translateUrl": "",
       "published": "Thu, 16 Apr 2026 15:00:00 +0000",
       "summary": "목적 및 범위. 본 보고서는 국가 지원으로 추정되는 APT 그룹의 전략·기법·영향을 분석한다. 금전형 범죄 그룹은 범위에서 제외되며, ATIP의 대표 이름 기준으로 주요 위협 행위를 정리한다. 최근 한 달 공개 자료를 바탕으로 13개 APT 그룹의 활동을 집계했다. 지역별 주요 APT 그룹 현황. 북한 계열: Famous Chollima는 가짜 채용 인터뷰와 VS Code·NPM 리포지토리 "
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "bd127bf26a96",
+      "title": "2026년 3월 국내외 금융권 관련 보안 이슈",
+      "url": "https://asec.ahnlab.com/ko/93420/",
+      "translateUrl": "",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0000",
+      "summary": "내용. 금융권 대상 피싱, 웹셸, 드로퍼, 백도어, 다운로더, 인포스틸러, 코인마이너 등 다수 악성코드 샘플이 유포된 정황이 확인되었다. 한글 위장 첨부파일명과 HTML/JS 실행 유도 방식이 피싱 전파에 활용된 사례가 다수 관찰되었다. 텔레그램 API를 통한 계정 유출 캠페인이 확인되었으며, 조사기간 내 금융권 계정 유출 비중이 약 4%로 집계되었다. Lazarus 그룹의 워터링홀 공격에서"
     },
     {
       "source": "ASEC KR",
@@ -294,12 +294,12 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "3faa2ecd143e",
-      "title": "2026년 3월 다크웹 침해사고 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93320/",
+      "slug": "524312ed62d5",
+      "title": "2026년 3월 다크웹 이슈 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93321/",
       "translateUrl": "",
       "published": "Sun, 12 Apr 2026 15:00:00 +0000",
-      "summary": "알림 본 보고서는 딥웹·다크웹 포럼에 게시된 데이터 유출 및 초기 접근권 판매 사례를 중심으로 작성되었다. 보고서의 일부 내용은 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 포함되어 있다. 주요 이슈 ShinyHunters의 연속적 유출 주장이 다수 관측되었다. 글로벌 기업과 EU 기관을 포함해 Hall, Zen, Wof, Aur, European * 등 광범위한 표적화가 보고되었"
+      "summary": "알림 본 보고서는 딥웹 및 다크웹 출처 기반 자료를 요약한 것이며 일부 사실관계는 출처 특성상 완전 확인이 어려운 내용이 포함되어 있다. 주요 이슈 BreachForums 내부 붕괴와 재구축 시도가 관측되었다. 운영자 배신과 자금 이동 정황으로 신뢰가 손상되었으며 다수 클론(.ac, .us 등)과 사칭 도메인 난립으로 이용자 혼선이 심화되었다. BreachForums는 Vect 및 Spear"
     },
     {
       "source": "KISA 취약점정보",
@@ -400,6 +400,16 @@
       "translateUrl": "",
       "published": "2024-02-23",
       "summary": ""
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "60a7c6fdc027",
+      "title": "JDownloader site hacked to replace installers with Python RAT malware",
+      "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fjdownloader-site-hacked-to-replace-installers-with-python-rat-malware%2F",
+      "published": "Sat, 09 May 2026 15:27:58 -0400",
+      "summary": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access troja"
     },
     {
       "source": "The Hacker News",
@@ -590,16 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fpcpjack-credential-stealer-exploits-5.html",
       "published": "Thu, 07 May 2026 23:15:00 +0530",
       "summary": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments. \"The toolset "
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "93be192ca401",
-      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcanvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign%2F",
-      "published": "Thu, 07 May 2026 18:36:54 -0400",
-      "summary": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]"
     }
   ],
   "errors": []
