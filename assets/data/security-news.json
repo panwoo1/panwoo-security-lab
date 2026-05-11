@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T09:58:44.206209+00:00",
+  "generated_at": "2026-05-11T15:34:27.028837+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,12 +404,72 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "3ad458cc0ea2",
+      "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fweekly-recap-linux-rootkit-macos-crypto.html",
+      "published": "Mon, 11 May 2026 18:06:00 +0530",
+      "summary": "Rough Monday. Somebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago — the same old holes,"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "bd4b69338e56",
+      "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
+      "url": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fyour-purple-team-isnt-purple-its-just.html",
+      "published": "Mon, 11 May 2026 17:00:00 +0530",
+      "summary": "Defending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approv"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "146edddf2d19",
       "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
       "url": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffake-openai-privacy-filter-repo-hits-1.html",
       "published": "Mon, 11 May 2026 12:35:00 +0530",
       "summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users. The proj"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "461c997313ca",
+      "title": "Instructure confirms hackers used Canvas flaw to deface portals",
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Finstructure-confirms-hackers-used-canvas-flaw-to-deface-portals%2F",
+      "published": "Mon, 11 May 2026 11:26:26 -0400",
+      "summary": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "abd7c8b8541d",
+      "title": "Why Changing Passwords Doesn’t End an Active Directory Breach",
+      "url": "https://www.bleepingcomputer.com/news/security/why-changing-passwords-doesnt-end-an-active-directory-breach/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwhy-changing-passwords-doesnt-end-an-active-directory-breach%2F",
+      "published": "Mon, 11 May 2026 09:53:56 -0400",
+      "summary": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "a8a4df0e71a4",
+      "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
+      "url": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fgoogle-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool%2F",
+      "published": "Mon, 11 May 2026 09:02:30 -0400",
+      "summary": "Researchers at Google Threat Intelligence Group (GTIG) say that a zero-day exploit targeting a popular open-source web administration tool was likely generated using AI. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "b4f6ef121066",
+      "title": "Webinar this week: Prevention alone is not enough against modern attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-this-week-prevention-alone-is-not-enough-against-modern-attacks/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-this-week-prevention-alone-is-not-enough-against-modern-attacks%2F",
+      "published": "Mon, 11 May 2026 08:30:00 -0400",
+      "summary": "This upcoming webinar explores how organizations need to combine security, backups, and recovery planning to reduce the impact of modern cyberattacks. [...]"
     },
     {
       "source": "BleepingComputer",
@@ -532,16 +592,6 @@
       "summary": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 "
     },
     {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "ebf402971052",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fnew-linux-pamdoora-backdoor-uses-pam.html",
-      "published": "Fri, 08 May 2026 14:11:00 +0530",
-      "summary": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is design"
-    },
-    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "0bce879d8569",
@@ -550,56 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnvidia-confirms-geforce-now-data-breach-affecting-armenian-users%2F",
       "published": "Fri, 08 May 2026 12:18:31 -0400",
       "summary": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "465c2a9ba1ed",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F08%2Fcisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "Fri, 08 May 26 12:00:00 +0000",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42208 BerriAI LiteLLM SQL Injection Vulnerability This type of vulnerability "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "6306faaad2c1",
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Flinux-kernel-dirty-frag-lpe-exploit.html",
-      "published": "Fri, 08 May 2026 10:42:00 +0530",
-      "summary": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "a9dae60418d1",
-      "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
-      "url": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwhy-more-analysts-wont-solve-your-socs-alert-problem%2F",
-      "published": "Fri, 08 May 2026 10:02:12 -0400",
-      "summary": "Attackers move faster than overwhelmed SOC teams can realistically investigate alerts. Prophet Security breaks down how AI can help analysts investigate alerts faster and focus on real threats. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "cb7dd74f707a",
-      "title": "Trellix source code breach claimed by RansomHouse hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ftrellix-source-code-breach-claimed-by-ransomhouse-hackers%2F",
-      "published": "Fri, 08 May 2026 09:23:23 -0400",
-      "summary": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "4aec03676085",
-      "title": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcisa-gives-feds-four-days-to-patch-ivanti-flaw-exploited-as-zero-day%2F",
-      "published": "Fri, 08 May 2026 08:16:32 -0400",
-      "summary": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
     }
   ],
   "errors": []
