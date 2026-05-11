@@ -7,6 +7,7 @@ vendor/
 node_modules/
 .next/
 out/
+apps/web/dist/
 public/assets/data/
 tsconfig.tsbuildinfo
 .env

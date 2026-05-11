@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "build": "wrangler deploy --dry-run",
+    "build": "WRANGLER_LOG_PATH=/tmp/wrangler.log wrangler deploy src/index.ts --dry-run --name panwoo-worker --compatibility-date 2026-05-09",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
