@@ -1,0 +1,8 @@
+name = "panwoo-worker"
+main = "src/index.ts"
+compatibility_date = "2026-05-09"
+
+# Example KV binding
+[[kv_namespaces]]
+binding = "KV"
+id = "your_kv_namespace_id"
