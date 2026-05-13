@@ -1,6 +1,86 @@
 {
-  "generated_at": "2026-05-12T20:05:57.147174+00:00",
+  "generated_at": "2026-05-13T04:10:40.657859+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "30034943c167",
+      "title": "아카마이 “AI 확산 속 API 위협 급증... 사고당 손실 100만달러 돌파”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143601&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 13:09:00 +0900",
+      "summary": "아·태지역 보안 의사결정자 대상 API 보안 영향 연구 결과 발표LLM 등 AI 연계 API 겨냥 공격 최다, 가시성 확보는 22% 불과[보안뉴스 조재호 기자] 기업들의 AI 도입이 가속화되는 가운데, 이를 뒷받침하는 API 보안에서 심각한 취약점이 드러나고 있다. 아카마이테크놀로지스가 13일 발표한 ‘API 보안 영향 연구 아시아태평양 에디션’에 따르면,"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "5b08ea6705d0",
+      "title": "[2026 비식별화 솔루션 리포트] 지우는 데이터에서 활용하는 데이터로... 안전한 AI 거버넌스 이끈다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143580&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 11:53:00 +0900",
+      "summary": "개인정보 유출 피해 원천 차단... 비정형 데이터 탐지 및 제거 국내외 개인정보 관련 정부 규제 강화, 컴플라이언스 수요 확대조직 내 AI 활용 위한 데이터 학습 및 관리 수요 증가... 활용성과 안전 사이 균형이 핵심 비식별 솔루션 전문기업 집중분석: 에이씨엔에스, 펜타시스템, 엘세븐시큐리티 [보안뉴스 한세희 기자] 선한 마음으로 기부했다 날벼락을 맞은"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "082bd8adfdde",
+      "title": "가비아 하이웍스, ‘그룹웨어 프리미엄’ 출시... “AI 문서 생성·공동편집·저장 한 흐름”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143602&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 10:58:00 +0900",
+      "summary": "클라우드 드라이브 용량 확대·실시간 문서 공동편집멀티 AI 사용량 2배[보안뉴스 강현주 기자] 클라우드 전문 기업 가비아(공동대표 김홍국·원종홍)가 올인원 업무 플랫폼 ‘하이웍스’의 신규 상품인 ‘그룹웨어 프리미엄’을 13일 출시했다. 그룹웨어 프리미엄은 문서 관리부터 협업·AI 활용까지 핵심 업무 기능을 집약한 통합형 상품이다.통합 환경에 대한 수요는 기"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "ac8dbb3d958e",
+      "title": "포티넷-엔비디아, 기업용 AI 보안 솔루션 ‘포티AI게이트’ 고도화",
+      "url": "http://www.boannews.com/media/view.asp?idx=143600&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 10:38:00 +0900",
+      "summary": "“기업 AI 환경에 제로트러스트 보안·데이터 주권 실현”[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 엔비디아의 AI 플랫폼 및 소프트웨어 기술을 접목한 포티AI게이트(FortiAIGate) 솔루션을 13일 발표했다. AI 워크로드 보안과 데이터 주권이라는 두 과제를 동시에 해결하는 이 솔루션은 데이터센터와 클라우"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "a3e4443953c2",
+      "title": "美 FCC, 외산 공유기·드론 업데이트 차단 조치 2029년으로 유예... “취약점 방치 막는다”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143597&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 10:12:00 +0900",
+      "summary": "소비자기술협회(CTA) “업데이트 차단하면 오히려 국가 안보 위협 초래” 경고 수용공급망 배제 명분보다 실질적 보안 패치 우선한 융합보안 거버넌스 현실적 타협[보안뉴스 김형근 기자] 미국 정부가 국가 안보를 이유로 추진했던 외산 통신 장비 규제 정책이 사이버 보안의 현실적 제약에 부딪혀 한발 물러섰다. 이념적 공급망 통제보다 기존 인프라의 안정성을 챙긴 실"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "283710a67395",
+      "title": "엔키화이트햇, 2026 AI 보안 유망기업 선정... “자율 공격형 방어망 상용화”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143598&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 10:06:00 +0900",
+      "summary": "과기정통부·KISA 주관 사업화 과제 최종 선정, 시제품 이어 2년 연속 성과LLM과 다중 에이전트 결합, 화이트해커 지식 자산화... 오펜시브 보안 플랫폼 고도화[보안뉴스 조재호 기자] 엔키화이트햇이 과학기술정보통신부와 한국인터넷진흥원(KISA)이 주관하는 ‘2026 AI 보안 유망기업 육성 지원사업’ 사업화 분야에 최종 선정됐다고 13일 밝혔다.엔키화이"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "a88d705b702e",
+      "title": "챗GPT에 북한 해킹 그림자? 애플 맥OS용 앱 휴지통 강제 이동 사고",
+      "url": "http://www.boannews.com/media/view.asp?idx=143599&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 10:01:00 +0900",
+      "summary": "[보안뉴스 김형근 기자] 최근 맥OS을 사용하는 수많은 사람들이 40시간 동안 챗GPT 데스크톱 앱이 악성코드로 감지돼 휴지통으로 강제 이동되는 심각한 문제를 겪었다. 애플은 북한 해킹 조직 연계를 의심하며 관련 개발자 인증서를 철회했다. 애플의 내장 보안 시스템인 게이트키퍼와 엑스프로텍트는 이 앱이 컴퓨터에 해를 끼칠 수 있다는 위험 알림창을 화면에 띄웠"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "2581e8a9272e",
+      "title": "[카드뉴스] “지웠는데 털렸다?”… ‘잊힐 권리’ 이행하다 랜섬웨어 초대하는 기업들",
+      "url": "http://www.boannews.com/media/view.asp?idx=143596&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Wed, 13 May 2026 09:20:00 +0900",
+      "summary": "개인정보 보호법과 ‘잊힐 권리’에 따른 데이터 삭제 요구가 증가하면서, 삭제 처리를 위해 백업 서버의 보안 권한을 일시적으로 해제하는 틈을 노린 사이버 공격이 급증하고 있다. 법적 규제 준수(Compliance)와 시스템 보안 강화 사이에서 발생하는 ‘역설적 모순’은 랜섬웨어 침투의 핵심 경로가 되고 있어, 이에 대한 새로운 보안 아키텍처 설계가 절실한 상"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -20,86 +100,6 @@
       "translateUrl": "",
       "published": "Tue, 12 May 2026 16:50:00 +0900",
       "summary": "일루미오 간담회에서 제로트러스트 전략 제시“침해는 불가피, 격리가 전략” 강조[보안뉴스 강현주 기자] “제로트러스트는 AI 공격에 대한 완벽한 방어 전략입니다. 마이크로세그멘테이션이야말로 제로트러스트의 근간입니다.”‘제로트러스트 창시자’라고 불리는 존 킨더바그 일루미오 수석 에반젤리스트는 12일 기자들과 만나 이같이 밝혔다. 일루미오는 이날 서울 삼성동 아"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "a502868b51b2",
-      "title": "개인정보위, 중대 유출 반복되면 과징금 10%... “사전 예방으로 보안 패러다임 전환”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143590&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 15:00:00 +0900",
-      "summary": "개인정보 중심 설계(PbD) 제도화, 1700개 고위험 시스템 위험기반 정기 점검입증 책임 기업으로 전환... 피해 구제 실효성 높이고 보안 투자 인센티브 확대[보안뉴스 조재호 기자] 개인정보보호위원회가 사후 처벌 위주였던 국가 개인정보 안보 거버넌스를 사전 예방 및 위험 관리 중심으로 전면 개편한다. 전체 매출의 10%에 달하는 징벌적 과징금으로 기업의"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "cb20e6988a4b",
-      "title": "[양자와 보안] 공공기관 양자보안 구축 의무화된다... 양자-AI 융합도 지원",
-      "url": "http://www.boannews.com/media/view.asp?idx=143591&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 14:51:00 +0900",
-      "summary": "양자기술산업법 개정안 국무회의 통과양자-AI 융합 등 새 정책 수요 반영[보안뉴스 한세희 기자] 앞으로 정부와 지자체 등은 의무적으로 양자보안 체계를 구축해야 한다. 양자컴퓨팅과 인공지능, 슈퍼컴퓨팅 기술 개발 지원을 위한 법적 근거도 마련됐다. 과학기술정보통신부는 12일 열린 국무회의에서 이같은 내용의 ‘양자과학기술 및 양자산업 육성에 관한 법률 일부개정"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "3fa8655e66cc",
-      "title": "[이슈칼럼] 정밀 타격 시대, VIP 경호 패러다임의 전략적 전환",
-      "url": "http://www.boannews.com/media/view.asp?idx=143589&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 14:37:00 +0900",
-      "summary": "경호의 중심축을 물리적 ‘요새화’에서 ‘지능형 회복탄력성’으로 전환... 세 가지 핵심 전략[보안뉴스= 박진이 에스알 상임감사] 2026년 이란 전쟁의 개전과 함께 단행된 미국·이스라엘의 하메네이 제거 작전은, 2020년 솔레이마니와 2024년 나스랄라 사살로 이어진 ‘정밀 타격’ 흐름의 정점을 보여준다. 이 일련의 사건은 적대국 지도자에 대한 제거 방식"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "57481a161b07",
-      "title": "[속담으로 배우는 100가지 보안 습관-12] 돌다리도 두드려 보고 건너라(2)-앱 아무 데서나 설치하면 생기는 일",
-      "url": "http://www.boannews.com/media/view.asp?idx=143237&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 13:19:00 +0900",
-      "summary": "공식 앱스토어(Google Play, App Store) 외의 경로로 앱을 설치하지 마세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "26dbd71cdfe7",
-      "title": "금융보안원, 2026년 금융보안자문위원회 전체회의 개최",
-      "url": "http://www.boannews.com/media/view.asp?idx=143588&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 11:35:00 +0900",
-      "summary": "AI 기반 공격 도구 활용한 위협 고도화에 따른 금융보안의 새로운 대응 전략 모색[보안뉴스 원병철 기자] 금융보안원(원장 박상원)은 12일(화) 여의도 글래드 호텔에서 최신 금융보안 동향을 바탕으로 금융보안원의 역할과 업무 방향성을 심도있게 논의하기 위해 보안전략·사이버대응·디지털혁신 전문가들과 금융보안자문위원회 전체회의를 개최했다. 특히, 올해는 미토스"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "d88923e6fe57",
-      "title": "GM, 고객 몰래 주행 데이터 팔아 치워... 캘리포니아주에 1200만 달러 합의금 지불",
-      "url": "http://www.boannews.com/media/view.asp?idx=143587&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 11:13:00 +0900",
-      "summary": "[보안뉴스 김형근 기자] 미국 자동차 기업 제너럴 모터스(GM)가 고객 동의 없이 주행 데이터를 수집·판매한 것으로 드러났다. 이에 캘리포니아주와 1275만 달러 규모의 합의금을 지불하기로 했다. 이는 캘리포니아 소비자 개인정보보호법(CCPA) 역사상 단일 기업에 부과된 가장 큰 수준의 벌금으로 기록됐다.보안 전문매체 더 레코드 등 외신 보도에 따르면 GM"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "01371809c263",
-      "title": "결국... AI 활용한 제로데이 취약점 공격 악성코드 현실화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143586&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 11:11:00 +0900",
-      "summary": "구글 클라우드 GTIG, 최신 AI 위협 추적 보고서 발표AI 활용한 제로데이 위협 첫 사례 포착[보안뉴스 한세희 기자] 구글이 인공지능(AI)을 악용한 제로데이 취약점 공격을 차단했다고 밝혔다. 구글 위협정보그룹(GTIG)은 11일(현지시간) 발표한 최신 AI 위협 추적 보고서에서 “대규모 취약점 공격을 준비하던 범죄 집단이 AI의 도움을 받아 개발한 것"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "8bb60474d5b5",
-      "title": "한국디지털인증협회, ‘2026 블록체인 AI 해커톤’ 기술 설명회 열기 고조",
-      "url": "http://www.boannews.com/media/view.asp?idx=143585&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 12 May 2026 10:59:00 +0900",
-      "summary": "블록체인·AI 신기술 구현 방향 제시... 참가자들 실전 감각 끌어올려오는 30일까지 참가 신청... 최종 수상팀에 상금과 최대 10억원 규모 창업지원 혜택[보안뉴스 원병철 기자] 블록체인과 인공지능(AI) 기술을 결합한 실전형 경진대회가 개막 전부터 열기를 높이고 있다. 한국디지털인증협회(회장 이기혁)는 오는 6월 열리는 ‘2026 블록체인 AI 해커톤’"
     },
     {
       "source": "KISA 보안공지",
@@ -422,6 +422,16 @@
       "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious att"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "ec5d4d4cf7f5",
+      "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fus-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack%2F",
+      "published": "Tue, 12 May 2026 19:09:55 -0400",
+      "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "4340e9c3f058",
@@ -450,6 +460,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmini-shai-hulud-worm-compromises.html",
       "published": "Tue, 12 May 2026 17:16:00 +0530",
       "summary": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Min"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "de693e91b9d2",
+      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fuk-fines-water-supplier-13m-for-exposing-data-of-664k-customers%2F",
+      "published": "Tue, 12 May 2026 16:17:19 -0400",
+      "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and "
     },
     {
       "source": "The Hacker News",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-132-02",
       "published": "Tue, 12 May 26 12:00:00 +0000",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to expose sensitive information or cause a CRLF injection. The following versions of Subnet Solutions PowerSYSTEM C"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "b3b497717efe",
-      "title": "Software Bill of Materials for AI - Minimum Elements",
-      "url": "https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fresources-tools%2Fresources%2Fsoftware-bill-materials-ai-minimum-elements",
-      "published": "Tue, 12 May 26 12:00:00 +0000",
-      "summary": "CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, Software Bill of Materials for AI – Minimum Elements"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "b24b3c7c5851",
-      "title": "ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-132-06",
-      "published": "Tue, 12 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of multiple internally discovered vulnerabilities in the WebPro SNMP card PowerValue for the product versions listed as affected in the advisory. Depending upon the vulnerability, an at"
     }
   ],
   "errors": []
