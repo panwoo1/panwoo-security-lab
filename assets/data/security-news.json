@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T09:18:01.772500+00:00",
+  "generated_at": "2026-05-13T15:13:24.464179+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,6 +404,56 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "c19ed1ef05a0",
+      "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+      "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmicrosofts-mdash-ai-system-finds-16.html",
+      "published": "Wed, 13 May 2026 19:16:02 +0530",
+      "summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of "
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "e704bcdff089",
+      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
+      "url": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fazerbaijani-energy-firm-hit-by-repeated.html",
+      "published": "Wed, 13 May 2026 18:30:00 +0530",
+      "summary": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its ta"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "bd7da8b567b6",
+      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
+      "url": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwebinar-why-your-appsec-tools-miss.html",
+      "published": "Wed, 13 May 2026 17:22:43 +0530",
+      "summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most se"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "f96f8c6c0ea3",
+      "title": "Most Remediation Programs Never Confirm the Fix Actually Worked",
+      "url": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmost-remediation-programs-never-confirm.html",
+      "published": "Wed, 13 May 2026 17:00:00 +0530",
+      "summary": "Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "3f0b5f448234",
+      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
+      "url": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmicrosoft-patches-138-vulnerabilities.html",
+      "published": "Wed, 13 May 2026 16:06:10 +0530",
+      "summary": "Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Criti"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "ff51c761ea45",
       "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
       "url": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
@@ -420,6 +470,46 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fandroid-adds-intrusion-logging-for.html",
       "published": "Wed, 13 May 2026 12:25:42 +0530",
       "summary": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks. Intrusion Logging, available as part of Advanced Protection Mode"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "e26cc96f8272",
+      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-fixes-windows-autopatch-bug-installing-restricted-drivers%2F",
+      "published": "Wed, 13 May 2026 10:36:09 -0400",
+      "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed Windows devices in the European Union. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "0f66f3a854e9",
+      "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+      "url": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Felectronics-giant-foxconn-confirms-cyberattack-on-north-american-factories%2F",
+      "published": "Wed, 13 May 2026 08:49:54 -0400",
+      "summary": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a cyberattack. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "37bd59121762",
+      "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
+      "url": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2F73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation%2F",
+      "published": "Wed, 13 May 2026 08:30:38 -0400",
+      "summary": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation is becoming critical for modern defense strategies. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "4b15ccb09735",
+      "title": "Microsoft says some users can't install Office on Windows 365 devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-says-some-users-cant-install-office-on-windows-365-devices%2F",
+      "published": "Wed, 13 May 2026 07:53:54 -0400",
+      "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]"
     },
     {
       "source": "The Hacker News",
@@ -462,26 +552,6 @@
       "summary": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and Febr"
     },
     {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "696160a0503b",
-      "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
-      "url": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwebinar-what-riskiest-soc-alerts-go.html",
-      "published": "Tue, 12 May 2026 17:28:00 +0530",
-      "summary": "Why do the Riskiest SOC Alerts Go Unanswered? Security operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one is inves"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "06dd92f80072",
-      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
-      "url": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmini-shai-hulud-worm-compromises.html",
-      "published": "Tue, 12 May 2026 17:16:00 +0530",
-      "summary": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Min"
-    },
-    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "de693e91b9d2",
@@ -490,16 +560,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fuk-fines-water-supplier-13m-for-exposing-data-of-664k-customers%2F",
       "published": "Tue, 12 May 2026 16:17:19 -0400",
       "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and "
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "0d53d116bbf2",
-      "title": "Why Agentic AI Is Security's Next Blind Spot",
-      "url": "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fwhy-agentic-ai-is-securitys-next-blind.html",
-      "published": "Tue, 12 May 2026 16:00:00 +0530",
-      "summary": "Agentic AI is already running in production environments across many organizations today. It is executing tasks, consuming data, and taking actions — most likely without meaningful involvement from the security team. The"
     },
     {
       "source": "BleepingComputer",
@@ -540,66 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ffortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator%2F",
       "published": "Tue, 12 May 2026 14:23:09 -0400",
       "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run commands or arbitrary code. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "75fc6d015127",
-      "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fwindows-11-kb5089549-and-kb5087420-cumulative-updates-released%2F",
-      "published": "Tue, 12 May 2026 14:09:12 -0400",
-      "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "6fc0c1ae4630",
-      "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days%2F",
-      "published": "Tue, 12 May 2026 14:08:06 -0400",
-      "summary": "Today is Microsoft's May 2026 Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "339d959fb130",
-      "title": "Škoda warns of customer data breach after online shop hack",
-      "url": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fskoda-warns-of-customer-data-breach-after-online-shop-hack%2F",
-      "published": "Tue, 12 May 2026 13:07:01 -0400",
-      "summary": "Škoda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the personal information of an undisclosed number of customers. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "77e5dc26318b",
-      "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-      "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Finstructure-reaches-ransom-agreement.html",
-      "published": "Tue, 12 May 2026 13:07:00 +0530",
-      "summary": "American educational technology company Instructure, the parent company of Canvas, said it reached an \"agreement\" with a decentralized cybercrime extortion group after it breached its network and threatened to leak stole"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "31d47b0667a6",
-      "title": "Android 17 to expand banking scam call and privacy protections",
-      "url": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fandroid-17-to-expand-banking-scam-call-and-privacy-protections%2F",
-      "published": "Tue, 12 May 2026 13:00:00 -0400",
-      "summary": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banking scam calls. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "1a0f7b141fb8",
-      "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-      "url": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fopenai-launches-daybreak-for-ai-powered.html",
-      "published": "Tue, 12 May 2026 12:25:00 +0530",
-      "summary": "OpenAI has launched Daybreak, a new cybersecurity initiative that brings together frontier artificial intelligence (AI) model capabilities and Codex Security to help organizations identify and patch vulnerabilities befor"
     }
   ],
   "errors": []
