@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-05-13T20:07:19.456397+00:00",
+  "generated_at": "2026-05-14T04:10:41.745636+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "390b277bf3e2",
+      "title": "마이크로소프트 “이메일 위협, 악성코드 가고 ‘계정 탈취’ 시대 왔다”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143615&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 13:03:00 +0900",
+      "summary": "MS, ‘2026년 1분기 이메일 환경 위협 보고서’... QR코드 피싱 146% 폭증 및 캡차 우회 전술 기승공격 중심축 ‘계정 권한 확보’로 이동[보안뉴스 조재호 기자] 사이버 공격자들이 기존 이메일 보안 필터를 무력화하기 위해 이미지와 정상적 인증 절차를 무기로 역이용하는 양상이 뚜렷해지고 있다.마이크로소프트(MS) 위협 인텔리전스는 14일 발표한 ‘"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "66d2b5dd1bad",
+      "title": "“VS코드로 들어와 메모리 직접 때린다” 카스퍼스키가 해부한 北 김수키 기술력",
+      "url": "http://www.boannews.com/media/view.asp?idx=143614&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 11:44:00 +0900",
+      "summary": "김수키 페블대시 및 애플시드 하이브리드 기술 분석 보고서 발표러스트 기반 헬로도어 내부 이모지 로그 발견... LLM 악용 기정사실화VS코드 원격 터널 및 DW에이전트 전용해 침투 유지하고 GPKI 겨냥[보안뉴스 조재호 기자] 북한 배후 해킹 그룹 ‘김수키’(Kimsuky)가 AI와 최신 프로그래밍 언어를 결합한 하이브리드 공격으로 국가 안보의 근간을 뒤흔"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "06c23f40e305",
+      "title": "금융보안원, ‘2026년 금융권 AI 활용 및 안전성·신뢰성 강화 세미나’ 개최",
+      "url": "http://www.boannews.com/media/view.asp?idx=143613&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 10:03:00 +0900",
+      "summary": "미토스 등 프론티어 AI에 의한 사이버보안 위협 대응 논의금융AI 안전성·신뢰성 프레임워크(안) 공개 및 시범평가 예정 [보안뉴스 원병철 기자] 금융보안원(원장 박상원)은 금융투자협회 불스홀에서 금융회사 및 유관기관 CISO/CIO 등 임직원 260명이 참석한 가운데 ‘2026년 금융권 AI 활용 및 안전성·신뢰성 강화 세미나’를 개최했다고 밝혔다. 이번"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "613188d58f29",
+      "title": "“공장 네트워크 완전 마비” 폭스콘 북미 공장 랜섬웨어 피습... 8TB 털렸다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143611&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 09:59:00 +0900",
+      "summary": "위스콘신 및 텍사스 등 북미 지역 주요 공장 타격... 직원 조기 퇴근 및 생산 중단나이트로젠 조직 소행 추정... 애플, 구글 등 고객사 설계 자산 유출 우려[보안뉴스 김형근 기자] 폭스콘이 또다시 대규모 랜섬웨어 기습에 무릎을 꿇으며 북미 공장이 멈춰 섰다. 애플과 마이크로소프트(MS) 등 주요 빅테크 핵심 설계 자산이 포함된 데이터가 탈취되면서 향후"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d09a41a5792b",
+      "title": "교육 플랫폼 운영사 인스트럭처, 결국 해커에 몸값 지불... 미 의회는 조사 착수",
+      "url": "http://www.boannews.com/media/view.asp?idx=143612&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 09:54:00 +0900",
+      "summary": "샤이니헌터스에 2차례 공격 당해... 주요 대학 등 고객 교육기관 학사 일정 차질[보안뉴스 김형근 기자] 교육기술 기업 인스트럭처(Instructure)가 자사 학사 관리 플랫폼 ‘캔버스’(Canvas)에서 정보를 훔친 해커 조직 샤이니헌터스(ShinyHunters)에게 랜섬웨어 대가를 지불했다고 공식 인정했다.샤이니헌터스는 1일(현지시간) 1차 침투에 이"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "ae90162766b4",
+      "title": "디사일로, 5세대 동형암호 ‘GL’ 국제 학계 공인... 세계암호학회 논문 2편 채택",
+      "url": "http://www.boannews.com/media/view.asp?idx=143610&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 09:22:00 +0900",
+      "summary": "동형암호 창시자 공동 연구... 행렬 연산 속도 수백 배 향상“데이터 유출 없는 프라이빗 AI 시대 앞당겨” [보안뉴스 강현주 기자] 동형암호(FHE) 및 프라이버시 강화 기술(PET) 전문 기업 디사일로(대표 이승명)는 자사 연구진이 주도한 5세대 동형암호 스킴 ‘GL’ 관련 논문 2편이 세계 최고 권위의 암호학 학술대회 ‘크립토 2026’(Crypto"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "ff35b2c02296",
+      "title": "[만화로 보는 피싱] #3. “해킹 피해 점검하게 앱 설치 좀”... 그게 해킹이다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143609&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Thu, 14 May 2026 07:37:00 +0900",
+      "summary": "사회적 이슈로 현혹해 링크 클릭 유도 스미싱 주의낯선 앱 함부로 설치하면 금융정보까지 털려[보안뉴스 강현주 기자] “고객님 폰이 해킹됐습니다. 아래 링크를 통해 원격 앱을 설치해 주시면 보안을 점검하고 강화해드리겠습니다”통신사 해킹 사고 뉴스를 보다가 문자를 받은 순영씨. 메시지와 함께 웬 링크가 하나 와 있다. “그래 요즘 통신사 전부 해킹 사고를 당했다"
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "283f752331d0",
+      "title": "MS 5월 보안 위협에 따른 정기 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72051",
+      "translateUrl": "",
+      "published": "2026-05-14",
+      "summary": ""
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "f9462ef98fe5",
+      "title": "Linux Kernel 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72050",
+      "translateUrl": "",
+      "published": "2026-05-14",
+      "summary": ""
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -30,76 +120,6 @@
       "translateUrl": "",
       "published": "Wed, 13 May 2026 14:51:00 +0900",
       "summary": "탐지와 예측형 사이버 방어 간 격차 해소 새로운 인지 코어가 능동적 탐지와 지원형 대응 조율… 기계 속도 위협 능가 [보안뉴스 한세희 기자] 그룹아이비(지사장 김기태)는 공격자 의도와 인프라를 사전 파악하는 통합 지능형 보안 엔진 ‘프레빈 AI’(Prevyn AI)를 출시한다고 13일 밝혔다. 수십 년간 축적된 방대한 데이터를 실시간 인사이트와 즉각적 대응"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "2d90f73f6fc1",
-      "title": "[양자와 보안] 이와이엘, 양자내성암호 암호 보드 개발... 암복호화 속도 높였다",
-      "url": "http://www.boannews.com/media/view.asp?idx=143605&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 14:19:00 +0900",
-      "summary": "양자난수생성(QRNG)과 양자내성암호(PQC) 결합통합 하드웨어 솔루션으로 연산 속도 느린 기존 PQC 한계 극복 양자보안 체계 국방·금융·인프라 시장 공략[보안뉴스 한세희 기자] 이와이엘(대표 정부석)이 연산 속도를 대폭 향상시킨 양자내성암호(PQC) 암호보드를 개발했다고 13일 밝혔다. 이와이엘이 보유한 초소형 양자난수생성기(QRNG) 기술을 기반으로"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "31016aff7e25",
-      "title": "[인사] 과학기술정보통신부",
-      "url": "http://www.boannews.com/media/view.asp?idx=143604&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 13:28:00 +0900",
-      "summary": "◇국장급 기관 간 전보△통신정책관 남석(개인정보보호위원회사무처 조사조정국장)(2026.05.14.자)[원병철 기자(boanone@boannews.com)]www.boannews.com) 무단전재-재배포금지>"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "30034943c167",
-      "title": "아카마이 “AI 확산 속 API 위협 급증... 사고당 손실 100만달러 돌파”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143601&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 13:09:00 +0900",
-      "summary": "아·태지역 보안 의사결정자 대상 API 보안 영향 연구 결과 발표LLM 등 AI 연계 API 겨냥 공격 최다, 가시성 확보는 22% 불과[보안뉴스 조재호 기자] 기업들의 AI 도입이 가속화되는 가운데, 이를 뒷받침하는 API 보안에서 심각한 취약점이 드러나고 있다. 아카마이테크놀로지스가 13일 발표한 ‘API 보안 영향 연구 아시아태평양 에디션’에 따르면,"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "5b08ea6705d0",
-      "title": "[2026 비식별화 솔루션 리포트] 지우는 데이터에서 활용하는 데이터로... 안전한 AI 거버넌스 이끈다",
-      "url": "http://www.boannews.com/media/view.asp?idx=143580&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 11:53:00 +0900",
-      "summary": "개인정보 유출 피해 원천 차단... 비정형 데이터 탐지 및 제거 국내외 개인정보 관련 정부 규제 강화, 컴플라이언스 수요 확대조직 내 AI 활용 위한 데이터 학습 및 관리 수요 증가... 활용성과 안전 사이 균형이 핵심 비식별 솔루션 전문기업 집중분석: 에이씨엔에스, 펜타시스템, 엘세븐시큐리티 [보안뉴스 한세희 기자] 선한 마음으로 기부했다 날벼락을 맞은"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "082bd8adfdde",
-      "title": "가비아 하이웍스, ‘그룹웨어 프리미엄’ 출시... “AI 문서 생성·공동편집·저장 한 흐름”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143602&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 10:58:00 +0900",
-      "summary": "클라우드 드라이브 용량 확대·실시간 문서 공동편집멀티 AI 사용량 2배[보안뉴스 강현주 기자] 클라우드 전문 기업 가비아(공동대표 김홍국·원종홍)가 올인원 업무 플랫폼 ‘하이웍스’의 신규 상품인 ‘그룹웨어 프리미엄’을 13일 출시했다. 그룹웨어 프리미엄은 문서 관리부터 협업·AI 활용까지 핵심 업무 기능을 집약한 통합형 상품이다.통합 환경에 대한 수요는 기"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "ac8dbb3d958e",
-      "title": "포티넷-엔비디아, 기업용 AI 보안 솔루션 ‘포티AI게이트’ 고도화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143600&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 10:38:00 +0900",
-      "summary": "“기업 AI 환경에 제로트러스트 보안·데이터 주권 실현”[보안뉴스 강현주 기자] 글로벌 네트워크 보안 융합 솔루션 기업 포티넷(CEO 켄 지)이 엔비디아의 AI 플랫폼 및 소프트웨어 기술을 접목한 포티AI게이트(FortiAIGate) 솔루션을 13일 발표했다. AI 워크로드 보안과 데이터 주권이라는 두 과제를 동시에 해결하는 이 솔루션은 데이터센터와 클라우"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "a3e4443953c2",
-      "title": "美 FCC, 외산 공유기·드론 업데이트 차단 조치 2029년으로 유예... “취약점 방치 막는다”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143597&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Wed, 13 May 2026 10:12:00 +0900",
-      "summary": "소비자기술협회(CTA) “업데이트 차단하면 오히려 국가 안보 위협 초래” 경고 수용공급망 배제 명분보다 실질적 보안 패치 우선한 융합보안 거버넌스 현실적 타협[보안뉴스 김형근 기자] 미국 정부가 국가 안보를 이유로 추진했던 외산 통신 장비 규제 정책이 사이버 보안의 현실적 제약에 부딪혀 한발 물러섰다. 이념적 공급망 통제보다 기존 인프라의 안정성을 챙긴 실"
     },
     {
       "source": "ASEC KR",
@@ -239,26 +259,6 @@
       "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72041",
       "translateUrl": "",
       "published": "2026-05-06",
-      "summary": ""
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "9441c5307785",
-      "title": "Apache 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72040",
-      "translateUrl": "",
-      "published": "2026-05-06",
-      "summary": ""
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "d085c8fe1a8c",
-      "title": "Linux Kernel 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72039",
-      "translateUrl": "",
-      "published": "2026-04-30",
       "summary": ""
     },
     {
@@ -422,6 +422,26 @@
       "summary": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its ta"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "4bd1ee2f3a61",
+      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+      "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwest-pharmaceutical-says-hackers-stole-data-encrypted-systems%2F",
+      "published": "Wed, 13 May 2026 18:23:31 -0400",
+      "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "9f05964a2717",
+      "title": "Iranian hackers targeted major South Korean electronics maker",
+      "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Firanian-hackers-targeted-major-south-korean-electronics-maker%2F",
+      "published": "Wed, 13 May 2026 17:59:33 -0400",
+      "summary": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and countries. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "bd7da8b567b6",
@@ -440,6 +460,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmost-remediation-programs-never-confirm.html",
       "published": "Wed, 13 May 2026 17:00:00 +0530",
       "summary": "Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "78e2879062ec",
+      "title": "New critical Exim mailer flaw allows remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-critical-exim-mailer-flaw-allows-remote-code-execution%2F",
+      "published": "Wed, 13 May 2026 16:23:50 -0400",
+      "summary": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]"
     },
     {
       "source": "The Hacker News",
@@ -562,16 +592,6 @@
       "summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\" \"We're dealing with a major malicious att"
     },
     {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "ec5d4d4cf7f5",
-      "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fus-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack%2F",
-      "published": "Tue, 12 May 2026 19:09:55 -0400",
-      "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion group that targeted the company's Canvas platform, allowing threat actors"
-    },
-    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "4340e9c3f058",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fnew-trickmo-variant-uses-ton-c2-and.html",
       "published": "Tue, 12 May 2026 18:20:00 +0530",
       "summary": "Cybersecurity researchers have flagged a new version of the TrickMo Android banking trojan that uses The Open Network (TON) for command-and-control (C2). The new variant, observed by ThreatFabric between January and Febr"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "de693e91b9d2",
-      "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fuk-fines-water-supplier-13m-for-exposing-data-of-664k-customers%2F",
-      "published": "Tue, 12 May 2026 16:17:19 -0400",
-      "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc £963,900 ($1.3 million) over a cyberattack that exposed the personal data of 663,887 customers and "
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "42ed9ffae974",
-      "title": "Webinar: Fixing the gaps in network incident response",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-fixing-the-gaps-in-network-incident-response%2F",
-      "published": "Tue, 12 May 2026 15:46:04 -0400",
-      "summary": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automation and AI-assisted workflows can reduce response times and help preven"
     }
   ],
   "errors": []
