@@ -1,105 +1,105 @@
 {
-  "generated_at": "2026-05-14T20:01:04.085556+00:00",
+  "generated_at": "2026-05-15T04:15:25.154850+00:00",
   "items": [
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "5a088c796fed",
-      "title": "강병탁 AI스페라 대표, “AI 시대 보안은 ‘운영’... 에이전트 CTEM 출격”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143627&kind=&sub_kind=",
+      "slug": "c2ae08d232bb",
+      "title": "시큐아이, 고성능 차세대 방화벽 BLUEMAX NGF PRO 출시",
+      "url": "http://www.boannews.com/media/view.asp?idx=143659&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 18:15:00 +0900",
-      "summary": "“미토스 대응? 기술 앞서 문화 개선부터”“중소기업 보안 미흡, 대기업 보안까지 위협”[보안뉴스 강현주 기자] “AI 위협 대응은 발견된 취약점을 실제 조치로 빠르게 연결하는 ‘운영’ 체계 마련이 우선입니다. AI 시대 공격표면관리(ASM)의 다음 단계는 지속적 위협노출관리(CTEM)에 AI 에이전트를 접목한 ‘AI TEM’입니다.”강병탁 AI스페라 대표"
+      "published": "Fri, 15 May 2026 13:08:00 +0900",
+      "summary": "글로벌 최고 수준의 고성능·지능형·ZTNA 방화벽 선보여통신·금융·IDC 중심 하이엔드 시장 공략 본격화[보안뉴스 원병철 기자] 시큐아이(정삼용 대표)가 AI 기반 고성능 차세대 방화벽 BLUEMAX NGF PRO를 출시했다고 15일 밝혔다. 최근 AI와 클라우드 활용도가 높아지며 기업 내부 트래픽이 폭발적으로 늘고 있다. 여기에 지능화된 해킹 공격이 지속"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "c6bbff7997c8",
-      "title": "이번엔 마이크로소프트... 새 AI 보안 시스템 MDASH, 취약점 탐지 성적 미토스 넘어",
-      "url": "http://www.boannews.com/media/view.asp?idx=143626&kind=&sub_kind=",
+      "slug": "6ee974faf81a",
+      "title": "세이지, 인천공항 AI 안전 관제 공모전 대상 수상",
+      "url": "http://www.boannews.com/media/view.asp?idx=143650&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 18:05:00 +0900",
-      "summary": "100개 이상 특화 에이전트 조율해 취약점 탐지... 비공개 프리뷰로 공개[보안뉴스 한세희 기자] 마이크로소프트가 100개 이상의 인공지능(AI) 에이전트를 연결해 취약점을 찾아내는 AI 보안 시스템 ‘MDASH’를 공개했다. 벤치마크 테스트에서 앤트로픽 ‘미토스’나 오픈AI GPT-5.5를 앞서는 결과를 냈다. MDASH는 ‘Multi-moDel Agen"
+      "published": "Fri, 15 May 2026 11:37:00 +0900",
+      "summary": "인천국제공항공사 주관 ‘AI-PORT 아이디어 공모전’ AI 스타트업 부문 대상Edge NPU 기반 침입·헬멧 미착용·쓰러짐 감지 기술 제안대상 수상으로 인천공항 내 기술실증(PoC) 추진[보안뉴스 강초희 기자] 세이지(공동대표 박종우·홍영석)가 인천국제공항공사 주관 ‘인천공항 AI-PORT 아이디어 공모전’ AI 스타트업 부문에서 대상을 수상했다. 이 회"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "56bbc3c052e9",
-      "title": "AI 에이전트 시대의 보안... 팔로알토, 아이덴티티 보안 플랫폼 ‘이디라’(Idira) 출시",
-      "url": "http://www.boannews.com/media/view.asp?idx=143624&kind=&sub_kind=",
+      "slug": "01c01711fb46",
+      "title": "서초구, AI 기반 침수 계측·경보 시스템 본격 가동",
+      "url": "http://www.boannews.com/media/view.asp?idx=143653&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 15:37:00 +0900",
-      "summary": "인간, 기계, 자율형 AI 에이전트 아우르는 차세대 아이덴티티 보안 플랫폼 이디라(Idira) 공개사이버아크(CyberArk) 전문성 결합, 특권접근관리(PAM) 기술 동적 확장 구현[보안뉴스 조재호 기자] 기계와 AI 아이덴티티(Identity)가 인간보다 109배 많아진 2026년, 사이버 공격자들은 시스템을 파괴하는 대신 정상 신원을 도용해 ‘로그인’"
+      "published": "Fri, 15 May 2026 11:33:00 +0900",
+      "summary": "강남역 등 상습 침수지역 7개소·하천 3개소 배치, 재난상황실과 실시간 연계AI 기반 지능형 CCTV와 철저한 수해 대책으로 재난 대응 역량 강화[보안뉴스 강초희 기자] 서울 서초구(구청장 전성수)가 15일부터 운영되는 수해 대책기간을 맞아 ‘AI 기반 침수 계측·경보 시스템’을 본격 가동한다.구는 최근 기후변화로 인해 증가하는 극한 호우와 저지대 침수 피"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "2771165db7ef",
-      "title": "SK쉴더스 “중소기업 해킹 인지까지 106.1일... 야간 틈탄 랜섬웨어 기승”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143623&kind=&sub_kind=",
+      "slug": "d0901fd6be14",
+      "title": "지니언스, 1분기 영업익 47배 폭발 성장",
+      "url": "http://www.boannews.com/media/view.asp?idx=143658&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:53:00 +0900",
-      "summary": "최근 5년간 중소·중견기업 대상 사이버 침해사고 실태최초 침투 후 조사 착수까지 평균 106.1일 소요, 방어 골든타임 상실전체 사고 47.4% 제조업에 집중... 24시간 상시 대응 위한 MDR 도입 필요해[보안뉴스 조재호 기자] 보안 인력과 인프라가 상대적으로 부족한 중소·중견기업을 겨냥한 사이버 공격이 갈수록 고도화되며 기업 비즈니스 연속성을 심각하게"
+      "published": "Fri, 15 May 2026 11:24:00 +0900",
+      "summary": "전제품 성장... 매출 117억4000만원, 영업익 17억4000만원 AI 위협 및 정부 규제 강화로 하반기 성장 기대[보안뉴스 강현주 기자] 사이버 보안 전문 기업 지니언스(대표 이동범)가 1분기 사상 최대 실적을 기록하며 본격적인 ‘어닝 서프라이즈’를 달성했다.15일 지니언스는 2026년 연결 기준 1분기 매출액이 전년 동기 대비 25.5% 증가한 11"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "edc9dc2f4312",
-      "title": "“태권도 단증도 스마트폰에 쏙”... 국기원에 ‘옴니원 디지털 ID’ 공급",
-      "url": "http://www.boannews.com/media/view.asp?idx=143621&kind=&sub_kind=",
+      "slug": "b2e783e30105",
+      "title": "솔텍인포넷, 국산 매니지먼트 스위치 전 라인업에 PTP 탑재",
+      "url": "http://www.boannews.com/media/view.asp?idx=143655&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:29:00 +0900",
-      "summary": "품·단증 등 27종 블록체인 기반 모바일 신원증명으로 전환분산신원인증(DID) 기술로 위변조 원천 차단[보안뉴스 조재호 기자] 플라스틱 카드와 종이 형태로 발급되던 태권도 단증이 스마트폰 속 디지털 지갑으로 들어왔다. 라온시큐어가 국기원 태권도 품·단증과 자격증을 디지털 신원증명 방식으로 구축하는 ‘국기원 디지털아이디’ 사업을 성공적으로 완료했다고 14일"
+      "published": "Fri, 15 May 2026 11:22:00 +0900",
+      "summary": "국산 기술 기반 초정밀 시간 동기화 지원[보안뉴스 강초희 기자] 솔텍인포넷(대표 이동화)이 자사 매니지먼트급 스위치 라인업 전 제품에 초정밀 시간 동기화 기술인 PTP(IEEE 1588v2) 기능을 탑재했다. 전 제품을 국내에서 생산해 온 솔텍인포넷은 이번 기능 강화를 통해 국산 네트워크 장비 기술 경쟁력을 한층 끌어올렸다는 평가를 받고 있다.이번 업데이트"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "fb3c6aa64267",
-      "title": "SKT, 해킹 후 CPO 관리·감독 강화... 사고 기업들 이행 결과 발표",
-      "url": "http://www.boannews.com/media/view.asp?idx=143622&kind=&sub_kind=",
+      "slug": "bb39f0cb7772",
+      "title": "“리눅스 커널 뚫렸다” 페이지 캐시 오염시키는 신종 결함 ‘프래그네시아’ 발견",
+      "url": "http://www.boannews.com/media/view.asp?idx=143652&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:28:00 +0900",
-      "summary": "개인정보위, 2025년 하반기 시정명령 이행점검[보안뉴스 강현주 기자] SK텔레콤(SKT)이 대규모 개인정보 유출 사고 후 개인정보보호책임자(CPO)의 관리·감독을 강화하는 등 개선 권고를 적극적으로 이행했다. 개인정보보호위원회(위원장 송경희)는 개인정보 보호법 위반으로 시정명령(권고), 개선권고를 처분한 조직들의 이행점검 결과를 14일 발표했다. 개인정보"
+      "published": "Fri, 15 May 2026 11:19:00 +0900",
+      "summary": "리눅스 커널 XFRM 하위 시스템 로직 오류 악용한 신규 취약점레이스 컨디션 없이 읽기 전용 데이터 조작, 루트(Root) 권한 탈취[보안뉴스 김형근 기자] 리눅스 커널에서 일반 사용자가 관리자 최고 권한을 무단 장악할 수 있는 치명적 보안 결함이 발견됐다.보안 기업 위즈(Wiz)는 최근 리눅스 커널에서 발견된 고위험 취약점 ‘더티 프래그’(Dirty Fr"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "2e75fcd346f9",
-      "title": "한국재난안전산업협회, 기술발표회 통해 AI·데이터 기반 재난안전 기술 협력 본격화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143620&kind=&sub_kind=",
+      "slug": "52fa523f0a0c",
+      "title": "KISA·서울경찰청 “공공기관 번호 도용한 불법 스팸 통신사 무더기 검거”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143657&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:22:00 +0900",
-      "summary": "회원사 중심 산업 플랫폼 역할 강화[보안뉴스 엄호식 기자] 한국재난안전산업협회(회장 서병일)는 5월 12일 서울 강서구 사이언스타 대회의실에서 ‘회원사 간담회 및 기술 발표회(2026년 1차)’를 개최하고 재난안전 AI·데이터 활용 동향과 회원사 기술 사례를 공유했다.‘재난안전 AI·데이터 활용의 현주소’를 주제로 열린 이날 행사에는 서울·경기를 비롯해 전"
+      "published": "Fri, 15 May 2026 11:12:00 +0900",
+      "summary": "우체국 등 신뢰도 높은 금융·공공기관 대표번호 무단 도용한 보이스피싱 정황 포착KISA 스팸 데이터 분석과 서울경찰청 현장 수사, 중앙전파관리소 기술 지원 전방위 공조[보안뉴스 조재호 기자] 대출 금리 인하와 신용카드 발급을 미끼로 서민 지갑을 노린 악질 보이스피싱 시도가 통신망 최전선에서 차단됐다.한국인터넷진흥원(KISA)은 서울경찰청과 공조 수사를 통해"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "674c9aa2002f",
-      "title": "한국특허정보원, 제10대 강병삼 신임 원장 취임",
-      "url": "http://www.boannews.com/media/view.asp?idx=143619&kind=&sub_kind=",
+      "slug": "bafb52ffa882",
+      "title": "TTA, ‘경기도청 인공지능 거버넌스’에 국내 1호 인공지능 신뢰성 인증(CAT) 부여",
+      "url": "http://www.boannews.com/media/view.asp?idx=143649&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:10:00 +0900",
-      "summary": "지능정보로 IP 혁신 선도하는 명품 정보원 도약 다짐[보안뉴스 엄호식 기자] 한국특허정보원은 5월 12일 이사회를 통해 신임 원장으로 강병삼(姜炳三) 전(前) 연구개발특구진흥재단 이사장을 선임 의결했다고 밝혔다. 강병삼 신임 원장은 1991년 기술고시(제26회)를 통해 공직에 입문한 이래, 노동부·상공부 사무관, 과학기술부 원천기술과장·국제협력총괄담당관,"
+      "published": "Fri, 15 May 2026 11:08:00 +0900",
+      "summary": "국제표준(ISO/IEC 38507:2022) 기반 AI 거버넌스 체계에 대한 국내 첫 인증공공 영역 투명하고 책임 있는 AI 도입·운영 체계 평가[보안뉴스 강초희 기자] 한국정보통신기술협회(TTA, 회장 손승현)는 14일 경기도청이 구축한 ‘인공지능 거버넌스’ 체계에 대해 ‘인공지능 신뢰성 인증’(CAT, Certification of Artificial"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "974e8fd63bb8",
-      "title": "포티넷, 무선 AP 및 네트워크 운영체제 등 핵심 제품군 5종 ‘보안 패치’ 배포",
-      "url": "http://www.boannews.com/media/view.asp?idx=143616&kind=&sub_kind=",
+      "slug": "a59d51da786c",
+      "title": "에프에스네트웍스, IP 카메라 ‘보안기능 확인서(VSFT)’ 획득",
+      "url": "http://www.boannews.com/media/view.asp?idx=143656&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:06:00 +0900",
-      "summary": "포티샌드박스 및 관련 클라우드 서비스 인증 우회 취약점 ‘CVE-2026-26083’ 등 담겨[보안뉴스 원병철 기자] 포티넷(Fortinet)이 무선 액세스 포인트(AP) 컨트롤러와 네트워크 운영체제 등 주요 제품군에서 발견된 5가지 취약점에 대한 보안 권고를 발표했다. 포티넷 제품 보안 사고 대응팀(PSIRT)에 따르면 가장 위험도가 높은 결함은 포티샌드"
+      "published": "Fri, 15 May 2026 10:55:00 +0900",
+      "summary": "업계 최대 18개 제품 인증 획득으로 공공 CCTV 보안 시장 선도[보안뉴스 엄호식 기자] 에프에스네트웍스(대표 이화수)가 자사의 IP 카메라 제품 ‘FS IP Camera V1.0’에 대해 국가정보원 보안기능 확인서(VSFT: Validation Scheme for Security Functions and Technologies)를 획득했다고 밝혔다. 보"
     },
     {
       "source": "보안뉴스",
       "region": "domestic",
-      "slug": "3c292a0e5ea5",
-      "title": "슈프리마, AI 생체인식 단말기 바이오스테이션 3 맥스 출시",
-      "url": "http://www.boannews.com/media/view.asp?idx=143618&kind=&sub_kind=",
+      "slug": "9f9053f7cf78",
+      "title": "‘단가 인상’ 메일 철렁해도 클릭 주의... 가짜 공문 피싱 기승",
+      "url": "http://www.boannews.com/media/view.asp?idx=143654&kind=&sub_kind=",
       "translateUrl": "",
-      "published": "Thu, 14 May 2026 14:02:00 +0900",
-      "summary": "강력한 자체 보안 플랫폼 기반신원 최우선 보안 선도다중 인증(MFA) 및 폭넓은 인증 수단 지원으로 출입통제 시장에 새로운 기준 제시[보안뉴스 엄호식 기자] AI 기반 통합 보안 및 출입통제 솔루션 전문기업 슈프리마(대표 이재원, 김한철)가 새로운 플래그십 제품인 AI 생체인식 단말기 ‘바이오스테이션 3 맥스’(BioStation 3 Max)를 출시했다고"
+      "published": "Fri, 15 May 2026 10:48:00 +0900",
+      "summary": "공급망 불안 악용 가짜 로그인 페이지 정보 입력 유도[보안뉴스 강현주 기자] ‘단가 인상’이라는 심장 철렁한 메일 제목에 현혹되면 안된다. 15일 안랩(대표 강석균)은 최근 전 세계적인 공급망 불안을 틈타 단가 인상 공문으로 위장해 계정 정보 탈취를 시도하는 피싱 메일을 발견하고 사용자 주의를 당부했다.이번 사례에서 공격자는 ‘단가 인상 공문’이라는 제목으"
     },
     {
       "source": "KISA 보안공지",
@@ -184,16 +184,6 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "18b0344ccac7",
-      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93632/",
-      "translateUrl": "",
-      "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "13694c21e894",
       "title": "2026년 4월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93627/",
@@ -210,6 +200,16 @@
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
       "summary": "알림 2026년 4월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 BreachForums는 신규 도메인을 공개하며 재가동을 이어갔고, 운영 업데이트 공지를 반복했다. 동시에 PwnForums 같은 사칭 포럼이 등장했고, BreachForums 측은 이에 대한 경고"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "18b0344ccac7",
+      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93632/",
+      "translateUrl": "",
+      "published": "Sun, 10 May 2026 15:00:00 +0000",
+      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
     },
     {
       "source": "KISA 보안공지",
@@ -442,6 +442,16 @@
       "summary": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber e"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "a77d09ffefb4",
+      "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+      "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fteampcp-hackers-advertise-mistral-ai-code-repos-for-sale%2F",
+      "published": "Thu, 14 May 2026 18:50:36 -0400",
+      "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "58ed761e28a8",
@@ -452,6 +462,16 @@
       "summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerabili"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "991d43795e3e",
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin%2F",
+      "published": "Thu, 14 May 2026 17:07:17 -0400",
+      "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "dc7f8c1855ee",
@@ -460,6 +480,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fhow-ai-hallucinations-are-creating-real.html",
       "published": "Thu, 14 May 2026 17:00:00 +0530",
       "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "d6cd85a81ea5",
+      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks%2F",
+      "published": "Thu, 14 May 2026 16:09:56 -0400",
+      "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on co"
     },
     {
       "source": "BleepingComputer",
@@ -570,36 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-17",
       "published": "Thu, 14 May 26 12:00:00 +0000",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and execute code. The following versions of Universal Robots Polyscope 5 are affected: Polyscope 5 CVSS "
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "690b90b23c49",
-      "title": "Siemens Ruggedcom Rox",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-11",
-      "published": "Thu, 14 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the feature key installation process that could allow an authenticated remote attacker to execute arbitrary commands with root privileges on t"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "d339359a3150",
-      "title": "Siemens Teamcenter",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-04",
-      "published": "Thu, 14 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new versions for the affected"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "99b7376e9c04",
-      "title": "Siemens Solid Edge",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-03",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-03",
-      "published": "Thu, 14 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Solid Edge SE2026 before Update 5 is affected by two file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR format. This could allow an attacker t"
     }
   ],
   "errors": []
