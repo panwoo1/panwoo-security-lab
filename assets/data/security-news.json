@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:32:27.887843+00:00",
+  "generated_at": "2026-05-15T19:52:43.405984+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -184,6 +184,16 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
+      "slug": "18b0344ccac7",
+      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93632/",
+      "translateUrl": "",
+      "published": "Sun, 10 May 2026 15:00:00 +0000",
+      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
       "slug": "13694c21e894",
       "title": "2026년 4월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93627/",
@@ -200,16 +210,6 @@
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
       "summary": "알림 2026년 4월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 BreachForums는 신규 도메인을 공개하며 재가동을 이어갔고, 운영 업데이트 공지를 반복했다. 동시에 PwnForums 같은 사칭 포럼이 등장했고, BreachForums 측은 이에 대한 경고"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
-      "slug": "18b0344ccac7",
-      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93632/",
-      "translateUrl": "",
-      "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
     },
     {
       "source": "KISA 보안공지",
@@ -404,6 +404,26 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "52d77ff8bfbf",
+      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+      "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fturla-turns-kazuar-backdoor-into.html",
+      "published": "Fri, 15 May 2026 22:40:25 +0530",
+      "summary": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "3d84935ad4c5",
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffour-openclaw-flaws-enable-data-theft.html",
+      "published": "Fri, 15 May 2026 19:05:04 +0530",
+      "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "9e4e6c1629b1",
       "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
       "url": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
@@ -420,6 +440,56 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftanstack-supply-chain-attack-hits-two.html",
       "published": "Fri, 15 May 2026 16:24:44 +0530",
       "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual p"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "107286687829",
+      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+      "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ffunnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards%2F",
+      "published": "Fri, 15 May 2026 15:30:33 -0400",
+      "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "2d5e8864fcf8",
+      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+      "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fpwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days%2F",
+      "published": "Fri, 15 May 2026 13:47:25 -0400",
+      "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "c0df2df4e685",
+      "title": "Popular node-ipc npm package compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fpopular-node-ipc-npm-package-compromised-to-steal-credentials%2F",
+      "published": "Fri, 15 May 2026 13:10:42 -0400",
+      "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "94a074a27710",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F15%2Fcisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Fri, 15 May 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting Vulnerability This type "
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "beed15649430",
+      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
+      "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Favada-builder-wordpress-plugin-flaws-allow-site-credential-theft%2F",
+      "published": "Fri, 15 May 2026 11:56:56 -0400",
+      "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the database. [...]"
     },
     {
       "source": "The Hacker News",
@@ -440,6 +510,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisa-adds-cisco-sd-wan-cve-2026-20182.html",
       "published": "Fri, 15 May 2026 10:58:03 +0530",
       "summary": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV) catalog, requiring"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "c6f4e12c4715",
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup%2F",
+      "published": "Fri, 15 May 2026 10:49:39 -0400",
+      "summary": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]"
     },
     {
       "source": "BleepingComputer",
@@ -520,86 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fteampcp-hackers-advertise-mistral-ai-code-repos-for-sale%2F",
       "published": "Thu, 14 May 2026 18:50:36 -0400",
       "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "58ed761e28a8",
-      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
-      "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fpraisonai-cve-2026-44338-auth-bypass.html",
-      "published": "Thu, 14 May 2026 17:10:14 +0530",
-      "summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of its public disclosure. The vulnera"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "991d43795e3e",
-      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin%2F",
-      "published": "Thu, 14 May 2026 17:07:17 -0400",
-      "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "dc7f8c1855ee",
-      "title": "How AI Hallucinations Are Creating Real Security Risks",
-      "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fhow-ai-hallucinations-are-creating-real.html",
-      "published": "Thu, 14 May 2026 17:00:00 +0530",
-      "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "d6cd85a81ea5",
-      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks%2F",
-      "published": "Thu, 14 May 2026 16:09:56 -0400",
-      "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on co"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "3b58f1c8bfe2",
-      "title": "OpenAI confirms security breach in TanStack supply chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fopenai-confirms-security-breach-in-tanstack-supply-chain-attack%2F",
-      "published": "Thu, 14 May 2026 15:07:24 -0400",
-      "summary": "OpenAI says two employees' devices were breached in the recent TanStack supply chain attack that impacted hundreds of npm and PyPI packages, causing the company to rotate code-signing certificates for its applications as"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "2ba8c6099c01",
-      "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
-      "url": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwindows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026%2F",
-      "published": "Thu, 14 May 2026 14:53:50 -0400",
-      "summary": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "792ae515556f",
-      "title": "Siemens Siemens ROS#",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-08",
-      "published": "Thu, 14 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary files, which are access"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "51ddefb099eb",
-      "title": "Siemens gWAP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-01",
-      "published": "Thu, 14 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client library. The vulnerability "
     }
   ],
   "errors": []
