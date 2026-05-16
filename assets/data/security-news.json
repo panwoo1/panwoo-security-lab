@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T13:57:05.111434+00:00",
+  "generated_at": "2026-05-16T19:21:40.225141+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,6 +404,26 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "f7c2e8f0e1e7",
+      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
+      "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffunnel-builder-flaw-under-active.html",
+      "published": "Sat, 16 May 2026 20:50:48 +0530",
+      "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stea"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "8ee6b2ddff07",
+      "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Frussian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet%2F",
+      "published": "Sat, 16 May 2026 10:15:37 -0400",
+      "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "52d77ff8bfbf",
       "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
       "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthreatsday-bulletin-pan-os-rce-mythos.html",
       "published": "Thu, 14 May 2026 21:37:46 +0530",
       "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Ha"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "cb45df31e3e4",
-      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-      "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fghostwriter-targets-ukrainian.html",
-      "published": "Thu, 14 May 2026 19:30:37 +0530",
-      "summary": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber e"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "a77d09ffefb4",
-      "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
-      "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fteampcp-hackers-advertise-mistral-ai-code-repos-for-sale%2F",
-      "published": "Thu, 14 May 2026 18:50:36 -0400",
-      "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. [...]"
     }
   ],
   "errors": []
