@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-17T13:54:59.956526+00:00",
+  "generated_at": "2026-05-17T19:34:23.610804+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "64b081feeea3",
+      "title": "[국내 상장 보안기업 매출분석-2] 생체인식·출입통제 분야, AI로 장밋빛 미래 앞당긴다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143436&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Mon, 18 May 2026 00:13:00 +0900",
+      "summary": "생체인식·출입통제 7개사, 적자 속 재무안정·신사업 확장 모색[보안뉴스 엄호식 기자] 국내 생체인식·출입통제 시장은 기술 고도화와 신사업 확장을 통해 활로를 모색하고 있다. 딥노이드는 공항 X-Ray AI 솔루션 성과를 기반으로 의료 AI 집중 전략을 강화하고 있으며, 슈프리마에이치큐는 매출과 영업이익이 늘었지만 순이익은 감소했다. 시선AI는 매출 감소와"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "4e4c809269cc",
+      "title": "[속담으로 배우는 100가지 보안 습관-15] 돌다리도 두드려 보고 건너라(5)-루팅·탈옥, 편의보다 위험이 더 큰 이유",
+      "url": "http://www.boannews.com/media/view.asp?idx=143240&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 17 May 2026 23:44:00 +0900",
+      "summary": "루팅(Rooting)이나 탈옥(Jailbreak)은 보안 벽을 허무는 행위 될 수 있어[보안뉴스 박미영 기자] 루팅(Rooting)·탈옥(Jailbreak)은 기기 운영체제의 보안 계층을 우회해 루트 권한을 얻는 행위로, 보안 벽을 허물 수 있다는 점에서 보안 위험을 키울 수 있다. 다만 루팅·탈옥 자체가 항상 불법이거나 무조건 위험한 것은 아니며, 목적("
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -80,26 +100,6 @@
       "translateUrl": "",
       "published": "Sat, 16 May 2026 09:24:00 +0900",
       "summary": "인증 없이 원격 코드 실행(RCE)과 서버 권한 탈취 가능성 제기F5 “최신 버전 즉시 업데이트 필요” 추가 취약점 3종도 함께 패치[보안뉴스 김형근 기자] 전 세계 웹 서버 시장에서 널리 사용되는 엔진엑스 플러스(NGINX Plus) 및 엔진엑스 오픈소스(NGINX Open Source)에서 18년 간 발견되지 않았던 심각한 보안 취약점이 공개됐다.‘엔진"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "90cad08613de",
-      "title": "아톤, 1분기 매출 148억원, 영업익 4억원... “신사업 선행투자 영향, 하반기 개선”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143668&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 15 May 2026 17:15:00 +0900",
-      "summary": "디지털화폐 인프라 사업 확대 등 영향“2분기 이후 매출 기여 본격화 전망”[보안뉴스 강현주 기자] 아톤(대표 우길수)은 2026년 1분기 연결 기준 매출액 148억원, 영업이익 4억원을 기록했다고 15일 밝혔다. 1분기 실적은 신규 사업 확장에 따른 선행 비용이 지속되는 가운데, 주요 프로젝트의 매출 인식이 2분기부터 집중된 영향이다. 2025년부터 본격"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "6993b5b79e39",
-      "title": "이노뎁, 1분기 실적 발표... 유지보수 매출 성장과 해외·민수시장 확대 지속",
-      "url": "http://www.boannews.com/media/view.asp?idx=143667&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 15 May 2026 17:00:00 +0900",
-      "summary": "유지보수 매출 전년 동기 대비 2배 이상 성장... 반복매출 기반 확대해외 전시회·PoC·AI 서비스 실증 통해 기업가치 회복 전략 실행[보안뉴스 강초희 기자] 이노뎁(대표 이성진)은 2026년 1분기 실적을 발표하고, 유지보수 매출 성장과 비용 효율화, 해외·민수시장 확대를 중심으로 기업가치 회복을 위한 실행을 지속하고 있다고 밝혔다.2026년 1분기 연"
     },
     {
       "source": "KISA 보안공지",
@@ -404,12 +404,32 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "c17577b41e6a",
+      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+      "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fnginx-cve-2026-42945-exploited-in-wild.html",
+      "published": "Sun, 17 May 2026 17:27:53 +0530",
+      "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 ("
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "570d34eb2ef0",
       "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
       "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fgrafana-github-token-breach-led-to.html",
       "published": "Sun, 17 May 2026 12:43:33 +0530",
       "summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer d"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "ef1239be17be",
+      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
+      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ftycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing%2F",
+      "published": "Sun, 17 May 2026 10:43:10 -0400",
+      "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]"
     },
     {
       "source": "The Hacker News",
@@ -580,26 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-to-automatically-roll-back-faulty-windows-drivers%2F",
       "published": "Fri, 15 May 2026 08:29:48 -0400",
       "summary": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "f310af1f4eab",
-      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks%2F",
-      "published": "Fri, 15 May 2026 05:40:42 -0400",
-      "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook o"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "8fb0046839bf",
-      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
-      "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisco-catalyst-sd-wan-controller-auth.html",
-      "published": "Thu, 14 May 2026 23:15:20 +0530",
-      "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182, carries "
     }
   ],
   "errors": []
