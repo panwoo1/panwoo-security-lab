@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-05-16T19:21:40.225141+00:00",
+  "generated_at": "2026-05-17T04:18:50.475008+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "ef1704460be0",
+      "title": "[속담으로 배우는 100가지 보안 습관-14] 돌다리도 두드려 보고 건너라(4)-공용 충전기 꽂았다가 생기는 보안 위험",
+      "url": "http://www.boannews.com/media/view.asp?idx=143239&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 17 May 2026 09:22:00 +0900",
+      "summary": "공공장소 충전기 사용 시 ‘데이터 전송’ 허용 팝업이 뜨면 거부하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "dd6ccbb90a09",
+      "title": "[배종찬의 보안 빅데이터] 사람 목소리를 훔쳐가는 AI 보이스피싱",
+      "url": "http://www.boannews.com/media/view.asp?idx=143665&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 17 May 2026 09:19:00 +0900",
+      "summary": "AI 딥페이크 기술, ‘보이스 클로닝’ 위협 현실... 인간관계 신뢰를 무기화[보안뉴스= 배종찬 인사이트케이 연구소장] 디지털 기술의 발전은 인류에게 전례 없는 편의성을 제공했지만, 동시에 범죄의 도구로서도 정교하게 진화하고 있다. 특히 인공지능(AI)과 딥페이크(Deepfake) 기술을 결합한 보이스피싱은 과거의 조잡한 수법을 벗어나 실시간으로 목소리와"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -80,26 +100,6 @@
       "translateUrl": "",
       "published": "Fri, 15 May 2026 16:46:00 +0900",
       "summary": "2022년 이후 두 번째 백서 제작... 산·학·연·관 전문가 참여 확대정책·산업·기술·회원사 성과 종합 반영한 산업 전략형 백서 추진[보안뉴스 강초희 기자] 한국첨단안전산업협회(회장 이성진)는 14일 서울 가산동 협회 회의실에서 ‘2027 첨단안전산업백서’ 제작 추진을 위한 ‘백서편찬위원회 킥오프 자문회의’를 개최하고 백서 추진 방향과 편찬·자문 운영 계"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "9f00972b3379",
-      "title": "펌킨네트웍스, ADC 전 제품군 ‘녹색인증’ 획득... 공공 시장 공략 가속",
-      "url": "http://www.boannews.com/media/view.asp?idx=143664&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 15 May 2026 15:45:00 +0900",
-      "summary": "앞서 획득한 보안기능확인서와 시너지 기대 보안성-친환경 공공 조달 핵심 요건 충족... 탄소중립 실천 및 ESG 경영 선도[보안뉴스 한세희 기자] 펌킨네트웍스(대표 권희웅)가 자사 L4스위치 제품 전 라인업에 대해 국가 공인 ‘녹색기술제품 인증’을 획득했다고 15일 밝혔다.앞서 확보한 보안기능확인서에 이어 이번에 녹색기술제품 인증도 획득, 공공 시장 보안"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "bafe1c3176a2",
-      "title": "한국정보처리학회, 연례 ‘ASK 2026’ 학술행사 개최",
-      "url": "http://www.boannews.com/media/view.asp?idx=143663&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 15 May 2026 15:02:00 +0900",
-      "summary": "20-23일 강릉 라카이 샌드파인에서 온오프라인 병행 개최총 338편 논문 발표, 우수 논문 64편 시상[보안뉴스 한세희 기자] 한국정보처리학회(학회장 박능수)는 20-23일 강릉 라카이샌드파인에서 연례 학술 발표 대회 ‘ASK (Annual Symposium of KIPS) 2026’를 온·오프라인 병행 방식으로 개최한다고 15일 밝혔다.‘ASK 2026"
     },
     {
       "source": "KISA 보안공지",
@@ -414,6 +414,16 @@
     {
       "source": "BleepingComputer",
       "region": "global",
+      "slug": "fe12ff9d82f9",
+      "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-rejects-critical-azure-vulnerability-report-no-cve-issued/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fmicrosoft-rejects-critical-azure-vulnerability-report-no-cve-issued%2F",
+      "published": "Sat, 16 May 2026 16:55:44 -0400",
+      "summary": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer the behavior was ex"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
       "slug": "8ee6b2ddff07",
       "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
       "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
@@ -590,16 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fstealer-backdoor-found-in-3-node-ipc.html",
       "published": "Thu, 14 May 2026 22:52:43 +0530",
       "summary": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different versions of the npm pa"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "54d0faf9d6c1",
-      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthreatsday-bulletin-pan-os-rce-mythos.html",
-      "published": "Thu, 14 May 2026 21:37:46 +0530",
-      "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Ha"
     }
   ],
   "errors": []
