@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-05-18T04:39:37.801662+00:00",
+  "generated_at": "2026-05-18T10:40:01.421257+00:00",
   "items": [
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "9fecdbaaa0b0",
-      "title": "토르체인, 보관소 해킹으로 1000만 달러 가상자산 도난당해",
-      "url": "http://www.boannews.com/media/view.asp?idx=143676&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 13:28:00 +0900",
-      "summary": "펙실드 등 보안 업체 최초 포착... 비트코인 36개 등 탈취비정상 거래 감지 후 시스템 전면 중단 “자체 운영 자금만 피해”[보안뉴스 김형근 기자] 스위스 기반의 가상자산 플랫폼 ‘토르체인’(THORChain)이 대규모 해킹 공격을 받아 1000만달러 규모의 자체 자산을 도난당했다. 사용자 예치금 피해는 막았으나, 잇따른 대형 보안 사고에 가상자산 업계"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "9bd9b9f6801a",
-      "title": "그라파나, 깃허브 인증 토큰 유출로 소스코드 털렸다",
-      "url": "http://www.boannews.com/media/view.asp?idx=143689&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 13:25:00 +0900",
-      "summary": "고객 데이터 유출 정황은 없어... 해커 협박에도 몸값 지급 거부공격 배후로 ‘코인베이스카르텔’ 지목[보안뉴스 김형근 기자] 모니터링·시각화 플랫폼 기업 그라파나(Grafana)가 깃허브(GitHub) 환경 접근에 사용되는 인증 토큰이 탈취돼 자사 소스코드 일부가 외부로 유출되는 보안 사고를 겪었다고 밝혔다.그라파나는 공식 엑스(X) 계정을 통해 유출 사고"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "000d1282457c",
-      "title": "안랩클라우드메이트 ‘애크미아이’, 공공부문 SW 어워즈 수상... “안전한 AI 행정 선도”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143686&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 11:34:00 +0900",
-      "summary": "공공 분야 AI 업무 혁신 지원하는 맞춤형 어시스턴트 구축 플랫폼 가치 인정발주자들이 직접 꼽은 최고 수준의 운영 경쟁력 입증[보안뉴스 조재호 기자] 안랩 AX·MSP 전문 자회사 안랩클라우드메이트는 자사 AI 어시스턴트 구축 플랫폼 ‘애크미아이’(ACMEi)가 서울 대한상공회의소에서 열린 2026 제6회 공공부문 SW 어워즈에서 AI SW 부문 공공부문발"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "55769ea52ea9",
-      "title": "서울시, 보안관제요원 채용 “사이버위협 대응 강화”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143679&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 11:11:00 +0900",
-      "summary": "디지털도시국 정보보안과서 2명 모집24시간 보안관제·사이버위협 대응 수행21-26일 원서 접수[보안뉴스 강초희 기자] 서울특별시(시장 오세훈)가 사이버위협 대응 역량 강화를 위해 보안관제 분야 시간선택제임기제공무원을 공개 채용한다.서울시는 디지털도시국 정보보안과 소속 ‘보안관제요원’ 지방시간선택제임기제 나급 2명을 선발한다고 밝혔다. 근무기간은 임용일로부터"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "05cb2dafd7fa",
-      "title": "아우토크립트 “자율주행 보안, 차량 넘어 생태계 묶는 E2E 전략 필수”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143684&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:55:00 +0900",
-      "summary": "AI 모빌리티 보안 패러다임 전환 이끄는 자율주행 사이버보안 백서 공개기존 단일 계층 보안 한계 지적하며 통합 vSOC 및 제로트러스트 모델 결합 제안[보안뉴스 조재호 기자] 자율주행 차량이 단순한 기계를 넘어 거대한 개방형 플랫폼으로 진화하면서, 차량만 지키는 파편화된 방어 체계가 치명적인 물리적 사고를 초래할 수 있다는 경고가 나왔다.아우토크립트는 자율"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "641a6b8fb0e8",
-      "title": "가비아, 지키다에 공공 클라우드 공급... “CSAP 인증 취득 뒷받침”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143685&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:54:00 +0900",
-      "summary": "지키다, 컴플라이언스 점검 서비스 본격화[보안뉴스 강현주 기자] 클라우드 전문 기업 가비아(공동대표 김홍국·원종홍)는 개인정보 보호 및 법률 컴플라이언스 솔루션 기업 지키다(대표 김진환)에 공공기관 전용 클라우드 서비스를 공급했다고 18일 밝혔다.지키다는 법률 콘텐츠를 기반으로 기업의 개인정보 보호 및 법규 준수 체계 점검 서비스를 제공하는 민간 사업자다."
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "bddf96ca400f",
-      "title": "SK쉴더스, NHN와플랫과 시니어 디지털 돌봄 사업 강화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143683&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:43:00 +0900",
-      "summary": "NHN와플랫과 협력해 AI 및 스마트홈 기반 디지털 돌봄 서비스 추진복지부 ‘AX Sprint’ 스마트홈 사업 참여로 물리보안 관제·출동 인프라와 AI 기술 연계‘캡스홈’ 서비스 내 돌봄 기능 강화 및 생활 밀착형 안전 서비스로 확대 [보안뉴스 엄호식 기자] SK쉴더스(대표 민기식)가 물리보안 브랜드 ADT캡스의 AI 기반 돌봄 서비스 및 생활안전 사업 확"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "158225a47cb5",
-      "title": "개인정보 보호법 위반 과징금 산정 기준 강화",
-      "url": "http://www.boannews.com/media/view.asp?idx=143682&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:39:00 +0900",
-      "summary": "‘직전연도 매출과 3개년도 평균 중 높은 금액’으로[보안뉴스 강현주 기자] 개인정보 보호법 위반 시 과징금 산정 기준이 ‘직전 3개년도 평균 매출’에서 ‘직전 연도 매출과 3개년도 평균 매출 중 큰 금액’으로 바뀐다. 개인정보보호위원회(위원장 송경희)는 ‘개인정보 보호법 시행령’ 일부개정령안과 ‘개인정보 보호법 위반에 대한 과징금 부과기준’(고시) 일부개"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "d1a010b93429",
-      "title": "진명아이앤씨, AI 기반 지능형 화재감지 기술 사용화 추진",
-      "url": "http://www.boannews.com/media/view.asp?idx=143680&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:25:00 +0900",
-      "summary": "산림청 ‘산림 지식재산 기반 유레카 기술개발(R&ED) 사업’ 선정차세대 멀티 스펙트럼 화재 조기감지 시스템 개발 착수[보안뉴스 강초희 기자] 진명아이앤씨(대표 허미향)가 주관하는 컨소시엄이 산림청이 추진하고 한국임업진흥원이 전담하는 ‘산림 지식재산 기반 유레카 기술개발(R&D) 사업’을 통해 차세대 멀티 스펙트럼 화재 조기감지 시스템 개발에 착수한다.이"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "88ffd894122c",
-      "title": "SGA솔루션즈 “한국형 제로트러스트 오픈 플랫폼으로 글로벌 K-보안 정조준”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143678&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Mon, 18 May 2026 10:21:00 +0900",
-      "summary": "KISA·TTA·샌즈랩·주요 대학 등 참여한 산학연 컨소시엄으로 거버넌스 확립최영철 대표 “단순 국산화 넘어 벤더 중립성 보장하는 세계적 수준 플랫폼 제시할 것”[보안뉴스 조재호 기자] 개별 솔루션 중심의 파편화된 방어 체계가 날로 고도화되는 사이버 위협 앞에서 구조적 한계를 드러내고 있는 가운데, 국내 보안 생태계를 하나로 묶어낼 오픈 플랫폼 구축 사업이"
-    },
     {
       "source": "KISA 보안공지",
       "region": "domestic",
@@ -224,16 +124,6 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "18b0344ccac7",
-      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93632/",
-      "translateUrl": "",
-      "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "13694c21e894",
       "title": "2026년 4월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/93627/",
@@ -250,6 +140,16 @@
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
       "summary": "알림 2026년 4월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 BreachForums는 신규 도메인을 공개하며 재가동을 이어갔고, 운영 업데이트 공지를 반복했다. 동시에 PwnForums 같은 사칭 포럼이 등장했고, BreachForums 측은 이에 대한 경고"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "18b0344ccac7",
+      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93632/",
+      "translateUrl": "",
+      "published": "Sun, 10 May 2026 15:00:00 +0000",
+      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
     },
     {
       "source": "KISA 보안공지",
@@ -402,6 +302,66 @@
       "summary": ""
     },
     {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "bfdd74eb91e2",
+      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fminiplasma-windows-0-day-enables-system.html",
+      "published": "Mon, 18 May 2026 14:27:34 +0530",
+      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attacker"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "9807b461e585",
+      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+      "url": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffour-malicious-npm-packages-deliver.html",
+      "published": "Mon, 18 May 2026 14:27:26 +0530",
+      "summary": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified packages is below - "
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "28ea519925d0",
+      "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+      "url": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fpre-stuxnet-fast16-malware-tampered.html",
+      "published": "Mon, 18 May 2026 12:16:37 +0530",
+      "summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and Carbon Black teams, the"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "6a3624b21438",
+      "title": "Microsoft confirms Windows 11 security update install issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-confirms-kb5089549-windows-11-security-update-install-issues%2F",
+      "published": "Mon, 18 May 2026 04:33:14 -0400",
+      "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "64de174d576c",
+      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fexploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw%2F",
+      "published": "Mon, 18 May 2026 03:18:33 -0400",
+      "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "07ab3290f108",
+      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026%2F",
+      "published": "Mon, 18 May 2026 01:33:20 -0400",
+      "summary": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]"
+    },
+    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "64d02c2020fb",
@@ -552,55 +512,97 @@
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting Vulnerability This type "
     },
     {
-      "source": "BleepingComputer",
+      "source": "CISA",
       "region": "global",
-      "slug": "beed15649430",
-      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
-      "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Favada-builder-wordpress-plugin-flaws-allow-site-credential-theft%2F",
-      "published": "Fri, 15 May 2026 11:56:56 -0400",
-      "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the database. [...]"
+      "slug": "792ae515556f",
+      "title": "Siemens Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-08",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary files, which are access"
     },
     {
-      "source": "The Hacker News",
+      "source": "CISA",
       "region": "global",
-      "slug": "68c55730dc4b",
-      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
-      "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fon-prem-microsoft-exchange-server-cve.html",
-      "published": "Fri, 15 May 2026 11:49:04 +0530",
-      "summary": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-42897 (CVSS score:"
+      "slug": "51ddefb099eb",
+      "title": "Siemens gWAP",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-01",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client library. The vulnerability "
     },
     {
-      "source": "The Hacker News",
+      "source": "CISA",
       "region": "global",
-      "slug": "3ee69a3715c0",
-      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
-      "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "published": "Fri, 15 May 2026 10:58:03 +0530",
-      "summary": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV) catalog, requiring"
+      "slug": "dfd04e13877d",
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-10",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for SIMATIC CN 4100 and "
     },
     {
-      "source": "BleepingComputer",
+      "source": "CISA",
       "region": "global",
-      "slug": "c6f4e12c4715",
-      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup%2F",
-      "published": "Fri, 15 May 2026 10:49:39 -0400",
-      "summary": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]"
+      "slug": "b730c6556aeb",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-12",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root privileges on the underl"
     },
     {
-      "source": "BleepingComputer",
+      "source": "CISA",
       "region": "global",
-      "slug": "c8a0959dfd34",
-      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Finside-the-remus-infostealer-session-theft-maas-and-rapid-evolution%2F",
-      "published": "Fri, 15 May 2026 10:02:12 -0400",
-      "summary": "Stolen browser sessions and authentication tokens are becoming more valuable than stolen passwords. Flare explains how the REMUS infostealer evolved around session theft and operational scalability. [...]"
+      "slug": "9409f61fc686",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-16",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following vers"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "45dadeafc920",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-05",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-05",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Simcenter Femap is affected by heap based buffer overflow vulnerability in Datakit library that could be triggered when the application reads files in IPT format. If a user is tricked to open a maliciou"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "5eca735d99c4",
+      "title": "Universal Robots Polyscope 5",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-17",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-17",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to bypass authentication and execute code. The following versions of Universal Robots Polyscope 5 are affected: Polyscope 5 CVSS "
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "690b90b23c49",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-11",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-11",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the feature key installation process that could allow an authenticated remote attacker to execute arbitrary commands with root privileges on t"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "d339359a3150",
+      "title": "Siemens Teamcenter",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-04",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-04",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Siemens Teamcenter is affected by multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released new versions for the affected"
     }
   ],
-  "errors": []
+  "errors": [
+    "보안뉴스: <urlopen error timed out>"
+  ]
 }
