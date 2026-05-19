@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T15:50:41.731788+00:00",
+  "generated_at": "2026-05-19T20:02:47.252866+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,6 +404,16 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "b2410dd27d54",
+      "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+      "url": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftrapdoor-android-ad-fraud-scheme-hit.html",
+      "published": "Tue, 19 May 2026 22:08:12 +0530",
+      "summary": "Cybersecurity researchers have disclosed details of a new ad fraud and malvertising operation dubbed Trapdoor targeting Android device users. The activity, per HUMAN's Satori Threat Intelligence and Research Team, encomp"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "181448b61bff",
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
       "url": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
@@ -432,6 +442,26 @@
       "summary": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates "
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "517712307367",
+      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Ffbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025%2F",
+      "published": "Tue, 19 May 2026 15:45:39 -0400",
+      "summary": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "775d4df7d736",
+      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fmicrosoft-self-service-password-reset-abused-in-azure-data-theft-attacks%2F",
+      "published": "Tue, 19 May 2026 15:35:32 -0400",
+      "summary": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "64a689f76bcd",
@@ -450,6 +480,26 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcompromised-nx-console-18950-targeted.html",
       "published": "Tue, 19 May 2026 13:19:23 +0530",
       "summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (ver"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "b9ef3a6ae267",
+      "title": "Microsoft plans to improve Windows 11 driver quality in 2026",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-plans-to-improve-windows-11-driver-quality-in-2026/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-plans-to-improve-windows-11-driver-quality-in-2026%2F",
+      "published": "Tue, 19 May 2026 12:22:30 -0400",
+      "summary": "Microsoft plans to raise the quality bar of Windows 11 drivers, as drivers \"sit at the heart of every Windows experience\" and connect the OS to the \"silicon, components, and peripherals.\" [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "f85f69a84f6d",
+      "title": "Microsoft blames macOS update for undismissible Teams location prompts",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-blames-undismissible-teams-location-prompts-on-macos-update%2F",
+      "published": "Tue, 19 May 2026 12:10:47 -0400",
+      "summary": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]"
     },
     {
       "source": "CISA",
@@ -550,56 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcritical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation%2F",
       "published": "Tue, 19 May 2026 10:00:10 -0400",
       "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identity abuse. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "9b748e5f01a7",
-      "title": "Webinar: The hidden bottlenecks in network incident response",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-the-hidden-bottlenecks-in-network-incident-response%2F",
-      "published": "Tue, 19 May 2026 08:14:22 -0400",
-      "summary": "IT teams are increasingly overwhelmed by alerts from disconnected systems, forcing responders to manually coordinate investigations during network incidents. This webinar explores how automation and AI-assisted workflows"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "19ebb50973ae",
-      "title": "Microsoft confirms patching issues in restricted Windows networks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-confirms-patching-issues-in-restricted-windows-networks%2F",
-      "published": "Tue, 19 May 2026 07:22:15 -0400",
-      "summary": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-security preview updates. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "470c626ab990",
-      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
-      "url": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Finterpol-operation-ramz-disrupts-mena.html",
-      "published": "Mon, 18 May 2026 22:51:18 +0530",
-      "summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the e"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "75510ce711fd",
-      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-      "url": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fweekly-recap-exchange-0-day-npm-worm.html",
-      "published": "Mon, 18 May 2026 19:20:17 +0530",
-      "summary": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: t"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "419e9817baeb",
-      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-      "url": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fhow-to-reduce-phishing-exposure-before.html",
-      "published": "Mon, 18 May 2026 18:30:00 +0530",
-      "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams uns"
     }
   ],
   "errors": []
