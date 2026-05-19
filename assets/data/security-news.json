@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T10:05:12.030634+00:00",
+  "generated_at": "2026-05-19T15:50:41.731788+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -404,12 +404,102 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "181448b61bff",
+      "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+      "url": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fdirtydecrypt-poc-released-for-linux.html",
+      "published": "Tue, 19 May 2026 20:26:26 +0530",
+      "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerabil"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "094633e524d2",
+      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+      "url": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthe-new-phishing-click-how-oauth.html",
+      "published": "Tue, 19 May 2026 17:00:00 +0530",
+      "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform r"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "b9c2924cc6a3",
+      "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+      "url": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fdrupal-to-release-urgent-core-security.html",
+      "published": "Tue, 19 May 2026 16:14:45 +0530",
+      "summary": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates "
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "64a689f76bcd",
+      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+      "url": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fseppmail-secure-e-mail-gateway.html",
+      "published": "Tue, 19 May 2026 14:53:15 +0530",
+      "summary": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to rea"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "b8b3bf1b62e8",
       "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
       "url": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fcompromised-nx-console-18950-targeted.html",
       "published": "Tue, 19 May 2026 13:19:23 +0530",
       "summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (ver"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "62164818705d",
+      "title": "Kieback & Peter DDC Building Controllers",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-05",
+      "published": "Tue, 19 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback & Peter DDC Building Controllers are affected: DDC4002 DD"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "483d3ef6d2b1",
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-02",
+      "published": "Tue, 19 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to execute arbitrary code with"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "94e67ac62d49",
+      "title": "ABB CoreSense HM and CoreSense M10",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-01",
+      "published": "Tue, 19 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow unauthenticated users to gain a"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "2474422327cb",
+      "title": "ScadaBR",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-03",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-03",
+      "published": "Tue, 19 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to perform unauthenticated remote code execution. The following versions of ScadaBR are affected: ScadaBR 1.2.0 (CVE-2026-8602, C"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "bbffbba1ecd0",
+      "title": "ZKTeco CCTV Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-04",
+      "published": "Tue, 19 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of ZKTeco CCTV Cameras are affected: SSC335-"
     },
     {
       "source": "The Hacker News",
@@ -422,6 +512,16 @@
       "summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them "
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "69beeb13f745",
+      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
+      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fnew-shai-hulud-malware-wave-compromises-600-npm-packages%2F",
+      "published": "Tue, 19 May 2026 10:30:22 -0400",
+      "summary": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chain campaign. [...]"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "29b67c17a89d",
@@ -430,6 +530,46 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmini-shai-hulud-pushes-malicious-antv.html",
       "published": "Tue, 19 May 2026 10:24:17 +0530",
       "summary": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave. \"T"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "0267bedbdcb7",
+      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
+      "url": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2F7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang%2F",
+      "published": "Tue, 19 May 2026 10:16:41 -0400",
+      "summary": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last month. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "aca7be9c148b",
+      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcritical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation%2F",
+      "published": "Tue, 19 May 2026 10:00:10 -0400",
+      "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identity abuse. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "9b748e5f01a7",
+      "title": "Webinar: The hidden bottlenecks in network incident response",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-the-hidden-bottlenecks-in-network-incident-response/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fwebinar-the-hidden-bottlenecks-in-network-incident-response%2F",
+      "published": "Tue, 19 May 2026 08:14:22 -0400",
+      "summary": "IT teams are increasingly overwhelmed by alerts from disconnected systems, forcing responders to manually coordinate investigations during network incidents. This webinar explores how automation and AI-assisted workflows"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "19ebb50973ae",
+      "title": "Microsoft confirms patching issues in restricted Windows networks",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-confirms-patching-issues-in-restricted-windows-networks%2F",
+      "published": "Tue, 19 May 2026 07:22:15 -0400",
+      "summary": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-security preview updates. [...]"
     },
     {
       "source": "The Hacker News",
@@ -460,146 +600,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fhow-to-reduce-phishing-exposure-before.html",
       "published": "Mon, 18 May 2026 18:30:00 +0530",
       "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams uns"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "7b98db42668a",
-      "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
-      "url": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Finterpol-operation-ramz-seizes-53-malware-phishing-servers%2F",
-      "published": "Mon, 18 May 2026 18:15:30 -0400",
-      "summary": "More than 200 individuals were arrested for cybercrime activities during INTERPOL's Operation Ramz, which focused on the Middle East and North Africa. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "ed3e7e0655eb",
-      "title": "SHub macOS infostealer variant spoofs Apple security updates",
-      "url": "https://www.bleepingcomputer.com/news/security/shub-macos-infostealer-variant-spoofs-apple-security-updates/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fshub-macos-infostealer-variant-spoofs-apple-security-updates%2F",
-      "published": "Mon, 18 May 2026 17:42:20 -0400",
-      "summary": "A new variant of the 'SHub' macOS infostealer uses AppleScript to show a fake security update message and installs a backdoor. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "265c4042567b",
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fdeveloper-workstations-are-now-part-of.html",
-      "published": "Mon, 18 May 2026 16:53:41 +0530",
-      "summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Doc"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "d2c17f1fc95b",
-      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
-      "url": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fivanti-fortinet-sap-vmware-n8n-patch.html",
-      "published": "Mon, 18 May 2026 16:24:05 +0530",
-      "summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical fl"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "1e53e99d2a03",
-      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-      "url": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2F5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees%2F",
-      "published": "Mon, 18 May 2026 14:45:35 -0400",
-      "summary": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "bfdd74eb91e2",
-      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fminiplasma-windows-0-day-enables-system.html",
-      "published": "Mon, 18 May 2026 14:27:34 +0530",
-      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attacker"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "9807b461e585",
-      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
-      "url": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ffour-malicious-npm-packages-deliver.html",
-      "published": "Mon, 18 May 2026 14:27:26 +0530",
-      "summary": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified packages is below - "
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "782d47073880",
-      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fleaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign%2F",
-      "published": "Mon, 18 May 2026 13:28:02 -0400",
-      "summary": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "fdf10de26d12",
-      "title": "Grafana says stolen GitHub token let hackers steal codebase",
-      "url": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fgrafana-says-stolen-github-token-let-hackers-steal-codebase%2F",
-      "published": "Mon, 18 May 2026 09:46:26 -0400",
-      "summary": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "3db117f7f945",
-      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fwindows-11-finally-gets-a-resizable-taskbar-and-start-menu%2F",
-      "published": "Mon, 18 May 2026 07:14:28 -0400",
-      "summary": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "6a3624b21438",
-      "title": "Microsoft confirms Windows 11 security update install issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fmicrosoft-confirms-kb5089549-windows-11-security-update-install-issues%2F",
-      "published": "Mon, 18 May 2026 04:33:14 -0400",
-      "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "64de174d576c",
-      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fexploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw%2F",
-      "published": "Mon, 18 May 2026 03:18:33 -0400",
-      "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "07ab3290f108",
-      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fhackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026%2F",
-      "published": "Mon, 18 May 2026 01:33:20 -0400",
-      "summary": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "64d02c2020fb",
-      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fmicrosoft%2Fnew-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released%2F",
-      "published": "Sun, 17 May 2026 18:30:08 -0400",
-      "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems. [...]"
     }
   ],
   "errors": []
