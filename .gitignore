@@ -8,6 +8,7 @@ tsconfig.tsbuildinfo
 apps/web/dist/
 apps/web/src/generated-content.ts
 .env
+.dev.vars
 __pycache__/
 *.pyc
 
