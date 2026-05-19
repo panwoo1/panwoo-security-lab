@@ -1,8 +1,0 @@
-# Copy to .dev.vars for local `wrangler dev`.
-# Do not commit .dev.vars.
-
-# The URL printed by /home/panwoo/openharness/scripts/dashboard-tunnel.sh
-DASHBOARD_API_BASE_URL=https://replace-with-your-trycloudflare-url.trycloudflare.com
-
-# Same value as /home/panwoo/openharness/.dashboard.env DASHBOARD_API_TOKEN
-DASHBOARD_API_TOKEN=
