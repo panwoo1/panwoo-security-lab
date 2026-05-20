@@ -1,105 +1,25 @@
 {
-  "generated_at": "2026-05-19T20:02:47.252866+00:00",
+  "generated_at": "2026-05-20T04:34:56.018122+00:00",
   "items": [
     {
-      "source": "보안뉴스",
+      "source": "KISA 보안공지",
       "region": "domestic",
-      "slug": "8efd691ae930",
-      "title": "인텔리빅스 “AI가 판단·예측... 지능형 자율발전소 로드맵 제시”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143721&kind=&sub_kind=",
+      "slug": "76709eec6506",
+      "title": "Cisco 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72058",
       "translateUrl": "",
-      "published": "Tue, 19 May 2026 17:10:00 +0900",
-      "summary": "최은수 대표, 남동발전 제1차 AX전략위원회 기조연설예지정비·안전AI·피지컬 AI·지식 자산화 4대 전략 제언[보안뉴스 강초희 기자] 인텔리빅스(대표 최은수·장정훈)는 최은수 대표이사가 한국남동발전(이하 남동발전) 본사에서 열린 ‘제1차 AX(AI Transformation) 전략위원회’에 참석해 ‘모두의 AX로 하나 된 스마트 팩토리 KOEN: 지능형 자"
+      "published": "2026-05-20",
+      "summary": ""
     },
     {
-      "source": "보안뉴스",
+      "source": "KISA 보안공지",
       "region": "domestic",
-      "slug": "d394b8d84294",
-      "title": "[김 부장의 매일매일이 보안] #2 스마트폰 앱이 요구하는 위험한 권한들",
-      "url": "http://www.boannews.com/media/view.asp?idx=143607&kind=&sub_kind=",
+      "slug": "3f29ef8a7815",
+      "title": "NGINX 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72057",
       "translateUrl": "",
-      "published": "Tue, 19 May 2026 17:06:00 +0900",
-      "summary": "스마트폰 앱 설치할 때 ‘권한 허용 요구’... 앱의 기능 위해 특정 데이터·기능에 접근 허락 받아앱의 핵심 기능 수행 위해 꼭 필요한 ‘필수 권한’과 특정 부가 기능 위한 ‘선택 권한’ 나뉘어앱의 목적과 상관없는 권한 요구하면 거부하고 설치 취소해야[보안뉴스 원병철 기자] 오늘도 평화로운 B 상사. 물류팀 팀장인 김 부장은 아침부터 사내 IT 전문가로 통"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "86350a158de3",
-      "title": "배일권 행정안전부 국장 “정부 인프라 잔혹사 끝낸다”... 제153차 CISO포럼",
-      "url": "http://www.boannews.com/media/view.asp?idx=143712&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 17:01:00 +0900",
-      "summary": "행안부, 국가 핵심 시스템 ‘Active-Active DR’로 1시간 내 복구 체계화 예고골프존, 에이전틱 AI 위협 맞서 클라우드 취약점 선제 식별하고 자동 조치[보안뉴스 조재호 기자] ”행정전산망 장애와 국가정보자원관리원 화재는 우리에게 뼈아픈 교훈을 남겼습니다. 이제 더 이상의 사후약방문은 없습니다. 국민 생활에 직결된 A1 등급 국가 핵심 시스템은"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "d748bb6f5b23",
-      "title": "“정황 명백하면 기업 신고 없이도 직권조사”... ‘침해사고 조사 심의위원회’ 사전 가동",
-      "url": "http://www.boannews.com/media/view.asp?idx=143709&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 16:04:00 +0900",
-      "summary": "10월 법 시행 전부터 가동해 운영 기반 마련“민·관 협력 통해 신속하고 체계적으로 대응” [보안뉴스 강현주 기자] 기업 신고 없이도 직권조사가 가능한 ‘침해 사고 정황’을 심의하는 위원회가 가동을 시작했다. 과학기술정보통신부(부총리 겸 장관 배경훈)는 침해 사고 선제 대응을 위한 ‘침해사고 조사 심의위원회’를 사전 가동하면서 19일 첫 회의를 개최했다고"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "09a8a2f27ac8",
-      "title": "[배종찬의 보안 빅데이터] 북한 해커보다 백만 배 더 무서운 ‘AI 해커’",
-      "url": "http://www.boannews.com/media/view.asp?idx=143710&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 16:01:00 +0900",
-      "summary": "집중적인 수작업 vs 공장형 자율 전쟁[보안뉴스= 배종찬 인사이트케이 연구소장] 최근 한 달간(2026년 4월 18일~5월 17일) 빅데이터 감성 연관어 분석 플랫폼인 썸트렌드(SomeTrend)에서 ‘AI 해커’라는 키워드를 둘러싼 대중들의 심리는 극도로 고조된 위기감을 투영하고 있다. 데이터가 가리키는 가장 거대한 핵심 연관어는 단연 ‘위협’과 ‘공포’"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "c2611792518e",
-      "title": "소프트캠프, 일본 최대 공공 전시회서 “망분리 환경 AI·SaaS 보안 장벽 허물다”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143719&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 15:57:00 +0900",
-      "summary": "도쿄 빅사이트 지자체·공공 위크 참가... 현지 파트너사 네트원시스템즈와 공동 출전일본 공공 시장의 망분리 및 BYOD 금지 한계 극복할 제로트러스트 기반 솔루션 3종 제시[보안뉴스 조재호 기자] 디지털 전환(DX)을 넘어 AI 도입을 서두르는 일본 공공 시장에 한국의 제로트러스트 보안 기술이 핵심 대안으로 떠올랐다. 소프트캠프는 지난 13일부터 15일까지"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "d9a1291db248",
-      "title": "“AI로 선박 화재 잡는다” 해수부, 연안여객선 ‘스마트 화재탐지’ 실증 추진",
-      "url": "http://www.boannews.com/media/view.asp?idx=143716&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 15:08:00 +0900",
-      "summary": "해수부-한국해운조합-HD한국조선해양, 민관 업무협약 체결AI 기반 비디오 화재탐지장치를 연안여객선에 시범 도입 예정CCTV 영상을 실시간 분석해 전기차 화재 등 선박 내 화재 징후를 조기 탐지 목표[보안뉴스 강초희 기자] 해양수산부(장관 황종우)는 5월 20일 한국해운조합, HD한국조선해양과 함께 연안여객선 화재 안전 강화를 위한 민관 업무협약(MOU)을"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "c8148ebd77d8",
-      "title": "군포시, 빅데이터로 범죄위험지역 분석해 CCTV 설치 최적지 도출",
-      "url": "http://www.boannews.com/media/view.asp?idx=143717&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 15:06:00 +0900",
-      "summary": "별도 예산 없이 데이터 기반 행정 실현... 시민 안전 강화[보안뉴스 강초희 기자] 군포시(시장 하은호)가 자체 빅데이터 분석을 통해 범죄위험지역을 객관적으로 진단하고 CCTV 설치 최적지를 도출하며 데이터 기반 행정 강화에 나섰다.군포시는 지난 2월부터 4월까지 ‘2026년 범죄위험지역 및 CCTV 설치 최적지 분석’을 자체 추진해 CCTV 설치 우선순위"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "f7cd4a671255",
-      "title": "데이터독, AI SOC 에이전트 출시... “위협 조사 시간 수 시간에서 30초로”",
-      "url": "http://www.boannews.com/media/view.asp?idx=143718&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 14:53:00 +0900",
-      "summary": "‘비츠 AI 시큐리티 애널리스트’ 출시... 보안 조사 자동화, 대응 시간 단축 [보안뉴스 한세희 기자] 데이터독이 보안 위협 탐지와 대응을 자동화하는 AI 에이전트 ‘비츠 AI 시큐리티 애널리스트’(Bits AI Security Analyst)를 정식 출시했다고 19일 밝혔다.이는 데이터독 클라우드 보안 정보 및 이벤트 관리(SIEM) 솔루션의 일부로,"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "323029d85e56",
-      "title": "스턱스넷보다 앞선 ‘최초의 산업 사보타주’... 핵 시뮬레이션 교란한 ‘Fast16’ 실체 드러나",
-      "url": "http://www.boannews.com/media/view.asp?idx=143715&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Tue, 19 May 2026 14:24:00 +0900",
-      "summary": "물리학·컴파일러 구조·산업 시스템 이해를 모두 결합한 고난도 군사 사이버 무기 사례[보안뉴스 김형근 기자] 시만텍(Symantec)과 카본 블랙(Carbon Black) 연구팀의 최신 분석 결과, 과거 발견된 루아(Lua) 기반 악성코드 ‘패스트16’(Fast16)이 핵무기 개발 과정의 우라늄 압축 시뮬레이션을 정밀하게 조작하기 위해 설계된 사이버 사보타주"
+      "published": "2026-05-20",
+      "summary": ""
     },
     {
       "source": "KISA 보안공지",
@@ -222,16 +142,6 @@
       "summary": ""
     },
     {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "d6aca36a46d5",
-      "title": "Ollama 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72047",
-      "translateUrl": "",
-      "published": "2026-05-12",
-      "summary": ""
-    },
-    {
       "source": "ASEC KR",
       "region": "domestic",
       "slug": "5f828177c609",
@@ -270,16 +180,6 @@
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
       "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "4ee4dc9817e6",
-      "title": "Cisco 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72046",
-      "translateUrl": "",
-      "published": "2026-05-08",
-      "summary": ""
     },
     {
       "source": "ASEC KR",
@@ -404,6 +304,16 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "c507821067d4",
+      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "url": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fgithub-investigating-teampcp-claimed.html",
+      "published": "Wed, 20 May 2026 09:31:15 +0530",
+      "summary": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybe"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "b2410dd27d54",
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
       "url": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
@@ -422,6 +332,26 @@
       "summary": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerabil"
     },
     {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "04cbe1f3ed7a",
+      "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fmax-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking%2F",
+      "published": "Tue, 19 May 2026 18:25:49 -0400",
+      "summary": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "ff58ee6f405d",
+      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+      "url": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware%2F",
+      "published": "Tue, 19 May 2026 17:47:31 -0400",
+      "summary": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudulent code-signing certificates used by ransomware gangs and other cybe"
+    },
+    {
       "source": "The Hacker News",
       "region": "global",
       "slug": "094633e524d2",
@@ -430,6 +360,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthe-new-phishing-click-how-oauth.html",
       "published": "Tue, 19 May 2026 17:00:00 +0530",
       "summary": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform r"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "32f1afa82740",
+      "title": "Discord rolls out end-to-end encryption on voice, video calls",
+      "url": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fdiscord-rolls-out-end-to-end-encryption-on-voice-video-calls%2F",
+      "published": "Tue, 19 May 2026 16:37:45 -0400",
+      "summary": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]"
     },
     {
       "source": "The Hacker News",
@@ -600,7 +540,69 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fcritical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation%2F",
       "published": "Tue, 19 May 2026 10:00:10 -0400",
       "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are increasingly focused on privilege escalation and identity abuse. [...]"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "470c626ab990",
+      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+      "url": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Finterpol-operation-ramz-disrupts-mena.html",
+      "published": "Mon, 18 May 2026 22:51:18 +0530",
+      "summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initiative involved the e"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "94a074a27710",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F15%2Fcisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "Fri, 15 May 26 12:00:00 +0000",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-42897 Microsoft Exchange Server Cross-Site Scripting Vulnerability This type "
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "792ae515556f",
+      "title": "Siemens Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-08",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and write, arbitrary files, which are access"
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "51ddefb099eb",
+      "title": "Siemens gWAP",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-01",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios HTTP client library. The vulnerability "
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "dfd04e13877d",
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-10",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has released a new version for SIMATIC CN 4100 and "
+    },
+    {
+      "source": "CISA",
+      "region": "global",
+      "slug": "b730c6556aeb",
+      "title": "Siemens Ruggedcom Rox",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-134-12",
+      "published": "Thu, 14 May 26 12:00:00 +0000",
+      "summary": "View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary commands with root privileges on the underl"
     }
   ],
-  "errors": []
+  "errors": [
+    "보안뉴스: <urlopen error timed out>"
+  ]
 }
