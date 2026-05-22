@@ -1,6 +1,96 @@
 {
-  "generated_at": "2026-05-21T20:07:51.325640+00:00",
+  "generated_at": "2026-05-22T04:33:54.069783+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "9b28339395e2",
+      "title": "아톤, 디지털자산 플랫폼 ‘밴티지’ 개발 완료... AI 커머스 및 양자보안 지원",
+      "url": "http://www.boannews.com/media/view.asp?idx=143775&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 13:29:00 +0900",
+      "summary": "기업 자체 브랜드의 스테이블코인 발행 및 결제 지원하는 B2B 인프라 구축글로벌 AI 결제 표준 x402 프로토콜 연동 설계로 M2M 결제 시장 겨냥[보안뉴스 조재호 기자] 디지털자산 인프라에 다가오는 양자컴퓨터 위협을 방어할 수 있는 차세대 암호 기술이 적용된다. 아톤은 디지털자산 발행 및 운영 플랫폼 솔루션인 밴티지(VANTAGE)의 개발을 완료하고 사"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "d8cde1ec52c4",
+      "title": "트럼프, AI 보안 행정명령 서명 돌연 연기.. “마음에 안 드는 부분 있어”",
+      "url": "http://www.boannews.com/media/view.asp?idx=143774&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 12:15:00 +0900",
+      "summary": "최신 AI 모델 출시 전 정부 검토 거치게 하는 행정명령, 서명 행사 직전 취소“혁신 저해”... 산업계 우려 반영한 듯 [보안뉴스 한세희 기자] 도널드 트럼프 미국 대통령이 21일(현지시간) 예정된 AI 사이버보안에 관한 행정명령 서명을 갑자기 연기했다. 트럼프 대통령은 이날 AI 기업이 최신 모델 출시에 앞서 정부와 협력하도록 하는 내용의 행정명령에 서"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "527752e9f5bf",
+      "title": "[배종찬의 보안 빅데이터] 카드결제·개인정보 숭숭 뚫리는 해외직구",
+      "url": "http://www.boannews.com/media/view.asp?idx=143772&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 11:19:00 +0900",
+      "summary": "국경 없는 소비의 이면에 드리운 사이버 금융 범죄의 민낯과 해법도메인 교차 검증 및 가상카드 활용 등 생활 속 보안 체질화 시급해 [보안뉴스= 배종찬 인사이트케이 연구소장] 인터넷과 물류망의 발달로 전 세계 소비 시장의 경계가 허물어지면서 ‘해외직구’가 어느새 우리 일상의 보편적 소비 패턴으로 자리 잡았다. 하지만 국경 없는 소비의 이면에는 정교해진 사이버"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "f4ca8b0038dd",
+      "title": "“국산 NPU, 공공 AI 시장 문 열었다” 모빌린트, 혁신제품 첫 등록으로 공공 조달 진입",
+      "url": "http://www.boannews.com/media/view.asp?idx=143768&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 10:53:00 +0900",
+      "summary": "외산 중심 공공 AI 시장에 국산 AI 반도체 본격 진입[보안뉴스 강초희 기자] 모빌린트(대표이사 신동주)는 자사의 AI 솔루션 ‘MLX-A1’과 ‘MLA100’이 조달청 나라장터 종합쇼핑몰 등록을 완료하고 혁신제품으로 지정됐다고 밝혔다. NPU(신경망처리장치) 기반 AI 솔루션이 조달청 혁신제품에 등록된 것은 이번이 처음으로, 외산 GPU 중심으로 형성돼"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "1cbd2a0f9cde",
+      "title": "사고 터지기 전에 막는다... 개인정보 관리체계 ‘예방 중심’으로 개편",
+      "url": "http://www.boannews.com/media/view.asp?idx=143770&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 10:52:00 +0900",
+      "summary": "데이터 처리 규모 및 민감도 따라 고·중·저 위험군 분류해 차등 점검ISMS-P 등 주요 정보보호 평가 체계에도 개인정보보호 중심 설계 원칙 반영[보안뉴스 조재호 기자] 사후 제재 위주로 운영되던 국가 개인정보 관리체계가 사전 위험 식별 및 예방 중심으로 전면 개편된다. 개인정보보호위원회는 22일 경제장관회의에서 ‘예방 중심 개인정보 관리체계 전환계획’을"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "36987d50d977",
+      "title": "SK쉴더스, 글로벌 3대 AI 학회 ‘ICML 2026’서 탐지 신기술 논문 채택",
+      "url": "http://www.boannews.com/media/view.asp?idx=143771&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 10:50:00 +0900",
+      "summary": "불규칙한 사이버 공격 흐름 분석하는 QuITE 모델 제시기존 시계열 분석 방식 대비 탐지 성능 최대 45.9% 개선 효과 입증[보안뉴스 조재호 기자] 일정하지 않은 사이버 공격의 흐름을 정밀하게 분석하는 새로운 AI 보안 기술이 글로벌 학계의 인정을 받았다.SK쉴더스는 자사 사이버보안AI랩스 소속 임정훈 선임의 연구 논문이 글로벌 3대 AI 학회인 ICML"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "2c61b1d0c16e",
+      "title": "한국공항보안, 공항시장역 일대서 ‘제3회 한마음 플로깅’ 실시",
+      "url": "http://www.boannews.com/media/view.asp?idx=143767&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 10:47:00 +0900",
+      "summary": "지역 환경정화 활동 통해 ESG 실천과 지역사회 상생 앞장[보안뉴스 강초희 기자] 한국공항보안(사장 김수봉) 본사 임직원 60여명은 5월 22일 오전 10시부터 11시까지 공항시장역 일대에서 ‘제3회 한마음 플로깅’ 사회공헌활동을 실시했다.‘한마음 플로깅’은 임직원들이 함께 걸으며 쓰레기를 수거하는 환경정화 활동으로, 한국공항보안이 지역사회와의 상생과 ES"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "75272ce0c804",
+      "title": "“세븐일레븐도 뚫렸다” 샤이니헌터스 공격에 가맹점 정보 유출 인정",
+      "url": "http://www.boannews.com/media/view.asp?idx=143769&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 09:59:00 +0900",
+      "summary": "미국 규제당국에 데이터 유출 신고... 가맹점주 SSN 포함 민감정보 탈취클라우드 저장소 노린 샤이니헌터스, 유통·교육·금융 전방위 공격 확산[보안뉴스 김형근 기자] 글로벌 편의점 기업 세븐일레븐(7-Eleven)이 국제 사이버 범죄 조직 ‘샤이니헌터스’(ShinyHunters)의 공격으로 가맹점 관련 문서 저장 시스템이 침해됐음을 공식 인정했다.세븐일레븐"
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "cb177665b0db",
+      "title": "Cisco 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72061",
+      "translateUrl": "",
+      "published": "2026-05-22",
+      "summary": ""
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -22,74 +112,14 @@
       "summary": "2-3개월 간 정상 배포로 위장한 8개월의 치밀한 공급망 장악 캠페인EDR도 탐지 못 하는 정상적인 API 호출 악용... NHI 인벤토리 점검 시급[보안뉴스= 김동현 OWASP 서울 챕터 리더] 지난 20일 깃허브(GitHub)가 자사 내부 저장소 약 3800개의 외부 유출을 공식 인정했다. 전 세계 개발자가 코드를 맡기는 플랫폼에서 직원 한 명이 설치한"
     },
     {
-      "source": "보안뉴스",
+      "source": "ASEC KR",
       "region": "domestic",
-      "slug": "a3bf45992b85",
-      "title": "한화저축은행-오픈소프트랩, ‘차세대 AI 보안 거버넌스’ 고도화 협력 MOU 체결",
-      "url": "http://www.boannews.com/media/view.asp?idx=143764&kind=&sub_kind=",
+      "slug": "f7e29531e0e7",
+      "title": "AI 기반 해킹 도구의 확산과 진화 – 다크웹 유통부터 자율 공격까지",
+      "url": "https://asec.ahnlab.com/ko/93815/",
       "translateUrl": "",
-      "published": "Thu, 21 May 2026 18:18:00 +0900",
-      "summary": "생성형 AI 도입 따른 금융 안전성 확보AI-GRC 기반 선제적 감사 체계 구축 ‘박차’ [보안뉴스 강현주 기자] 한화저축은행이 생성형 인공지능(AI) 도입 가속화에 따른 금융 보안 경쟁력을 강화하기 위해 AI 보안 거버넌스 전문기업 오픈소프트랩과 손을 잡았다.한화저축은행(대표이사 강성수)은 오픈소프트랩(대표이사 정형택)과 ‘인공지능(AI) 보안"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "3de20b4bd3c5",
-      "title": "“부팅 시 특정 키 누르면 암호화 해제” MS, 윈도우 비트락커 결함 ‘옐로우키’ 긴급 조치 발표",
-      "url": "http://www.boannews.com/media/view.asp?idx=143759&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 17:25:00 +0900",
-      "summary": "비트락커 암호화 무력화 제로데이 취약점 폭로제보 처리 방식에 항의하는 보복성 공격 코드 유출정식 패치 전 레지스트리 수정 및 다중 인증 권고[보안뉴스 김형근 기자] 마이크로소프트(MS)가 윈도우의 핵심 드라이브 암호화 기능인 비트락커(BitLocker)를 무력화하는 제로데이 취약점 ‘옐로우키’(YellowKey)에 대한 긴급 완화 조치를 발표했다.이번 결함"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "51ce59e25c41",
-      "title": "[미토스 충격] AI 해킹, 다 못 막는 ‘물량전’ 도래... ‘성실실패’ 기준 진화해야",
-      "url": "http://www.boannews.com/media/view.asp?idx=143761&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 17:14:00 +0900",
-      "summary": "공격 당연해져... 당했다고 질타하는 문화 이별해야쏟아지는 무차별 공격에 기본 안된 중소기업 더 치명적[보안뉴스 강현주 기자] ‘미토스 충격’으로 AI의 ‘물량전’ 위협이 부각되면서 해킹 사고 기업 제재 시 ‘성실실패’ 개념도 진화해야 한다는 인식이 확산되고 있다. 21일 보안 업계는 기업 보안 패러다임 뿐 아니라 ‘제재 패러다임’도 속도전과 물량전을 펼치"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "b5be1936a725",
-      "title": "[부고] 손주욱 신세계디에프 CISO 부친상",
-      "url": "http://www.boannews.com/media/view.asp?idx=143762&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 17:05:00 +0900",
-      "summary": "△내용: 손주욱 신세계디에프 CISO 부친상△고인: 故 손순선님 (향년 89세)△빈소: 고려대학교안암병원장례식장 303호실△발인: 2026년 5월 23일 05시△장지: 서울시립승화원 - 광릉더크레스트[강초희 기자(choh@boannews.com)]"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "8f23c687d739",
-      "title": "[속담으로 배우는 100가지 보안 습관-19] 돌다리도 두드려 보고 건너라(9)-중고거래 링크, 왜 사기로 이어질까",
-      "url": "http://www.boannews.com/media/view.asp?idx=143244&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 14:42:00 +0900",
-      "summary": "중고 거래 시 ‘안전 결제’를 위장한 가짜 링크를 조심하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "51d228a1903c",
-      "title": "디도스 공격 아냐... 룩셈부르크 마비시킨 화웨이 장비의 치명적 결함",
-      "url": "http://www.boannews.com/media/view.asp?idx=143750&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 14:30:00 +0900",
-      "summary": "불량 데이터 패킷 통과하자 장비 스스로 멈춰 서며 국가 기간망 연쇄 붕괴사고 후 10개월 지났지만, 글로벌 취약점 등록 전무해 타국 통신망 위협 여전해[보안뉴스 김형근 기자] 지난해 룩셈부르크 전역의 유무선 통신과 긴급 구조망을 3시간 이상 마비시켰던 국가 통신망 대참사의 배후가 중국 통신장비업체 화웨이(Huawei)의 기업용 라우터 미공개 보안 결함이었던"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "33cb5e49d0c5",
-      "title": "관악구, 현대시장 사거리 일대 ‘스마트폴 안심가로등’ 20개소 확충",
-      "url": "http://www.boannews.com/media/view.asp?idx=143760&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 14:25:00 +0900",
-      "summary": "CCTV·비상벨·공공와이파이 결합해 통합관제센터와 실시간 연동 운영2년 연속 공모 선정 기반으로 신림역 이어 생활밀착형 방범 인프라 확대[보안뉴스 강초희 기자] 서울 관악구(구청장 박준희)가 주민들이 더욱 안심하고 통행할 수 있는 안전한 밤거리를 조성하기 위해 성현·중앙동 현대시장 사거리(은천로 109~137) 일대에 ‘스마트폴 안심가로등’ 20개소 설치를"
+      "published": "Thu, 21 May 2026 15:00:00 +0000",
+      "summary": "핵심 내용. 2023년 6월 WormGPT 등장 이후 AI 기반 해킹 도구가 다크웹, 텔레그램, GitHub, Hugging Face로 확산되었다. 시장은 유료 구독형 SaaS와 무료 오픈소스 배포가 공존하는 구조로 진화했다. 주요 기능은 피싱 자동화, 악성코드 개발, 정찰, 브루트포스, 취약점 익스플로잇, 소셜 엔지니어링으로 분화되었다. WormGPT, FraudGPT, EvilGPT, K"
     },
     {
       "source": "ASEC KR",
@@ -100,16 +130,6 @@
       "translateUrl": "",
       "published": "Thu, 21 May 2026 11:28:08 +0000",
       "summary": "금융권 대상 유포 악성코드 통계 금융권 대상 공격에서는 1단계 Phishing, 2단계 Backdoor·Downloader·Dropper, 3단계 Infostealer·Ransomware가 상위로 확인됐다. MD5 Hash 기반으로 실제 유포 파일을 식별했으며, 동일 계열 변종이 다수 존재할 수 있다고 설명됐다. 금융권 대상 유포 주요 악성코드 TOP 10 피싱·악성코드 유포에 사용된 한글 "
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "0436b6f801d8",
-      "title": "아우토크립트, 자동차 넘어 로봇·의료기기까지 ‘피지컬 AI’ 보안 영토 확장",
-      "url": "http://www.boannews.com/media/view.asp?idx=143755&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Thu, 21 May 2026 11:28:00 +0900",
-      "summary": "삼성동 연구소 피지컬 AI 보안연구센터로 개편하며 체질 개선 본격화첫 확장 산업으로 바이오 헬스케어 낙점... 자체 하이브리드 PQC 기술 이식[보안뉴스 조재호 기자] 아우토크립트가 글로벌 자동차 산업에서 축적한 사이버보안 기술력을 발판 삼아, 로봇·방산·바이오·헬스케어 등 피지컬 AI(Physical AI) 시스템이 적용되는 산업 전반으로 사업 영역을 확"
     },
     {
       "source": "KISA 보안공지",
@@ -242,16 +262,6 @@
       "summary": ""
     },
     {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "f9462ef98fe5",
-      "title": "Linux Kernel 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72050",
-      "translateUrl": "",
-      "published": "2026-05-14",
-      "summary": ""
-    },
-    {
       "source": "ASEC KR",
       "region": "domestic",
       "slug": "3fd500615947",
@@ -284,22 +294,12 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "13694c21e894",
-      "title": "2026년 4월 다크웹 침해사고 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93627/",
+      "slug": "18b0344ccac7",
+      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93632/",
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 침해사고 동향 보고서는 딥웹 및 다크웹 포럼에 게시된 Data Breach 사례를 중심으로 정리되었다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 다크웹 주요 포럼인 BreachForums(Hasan 운영), DarkForums, Exploit, Spear, PwnForums에서 군사, 정부, 금융, 기술, 의료, "
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
-      "slug": "1bc16d3d8188",
-      "title": "2026년 4월 다크웹 이슈 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93631/",
-      "translateUrl": "",
-      "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 BreachForums는 신규 도메인을 공개하며 재가동을 이어갔고, 운영 업데이트 공지를 반복했다. 동시에 PwnForums 같은 사칭 포럼이 등장했고, BreachForums 측은 이에 대한 경고"
+      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
     },
     {
       "source": "KISA 취약점정보",
