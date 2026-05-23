@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-05-23T04:05:49.079537+00:00",
+  "generated_at": "2026-05-23T08:30:18.697695+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "409b40a97573",
+      "title": "사이버 위협에 지갑 여는 중소기업... 하지만 여전히 사후 대응에 머물러",
+      "url": "http://www.boannews.com/media/view.asp?idx=143785&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 23 May 2026 16:37:00 +0900",
+      "summary": "경영 과제 순위에서 ‘데이터 보호’와 ‘사이버 보안’을 기업 성장 바로 다음 순위로 올라[보안뉴스 김형근 기자] 8개국 2200개 중소기업(SMB)의 60%가 향후 12개월 동안 사이버 보안 지출을 전격 확대할 계획이라고 글로벌 시장조사기관 IDC가 설문조사 결과를 인용해 발표했다. 다만, 이번 조사 결과에 따르면 많은 중소기업이 예산 증액 조치에도 불구"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -90,16 +100,6 @@
       "translateUrl": "",
       "published": "Fri, 22 May 2026 14:55:00 +0900",
       "summary": "글로벌 보안 장비 감시망 우회한 채 정상 구동 중인 신규 C2 서버 적발문자열 암호화 및 무의미한 루프 삽입으로 자동화 분석 도구 무력화[보안뉴스 김형근 기자] 가상자산 지갑 주소를 무단 변경하는 클립보드 하이재커 기능과 디스코드(Discord) 계정 탈취 모듈을 탑재한 악성코드가 등장했다. 팔로알토 네트웍스가 분석한 그렘린 스틸러(Gremlin Steal"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "622c845a25a2",
-      "title": "[김정덕의 인간중심보안-6] 감정과 비합리성, 보안의 숨은 힘",
-      "url": "http://www.boannews.com/media/view.asp?idx=143773&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 22 May 2026 14:51:00 +0900",
-      "summary": "인간의 심리를 보안 설계에 녹여내는 방법[연재목차 Part 3. 인간중심보안과 보안문화]1. AI 시대, 왜 인간 중심 보안인가2. AI 시대, 인간 중심 보안을 구현하려면3. 인간의 창의성과 AI 보안4. 보안 위반, 뇌 과학 해법5. 넛지 보안의 힘6. 감정과 비합리성, 보안의 숨은 힘7. 디지털 야누스, 두얼굴의 사용자8. 인간 중심 보안과 제로트러스"
     },
     {
       "source": "KISA 보안공지",
@@ -404,6 +404,26 @@
     {
       "source": "The Hacker News",
       "region": "global",
+      "slug": "5812c6571ea6",
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Flitespeed-cpanel-plugin-cve-2026-48172.html",
+      "published": "Sat, 23 May 2026 13:05:13 +0530",
+      "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incor"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "934ba66ddf9f",
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "url": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fdrupal-core-sql-injection-bug-actively.html",
+      "published": "Sat, 23 May 2026 12:53:48 +0530",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active"
+    },
+    {
+      "source": "The Hacker News",
+      "region": "global",
       "slug": "c1b93c8b4c1a",
       "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
       "url": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
@@ -419,7 +439,7 @@
       "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fghostwriter-targets-ukraine-government.html",
       "published": "Fri, 22 May 2026 21:50:32 +0530",
-      "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, t"
+      "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the countr"
     },
     {
       "source": "The Hacker News",
@@ -560,26 +580,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fshowboat-linux-malware-hits-middle-east.html",
       "published": "Thu, 21 May 2026 19:47:09 +0530",
       "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "352bdf77cae7",
-      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fthreatsday-bulletin-linux-rootkits.html",
-      "published": "Thu, 21 May 2026 17:22:14 +0530",
-      "summary": "This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "656eec434cef",
-      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-      "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmicrosoft-warns-of-two-actively.html",
-      "published": "Thu, 21 May 2026 16:25:57 +0530",
-      "summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system."
     },
     {
       "source": "BleepingComputer",
