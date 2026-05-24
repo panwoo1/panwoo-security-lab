@@ -1,6 +1,106 @@
 {
-  "generated_at": "2026-05-23T19:36:36.486900+00:00",
+  "generated_at": "2026-05-24T04:36:28.432664+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "444a5721dba1",
+      "title": "미토스가 불러온 보안 위협의 시대, ‘소버린 AI 보안 전략’이 필요하다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143786&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sun, 24 May 2026 09:47:00 +0900",
+      "summary": "국회입법조사처, ‘미토스’ 사태와 AI 보안 위협 대응 전략 간담회“소버린 AI 전략 넘어서는 ‘소버린 AI 보안 전략’ 조속히 추진해야”[보안뉴스 원병철 기자] 미토스의 등장 이후 챗GPT 5.5 사이버, 마이크로소프트 MDASH 등 다양한 사이버보안 강화 AI가 등장하면서 전 세계의 이목이 쏠리고 있지만, 아직 특정 기업에만 공급되는 등 불균형 문제가"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "409b40a97573",
+      "title": "사이버 위협에 지갑 여는 중소기업... 하지만 여전히 사후 대응에 머물러",
+      "url": "http://www.boannews.com/media/view.asp?idx=143785&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 23 May 2026 16:37:00 +0900",
+      "summary": "경영 과제 순위에서 ‘데이터 보호’와 ‘사이버 보안’을 기업 성장 바로 다음 순위로 올라[보안뉴스 김형근 기자] 8개국 2200개 중소기업(SMB)의 60%가 향후 12개월 동안 사이버 보안 지출을 전격 확대할 계획이라고 글로벌 시장조사기관 IDC가 설문조사 결과를 인용해 발표했다. 다만, 이번 조사 결과에 따르면 많은 중소기업이 예산 증액 조치에도 불구"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "53f6cd5c61d7",
+      "title": "다크웹 브로커들의 악질적인 개인정보 ‘재포장 사기’ 기승",
+      "url": "http://www.boannews.com/media/view.asp?idx=143784&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 23 May 2026 09:11:00 +0900",
+      "summary": "낡은 유출 데이터 가져와 최신 기업 기밀로 위장[보안뉴스 김형근 기자] 최근 다크웹 포럼과 텔레그램 채널을 중심으로 과거 유출 데이터를 최신 기밀로 위장해 판매하는 사기 수법이 급증한 것으로 조사됐다. 싱가포르에 본사를 둔 글로벌 보안 기업 그룹아이비(Group-IB)는 자체 조사 결과 이번 가짜 데이터 폭로 공습을 주도하는 세력은 주로 중국어권 사이버"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "4a6ed1e0ccaa",
+      "title": "프라이빗테크놀로지, AI 기반 제로트러스트 허브 모델 선보인다",
+      "url": "http://www.boannews.com/media/view.asp?idx=143783&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 23 May 2026 08:40:00 +0900",
+      "summary": "2026년 제로트러스트 도입 시범사업 주관기업으로 금융권 실증 추진 [보안뉴스 원병철 기자] 프라이빗테크놀로지가 2026년 제로트러스트 도입 시범사업 주관기업으로 선정돼 금융권 대상 AI 기반 제로트러스트 허브 모델 실증에 나선다고 밝혔다. 제로트러스트 전문기업 프라이빗테크놀로지가 지난해에 이어 올해도 금융권 제로트러스트 보안 모델 확산에 나선다."
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "c52c8930c330",
+      "title": "엔피코어, 베트남 시큐리티 서밋 2026 참가해 차세대 XDR 및 랜섬웨어 대응 기술 선보여",
+      "url": "http://www.boannews.com/media/view.asp?idx=143782&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 23 May 2026 08:31:00 +0900",
+      "summary": "베트남 비롯한 동남아 시장, APT와 랜섬웨어 공격에 동시에 대응할 수 있는 통합 보안 니즈 커져[보안뉴스 원병철 기자] 엔피코어가 차세대 XDR·랜섬웨어 대응 기술을 앞세워 베트남 사이버보안 시장 공략에 나선다.엔피코어는 5월 22일 베트남 하노이 JW 메리어트 호텔에서 열린 ‘제8회 베트남 시큐리티 서밋 2026’에 참가해 자체 개발한 XDR 플랫폼 ‘"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "e099435765c6",
+      "title": "티디지, 스패로우와 ‘DevSecOps 기반 보안체계 구축’ 계약",
+      "url": "http://www.boannews.com/media/view.asp?idx=143781&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 17:03:00 +0900",
+      "summary": "SBOM 기반 공급망 보안 강화... 금융권 등 시장 선점[보안뉴스 원병철 기자] AI 클라우드 전문기업 티디지(사장 이문형)가 애플리케이션 보안 전문기업 스패로우(대표 장일수)와 ‘소프트웨어 공급망 보안 강화’를 위한 계약을 체결했다. 양사는 이번 계약에 따라 소프트웨어 구성요소의 투명성을 확보하고, SBOM(Software Bill of Materia"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "4a103370c1c7",
+      "title": "‘불법 주정차 근절’ 인천 중구, 주행형 단속 CCTV 3대 신규 도입",
+      "url": "http://www.boannews.com/media/view.asp?idx=143779&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 16:40:00 +0900",
+      "summary": "단속 업무 효율화, 불필요한 대민 마찰 최소화, 주정차 질서 확립 도모[보안뉴스 강초희 기자] 인천시 중구(구청장 김정헌)는 올해 영종국제도시 지역 불법 주정차 근절을 위해 ‘불법 주정차 단속 주행형 CCTV’ 3대를 신규 도입한다고 22일 밝혔다.이는 불법 주정차 단속 업무의 효율화를 꾀함으로써 교통사고 사전 예방과 차량의 원활한 소통, 주민 불편 해소"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "8b2dd4fdedcf",
+      "title": "구로구, ‘2026년 스마트빌리지 조성사업’ 추진... 구로형 스마트폴 설치",
+      "url": "http://www.boannews.com/media/view.asp?idx=143780&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 16:39:00 +0900",
+      "summary": "개봉2·3동 일대 5가지 유형의 구로형 특화 스마트폴 총 36대 설치[보안뉴스 강초희 기자] 서울 구로구(구청장 장인홍)가 올해 ‘스마트빌리지 조성사업’을 통해 개봉2·3동 일대에 구로구만의 특화된 5가지 유형의 ‘구로형 스마트폴’ 36대를 설치한다. ‘스마트빌리지 조성사업’은 스마트 인프라 취약지역에 정보통신기술을 접목한 스마트폴을 설치해 범죄 및 교통사"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "948c58372ac9",
+      "title": "“몇 시간 내 공격 코드 풀린다” 드루팔, 모든 버전 긴급 보안 패치 예고",
+      "url": "http://www.boannews.com/media/view.asp?idx=143776&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 16:36:00 +0900",
+      "summary": "현지시간 20일 지원 중인 전 버전 대상 코어 보안 업데이트 동시 배포취약점 세부 사항 비공개 “공개 직후 자동화 해킹 도구 유포 위험 높아”[보안뉴스 김형근 기자] 전 세계 수많은 기업과 기관이 웹사이트 구축에 사용하는 핵심 플랫폼 드루팔(Drupal)이 대규모 사이버 공격을 막기 위한 긴급 대응에 나섰다.드루팔 보안팀은 20일(현지시간) 모든 지원 버전"
+    },
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "fc39d5173ec9",
+      "title": "소프트캠프, 금융 보안 플러그인 제거 의무화에 대응하는 RBI 기반 보안 접속 플랫폼 ‘SHIELD Web’ 출시",
+      "url": "http://www.boannews.com/media/view.asp?idx=143778&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Fri, 22 May 2026 16:16:00 +0900",
+      "summary": "금융당국 설치형 보안 SW 의무 제거 흐름 속...플러그인 없이도 금융사가 직접 보안 통제정부, 2026년부터 금융권 설치형 보안 SW 단계적 제거 의무화보안 위해 도입한 플러그인이 오히려 공급망 공격 통로로...구조적 전환 불가피“플러그인 제거는 기능 포기 아냐”...보안 통제권을 금융사 클라우드로 이전AI 해킹 시대, 브라우저 노출 코드 자체가 표적.."
+    },
     {
       "source": "KISA 보안공지",
       "region": "domestic",
@@ -194,12 +294,12 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "18b0344ccac7",
-      "title": "2026년 4월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/93632/",
+      "slug": "13694c21e894",
+      "title": "2026년 4월 다크웹 침해사고 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/93627/",
       "translateUrl": "",
       "published": "Sun, 10 May 2026 15:00:00 +0000",
-      "summary": "알림 2026년 4월 다크웹 위협 행위자 동향 보고서는 딥웹 및 다크웹에서 활동하는 핵티비스트와 위협 행위자의 동향을 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 NoName05716은 한국 지역의 정부기관, 공공기관, 기업 등 수십 곳을 대상으로 반복적인 DDoS 공격을 주장했다. 단일 주장에서는 최대 22개 기관이 동시에 표"
+      "summary": "알림 2026년 4월 다크웹 침해사고 동향 보고서는 딥웹 및 다크웹 포럼에 게시된 Data Breach 사례를 중심으로 정리되었다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 사례가 포함되었다. 주요 이슈 다크웹 주요 포럼인 BreachForums(Hasan 운영), DarkForums, Exploit, Spear, PwnForums에서 군사, 정부, 금융, 기술, 의료, "
     },
     {
       "source": "KISA 취약점정보",
@@ -330,6 +430,16 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fclaude-mythos-ai-finds-10000-high.html",
       "published": "Sat, 23 May 2026 17:25:35 +0530",
       "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cyb"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
+      "slug": "060cacb15205",
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Flaravel-lang-packages-hijacked-to-deploy-credential-stealing-malware%2F",
+      "published": "Sat, 23 May 2026 16:48:23 -0400",
+      "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious cod"
     },
     {
       "source": "The Hacker News",
@@ -490,119 +600,7 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fus-and-canada-arrest-and-charge-suspected-kimwolf-botnet-admin%2F",
       "published": "Fri, 22 May 2026 05:01:20 -0400",
       "summary": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "5bdd0fd810d4",
-      "title": "Google accidentally exposed details of unfixed Chromium flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fgoogle-accidentally-exposed-details-of-unfixed-chromium-flaw%2F",
-      "published": "Thu, 21 May 2026 14:13:50 -0400",
-      "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "a31abad59ba5",
-      "title": "ABB B&R Automation Studio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-141-03",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party component. Although no successful exploitation "
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "533da531c4ca",
-      "title": "ABB Terra AC Wallbox",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-141-05",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause the pollution of heap memory which poten"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "ba35ec57c234",
-      "title": "ABB B&R PCs",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-141-02",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. A network attacker could exploit"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "876a680d50a6",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F21%2Fcisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-34291 Langflow Origin Validation Error Vulnerability CVE-2026-34926 Trend M"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "90ad8794d398",
-      "title": "ABB B&R Automation Runtime",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-141-04",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary An update is available that resolves a vulnerability identified by B&Rs internal security analysis in the product versions listed as affected in this advisory. An attacker who successfully exploited the"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "c60ac8937a26",
-      "title": "Hitachi Energy GMS600",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-141-01",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker successfully exploiting this vulnerability c"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "23434d6f835f",
-      "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fapple%2Fapple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025%2F",
-      "published": "Thu, 21 May 2026 11:11:08 -0400",
-      "summary": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [...]"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "4647415779f8",
-      "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Falerts%2F2026%2F05%2F20%2Fcisa-adds-seven-known-exploited-vulnerabilities-catalog",
-      "published": "Wed, 20 May 26 12:00:00 +0000",
-      "summary": "CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2008-4250 Microsoft Windows Buffer Overflow Vulnerability CVE-2009-1537 Micros"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "483d3ef6d2b1",
-      "title": "Siemens RUGGEDCOM APE1808 Devices",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-02",
-      "published": "Tue, 19 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to execute arbitrary code with"
-    },
-    {
-      "source": "CISA",
-      "region": "global",
-      "slug": "94e67ac62d49",
-      "title": "ABB CoreSense HM and CoreSense M10",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.cisa.gov%2Fnews-events%2Fics-advisories%2Ficsa-26-139-01",
-      "published": "Tue, 19 May 26 12:00:00 +0000",
-      "summary": "View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products can allow unauthenticated users to gain a"
     }
   ],
-  "errors": [
-    "보안뉴스: <urlopen error timed out>"
-  ]
+  "errors": []
 }
