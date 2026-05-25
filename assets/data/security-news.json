@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T04:48:28.586806+00:00",
+  "generated_at": "2026-05-25T10:46:25.465659+00:00",
   "items": [
     {
       "source": "보안뉴스",
@@ -402,6 +402,16 @@
       "summary": ""
     },
     {
+      "source": "The Hacker News",
+      "region": "global",
+      "slug": "758e6e49f201",
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "url": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Ftrapdoor-supply-chain-attack-spreads.html",
+      "published": "Mon, 25 May 2026 11:29:13 +0530",
+      "summary": "A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed TrapDoor, spans more than 34 malicious pack"
+    },
+    {
       "source": "BleepingComputer",
       "region": "global",
       "slug": "fd84ae4913a0",
@@ -520,16 +530,6 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmegalodon-github-attack-targets-5561.html",
       "published": "Fri, 22 May 2026 17:25:24 +0530",
       "summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and f"
-    },
-    {
-      "source": "The Hacker News",
-      "region": "global",
-      "slug": "b964a5300064",
-      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-      "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fthehackernews.com%2F2026%2F05%2Fmaking-vulnerable-drivers-exploitable.html",
-      "published": "Fri, 22 May 2026 17:08:12 +0530",
-      "summary": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-orie"
     },
     {
       "source": "BleepingComputer",
