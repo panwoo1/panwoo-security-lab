@@ -8,6 +8,7 @@
     "prebuild": "node ../../scripts/generate-web-content.mjs",
     "predeploy": "node ../../scripts/generate-web-content.mjs",
     "dev": "WRANGLER_LOG_PATH=/tmp/wrangler-dev.log wrangler dev --config ../../wrangler.toml",
+    "test": "node --test src/tests/*.test.ts",
     "build": "WRANGLER_LOG_PATH=/tmp/wrangler.log wrangler deploy --config ../../wrangler.toml --dry-run",
     "deploy": "WRANGLER_LOG_PATH=/tmp/wrangler.log wrangler deploy --config ../../wrangler.toml"
   },

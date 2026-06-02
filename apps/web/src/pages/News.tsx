@@ -4,13 +4,14 @@ import { SectionHeader } from '../components/layout/SectionHeader'
 import { NewsList } from '../components/news/NewsList'
 import { NewsToolbar } from '../components/news/NewsToolbar'
 
-function splitSentences(value: string) {
+function splitReadableParagraphs(value: string) {
+  const cleanValue = value.replace(/\s+/g, ' ').trim()
   const sentences: string[] = []
   let current = ''
 
-  for (const char of value) {
+  for (const char of cleanValue) {
     current += char
-    if ('.!?。！？다'.includes(char)) {
+    if ('.!?。！？'.includes(char)) {
       const sentence = current.trim()
       if (sentence) sentences.push(sentence)
       current = ''
@@ -19,12 +20,27 @@ function splitSentences(value: string) {
 
   const rest = current.trim()
   if (rest) sentences.push(rest)
-  return sentences
+
+  const paragraphs: string[] = []
+  let paragraph = ''
+
+  for (const sentence of sentences) {
+    const nextParagraph = paragraph ? `${paragraph} ${sentence}` : sentence
+    if (nextParagraph.length > 360 && paragraph) {
+      paragraphs.push(paragraph)
+      paragraph = sentence
+    } else {
+      paragraph = nextParagraph
+    }
+  }
+
+  if (paragraph) paragraphs.push(paragraph)
+  return paragraphs.length ? paragraphs : [cleanValue]
 }
 
 function splitArticleText(item: NewsItem) {
   const body = item.articleText || item.summary || '본문을 가져오지 못했습니다. 원문 링크에서 확인해 주세요.'
-  return splitSentences(body)
+  return splitReadableParagraphs(body)
 }
 
 export function NewsPage({
@@ -73,13 +89,13 @@ export function NewsPage({
         onQueryChange={onQueryChange}
       />
       <p className="mb-4 text-xs font-medium uppercase tracking-[0.12em] text-slate-400">Generated at {formatDate(generatedAt)}</p>
-      <div className="grid gap-4 lg:grid-cols-[minmax(320px,0.82fr)_minmax(0,1.18fr)] lg:items-start">
+      <div className="grid gap-4 lg:grid-cols-[minmax(300px,0.72fr)_minmax(0,1.28fr)] lg:items-start">
         <div className="min-w-0 lg:max-h-[calc(100vh-13rem)] lg:overflow-y-auto lg:pr-1">
           <NewsList items={items} selectedSlug={selectedItem?.slug} formatDate={formatDate} onSelect={(item) => setSelectedSlug(item.slug)} />
         </div>
-        <section className="min-w-0 rounded-2xl border border-white/10 bg-white/[0.035] p-4 shadow-[0_10px_30px_rgba(2,6,23,0.18)] sm:p-5 lg:sticky lg:top-6">
+        <section className="min-w-0 rounded-2xl border border-white/10 bg-slate-950/45 p-4 shadow-[0_10px_30px_rgba(2,6,23,0.18)] sm:p-6 lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
           {selectedItem ? (
-            <article className="grid gap-4">
+            <article className="mx-auto grid max-w-[820px] gap-5">
               <div className="flex flex-wrap items-center gap-2 text-[0.72rem] font-semibold leading-none">
                 <span className="rounded-full border border-white/10 bg-white/[0.045] px-2.5 py-1.5 text-slate-300">{selectedItem.source}</span>
                 <span className="rounded-full border border-blue-400/25 bg-blue-400/10 px-2.5 py-1.5 text-blue-200">
@@ -88,13 +104,13 @@ export function NewsPage({
                 <span className="rounded-full border border-white/10 bg-slate-950/50 px-2.5 py-1.5 text-slate-400">{formatDate(selectedItem.published)}</span>
               </div>
 
-              <h3 className="m-0 text-[1.35rem] font-bold leading-tight text-white sm:text-[1.7rem]">{selectedItem.title}</h3>
+              <h3 className="m-0 text-[1.45rem] font-bold leading-tight text-white sm:text-[1.85rem]">{selectedItem.title}</h3>
 
-              {selectedItem.summary ? <p className="m-0 border-l border-blue-400/30 pl-3 text-[0.96rem] leading-6 text-slate-300">{selectedItem.summary}</p> : null}
+              {selectedItem.summary ? <p className="m-0 border-l border-blue-400/35 pl-4 text-[1rem] leading-7 text-slate-200">{selectedItem.summary}</p> : null}
 
-              <div className="max-h-[58vh] overflow-y-auto pr-1 text-[0.96rem] leading-7 text-slate-300">
+              <div className="text-[1.02rem] leading-8 text-slate-200">
                 {articleParagraphs.map((paragraph, index) => (
-                  <p className="mb-3" key={`${selectedItem.slug}-${index}`}>
+                  <p className="mb-4" key={`${selectedItem.slug}-${index}`}>
                     {paragraph}
                   </p>
                 ))}

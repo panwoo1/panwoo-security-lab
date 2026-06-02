@@ -1,8 +1,15 @@
 import { blogPosts, generatedAt, newsItems, type BlogPost } from './generated-content'
+import { executePaperTrade, getTradingMarkets, runAnalysis, runCollector, runJob } from './services/trading'
+import { getReadDb } from './services/supabase'
+import type { TradingEnv } from './services/types'
+import { approveOrderIntent, listOrderIntents, rejectOrderIntent } from './routes/trading/approvals'
+import { setKillSwitch } from './routes/trading/admin'
 
-export interface Env {
+export interface Env extends TradingEnv {
   SUPABASE_URL?: string
   SUPABASE_ANON_KEY?: string
+  SUPABASE_SERVICE_ROLE_KEY?: string
+  ADMIN_TOKEN?: string
   DASHBOARD_API_BASE_URL?: string
   DASHBOARD_API_TOKEN?: string
   ASSETS?: Fetcher
@@ -147,6 +154,149 @@ function json(data: unknown, cacheControl: string, init?: ResponseInit): Respons
   return withSecurityHeaders(Response.json(data, init), cacheControl)
 }
 
+async function readJsonBody<T>(request: Request): Promise<T> {
+  if (!request.headers.get('Content-Type')?.includes('application/json')) return {} as T
+  return (await request.json()) as T
+}
+
+function isAdminRequest(request: Request, env: Env): boolean {
+  if (!env.ADMIN_TOKEN) return false
+  const token = request.headers.get('Authorization')?.replace(/^Bearer\s+/i, '') ?? request.headers.get('X-Admin-Token')
+  return token === env.ADMIN_TOKEN
+}
+
+function requireAdmin(request: Request, env: Env): Response | null {
+  if (isAdminRequest(request, env)) return null
+  return json({ error: 'Unauthorized' }, NO_STORE, { status: 401 })
+}
+
+async function handleTradingApi(request: Request, env: Env): Promise<Response | null> {
+  const url = new URL(request.url)
+  const { pathname } = url
+
+  try {
+    if (pathname === '/api/trading/health' && request.method === 'GET') {
+      return json({
+        ok: true,
+        service: 'trading',
+        markets: getTradingMarkets(env),
+        paperTrading: true,
+        realTradingEnabled: env.ENABLE_REAL_TRADING === 'true',
+        adminConfigured: Boolean(env.ADMIN_TOKEN),
+        supabaseConfigured: Boolean(env.SUPABASE_URL && (env.SUPABASE_SERVICE_ROLE_KEY || env.SUPABASE_ANON_KEY))
+      }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/markets' && request.method === 'GET') {
+      return json({ exchange: 'upbit', markets: getTradingMarkets(env), interval: env.TRADING_CANDLE_INTERVAL || 'minutes5' }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/candles' && request.method === 'GET') {
+      const market = (url.searchParams.get('market') || 'KRW-BTC').toUpperCase()
+      const interval = url.searchParams.get('interval') || env.TRADING_CANDLE_INTERVAL || 'minutes5'
+      const rows = await getReadDb(env).select('market_candles', {
+        select: '*',
+        filters: { exchange: 'eq.upbit', market: `eq.${market}`, interval: `eq.${interval}` },
+        order: 'candle_time.desc',
+        limit: 100
+      })
+      return json({ market, interval, items: rows }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/research/latest' && request.method === 'GET') {
+      const rows = await getReadDb(env).select('market_research', {
+        select: '*',
+        order: 'research_time.desc',
+        limit: 12
+      })
+      const notes = await getReadDb(env).select('ai_research_notes', {
+        select: '*',
+        order: 'created_at.desc',
+        limit: 12
+      })
+      return json({ items: rows, notes }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/signals/latest' && request.method === 'GET') {
+      const rows = await getReadDb(env).select('strategy_signals', {
+        select: '*',
+        order: 'signal_time.desc',
+        limit: 20
+      })
+      return json({ items: rows }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/paper-trades' && request.method === 'GET') {
+      const rows = await getReadDb(env).select('paper_trades', {
+        select: '*',
+        order: 'executed_at.desc',
+        limit: 50
+      })
+      const risks = await getReadDb(env).select('risk_logs', {
+        select: '*',
+        order: 'created_at.desc',
+        limit: 30
+      })
+      return json({ items: rows, riskLogs: risks }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/paper-trades/execute' && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      const body = await readJsonBody<{ signalId?: string; market?: string }>(request)
+      const result = await executePaperTrade(env, body.signalId, body.market)
+      return json(result, NO_STORE, { status: result.executed ? 201 : 409 })
+    }
+
+    if (pathname === '/api/trading/order-intents' && request.method === 'GET') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      return json(await listOrderIntents(env), NO_STORE)
+    }
+
+    const orderIntentAction = pathname.match(/^\/api\/trading\/order-intents\/([^/]+)\/(approve|reject)$/)
+    if (orderIntentAction && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      const id = decodeURIComponent(orderIntentAction[1])
+      const action = orderIntentAction[2]
+      const result = action === 'approve' ? await approveOrderIntent(env, id) : await rejectOrderIntent(env, id)
+      return json(result, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/kill-switch/enable' && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      return json(await setKillSwitch(env, true), NO_STORE)
+    }
+
+    if (pathname === '/api/trading/kill-switch/disable' && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      return json(await setKillSwitch(env, false), NO_STORE)
+    }
+
+    if (pathname === '/api/admin/trading/run-collector' && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      const result = await runJob(env, 'manual-collector', () => runCollector(env))
+      return json({ ok: true, result }, NO_STORE)
+    }
+
+    if (pathname === '/api/admin/trading/run-analysis' && request.method === 'POST') {
+      const unauthorized = requireAdmin(request, env)
+      if (unauthorized) return unauthorized
+      const body = await readJsonBody<{ reportType?: 'hourly' | 'daily' }>(request)
+      const result = await runJob(env, `manual-analysis-${body.reportType || 'hourly'}`, () => runAnalysis(env, body.reportType || 'hourly'))
+      return json({ ok: true, result }, NO_STORE)
+    }
+  } catch (error) {
+    return json({ error: error instanceof Error ? error.message : 'Trading API failed' }, NO_STORE, { status: 500 })
+  }
+
+  return null
+}
+
 async function proxyDashboardApi(request: Request, env: Env, pathPrefix = '/api'): Promise<Response> {
   const incomingUrl = new URL(request.url)
 
@@ -204,8 +354,30 @@ function postSummary(post: BlogPost) {
 }
 
 export default {
+  async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext): Promise<void> {
+    const minute = new Date(event.scheduledTime).getUTCMinutes()
+    const hour = new Date(event.scheduledTime).getUTCHours()
+
+    if (minute % 5 === 0) {
+      ctx.waitUntil(runJob(env, 'scheduled-collector-5m', () => runCollector(env)))
+    }
+
+    if (minute === 0) {
+      ctx.waitUntil(runJob(env, 'scheduled-analysis-hourly', () => runAnalysis(env, 'hourly')))
+    }
+
+    if (minute === 5 && hour === 0) {
+      ctx.waitUntil(runJob(env, 'scheduled-report-daily', () => runAnalysis(env, 'daily')))
+    }
+  },
+
   async fetch(request: Request, env: Env): Promise<Response> {
     const { pathname } = new URL(request.url)
+
+    if (pathname.startsWith('/api/trading/') || pathname.startsWith('/api/admin/trading/')) {
+      const response = await handleTradingApi(request, env)
+      if (response) return response
+    }
 
     if (pathname === '/api/health') {
       const supabase = getSupabaseStatus(env)

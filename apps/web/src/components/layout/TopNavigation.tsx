@@ -3,8 +3,8 @@ import type { AppSection, NavItem } from '../../types'
 export const portalNavItems: NavItem[] = [
   { id: 'overview', label: 'Overview', description: 'Lab summary', status: 'live' },
   { id: 'news', label: 'News', description: 'Security feed', status: 'live' },
-  { id: 'exam', label: 'Exam', description: '기사 기반 문제', status: 'live' },
   { id: 'blog', label: 'Blog', description: 'Research notes', status: 'live' },
+  { id: 'trading', label: 'Trading', description: 'Paper research', status: 'live' },
   { id: 'agents', label: 'Agents', description: 'Runtime status', status: 'coming-soon' },
   { id: 'automation', label: 'Automation', description: 'Jobs and runs', status: 'coming-soon' },
   { id: 'wallet', label: 'Wallet', description: 'Read-only monitor', status: 'coming-soon' },

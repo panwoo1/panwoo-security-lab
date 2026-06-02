@@ -1,6 +1,6 @@
 import type { BlogPost } from './generated-content'
 
-export type AppSection = 'overview' | 'news' | 'exam' | 'blog' | 'agents' | 'automation' | 'wallet' | 'logs'
+export type AppSection = 'overview' | 'news' | 'blog' | 'trading' | 'agents' | 'automation' | 'wallet' | 'logs'
 
 export type BlogPostSummary = Omit<BlogPost, 'content' | 'html'>
 

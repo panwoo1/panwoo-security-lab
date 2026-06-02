@@ -30,7 +30,7 @@ function BlogReader({
   }
 
   return (
-    <div className="grid min-h-[calc(100vh-190px)] grid-cols-1 gap-5 lg:grid-cols-[300px_minmax(0,1fr)] xl:grid-cols-[320px_minmax(0,1fr)]">
+    <div className="grid min-h-[calc(100vh-190px)] grid-cols-1 gap-5 lg:grid-cols-[280px_minmax(0,1fr)] xl:grid-cols-[300px_minmax(0,1fr)]">
       <aside className="w-full lg:sticky lg:top-5 lg:max-h-[calc(100vh-120px)] lg:overflow-y-auto" aria-label="Blog posts">
         <div className="grid max-h-80 gap-2 overflow-y-auto pr-0 lg:max-h-none lg:pr-1">
           {posts.map((post) => (
@@ -55,9 +55,9 @@ function BlogReader({
         </div>
       </aside>
 
-      <section className="min-w-0 w-full px-0 pb-6 lg:px-6 xl:px-10">
+      <section className="min-w-0 w-full px-0 pb-6 lg:px-5 xl:px-8">
         {selected ? (
-          <article className="mx-auto grid w-full max-w-[940px] gap-4 rounded-2xl border border-white/10 bg-white/[0.035] p-5 shadow-[0_18px_70px_rgba(2,6,23,0.25)] sm:p-6 lg:p-8">
+          <article className="mx-auto grid w-full max-w-[840px] gap-5 rounded-2xl border border-white/10 bg-slate-950/45 p-5 shadow-[0_18px_70px_rgba(2,6,23,0.25)] sm:p-6 lg:p-8">
             <div className="flex flex-wrap gap-2 text-xs font-semibold text-slate-400">
               <span className="rounded-full border border-white/10 bg-white/[0.045] px-2.5 py-1.5">{selected.date || 'No date'}</span>
               {selected.categories.slice(0, 3).map((category) => (
@@ -66,7 +66,7 @@ function BlogReader({
                 </span>
               ))}
             </div>
-            <h3 className="text-2xl font-bold leading-tight tracking-normal text-white sm:text-3xl">{selected.title}</h3>
+            <h3 className="text-2xl font-bold leading-tight tracking-normal text-white sm:text-[2rem]">{selected.title}</h3>
             {selected.tags.length ? (
               <div className="flex flex-wrap gap-2">
                 {selected.tags.slice(0, 8).map((tag) => (

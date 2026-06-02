@@ -1,0 +1,40 @@
+name = "panwoo-security-lab"
+main = "apps/worker/src/index.ts"
+compatibility_date = "2026-05-09"
+keep_vars = true
+
+[assets]
+directory = "./apps/web/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = true
+
+# Example cron triggers only. Copy into wrangler.toml when ready.
+# The Worker scheduled handler maps these into collector/analysis/report jobs.
+[triggers]
+crons = [
+  "*/5 * * * *",
+  "0 * * * *",
+  "5 0 * * *"
+]
+
+# Configure these in Cloudflare dashboard or with Wrangler secrets/vars.
+# Never commit real secret values.
+# SUPABASE_URL
+# SUPABASE_ANON_KEY or SUPABASE_SERVICE_ROLE_KEY, depending on your RLS policy
+# ADMIN_TOKEN
+# TRADING_MARKETS = "KRW-BTC,KRW-ETH,KRW-XRP"
+# TRADING_CANDLE_INTERVAL = "minutes5"
+# TRADING_ORDER_KRW = "10000"
+# MAX_TRADE_KRW = "50000"
+# DAILY_MAX_TRADES = "8"
+# DAILY_MAX_LOSS_RATE = "0.03"
+# ENABLE_REAL_TRADING = "false"
+# LIVE_TRADING_CONFIRM = "false"
+# KILL_SWITCH = "false"
+# PROVIDER_ALLOWLIST_HOSTS = "api.upbit.com"
+# UPBIT_ACCESS_KEY
+# UPBIT_SECRET_KEY
+# AI_PROVIDER
+# AI_API_KEY
+# COINGECKO_API_KEY
