@@ -17,7 +17,7 @@ export class SupabaseRest {
     if (this.baseUrl.protocol !== 'https:' || !this.baseUrl.hostname.endsWith('.supabase.co')) {
       throw new Error('SUPABASE_URL must be a Supabase HTTPS project URL')
     }
-    this.apiKey = write ? env.SUPABASE_SERVICE_ROLE_KEY ?? env.SUPABASE_ANON_KEY ?? '' : env.SUPABASE_ANON_KEY ?? ''
+    this.apiKey = env.SUPABASE_SERVICE_ROLE_KEY ?? env.SUPABASE_ANON_KEY ?? ''
     if (!this.apiKey) throw new Error(write ? 'SUPABASE_SERVICE_ROLE_KEY is not configured' : 'SUPABASE_ANON_KEY is not configured')
   }
 

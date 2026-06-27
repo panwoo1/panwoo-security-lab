@@ -14,6 +14,11 @@ type Signal = {
   signal?: 'BUY' | 'SELL' | 'HOLD'
   confidence?: number
   reason?: string
+  inputs?: {
+    recentChangeRate?: number
+    riskFactors?: string[]
+    researchSummary?: string
+  }
   signal_time?: string
 }
 
@@ -23,6 +28,7 @@ type Research = {
   summary?: string
   risk_factors?: string[]
   research_time?: string
+  source?: string
 }
 
 type PaperTrade = {
@@ -45,12 +51,37 @@ type RiskLog = {
   created_at?: string
 }
 
+type AutoApprovalPolicy = {
+  minConfidence?: number
+  allowedSignals?: Array<'BUY' | 'SELL'>
+  maxNotionalKrw?: number
+  requirePaperRiskPass?: boolean
+}
+
+type AutoApprovalSimulation = {
+  signalId?: string
+  market?: string
+  signal?: 'BUY' | 'SELL' | 'HOLD'
+  confidence?: number
+  wouldApprove?: boolean
+  reason?: string
+  notionalKrw?: number
+  signalTime?: string
+  riskDecision?: {
+    allowed?: boolean
+    reason?: string
+  }
+}
+
 type TradingState = {
   health: TradingHealth | null
   signals: Signal[]
   research: Research[]
   trades: PaperTrade[]
   risks: RiskLog[]
+  autoApprovalPolicy: AutoApprovalPolicy | null
+  autoApprovalSimulations: AutoApprovalSimulation[]
+  previewSource?: string
   status: 'loading' | 'ready' | 'error'
 }
 
@@ -71,6 +102,11 @@ function formatKrw(value?: number) {
   return new Intl.NumberFormat('ko-KR', { maximumFractionDigits: 0 }).format(value)
 }
 
+function formatPct(value?: number) {
+  if (typeof value !== 'number') return '-'
+  return `${(value * 100).toFixed(2)}%`
+}
+
 async function fetchJson<T>(url: string): Promise<T> {
   const response = await fetch(url)
   if (!response.ok) throw new Error(`Request failed: ${response.status}`)
@@ -84,6 +120,9 @@ export function TradingPage() {
     research: [],
     trades: [],
     risks: [],
+    autoApprovalPolicy: null,
+    autoApprovalSimulations: [],
+    previewSource: undefined,
     status: 'loading'
   })
 
@@ -92,20 +131,27 @@ export function TradingPage() {
 
     async function loadTrading() {
       try {
-        const [health, signals, research, trades] = await Promise.all([
+        const [health, signals, research, preview, trades, autoApproval] = await Promise.all([
           fetchJson<TradingHealth>('/api/trading/health'),
           fetchJson<{ items: Signal[] }>('/api/trading/signals/latest'),
           fetchJson<{ items: Research[] }>('/api/trading/research/latest'),
-          fetchJson<{ items: PaperTrade[]; riskLogs: RiskLog[] }>('/api/trading/paper-trades')
+          fetchJson<{ items: Research[]; signals: Signal[]; source?: string }>('/api/trading/research/preview'),
+          fetchJson<{ items: PaperTrade[]; riskLogs: RiskLog[] }>('/api/trading/paper-trades'),
+          fetchJson<{ policy: AutoApprovalPolicy; items: AutoApprovalSimulation[] }>('/api/trading/auto-approval-simulation')
         ])
 
         if (!cancelled) {
+          const researchItems = research.items.length > 0 ? research.items : preview.items
+          const signalItems = signals.items.length > 0 ? signals.items : preview.signals
           setState({
             health,
-            signals: signals.items,
-            research: research.items,
+            signals: signalItems,
+            research: researchItems,
             trades: trades.items,
             risks: trades.riskLogs,
+            autoApprovalPolicy: autoApproval.policy,
+            autoApprovalSimulations: autoApproval.items,
+            previewSource: research.items.length === 0 && preview.items.length > 0 ? preview.source : undefined,
             status: 'ready'
           })
         }
@@ -130,6 +176,15 @@ export function TradingPage() {
   }
 
   const latestResearch = state.research[0]
+  const totalNotional = state.trades.reduce((total, trade) => total + Number(trade.notional_krw ?? 0), 0)
+  const realizedPnl = state.trades.reduce((total, trade) => total + Number(trade.pnl_krw ?? 0), 0)
+  const sells = state.trades.filter((trade) => trade.side === 'SELL')
+  const winRate = sells.length > 0 ? sells.filter((trade) => Number(trade.pnl_krw ?? 0) > 0).length / sells.length : undefined
+  const openExposure = state.trades.reduce((total, trade) => {
+    const notional = Number(trade.notional_krw ?? 0)
+    return trade.side === 'BUY' ? total + notional : total - notional
+  }, 0)
+  const simulatedApprovals = state.autoApprovalSimulations.filter((item) => item.wouldApprove).length
 
   return (
     <section className="space-y-5">
@@ -150,20 +205,47 @@ export function TradingPage() {
           <p className="mt-1 text-sm text-slate-400">Live: {state.health?.realTradingEnabled ? 'blocked by code' : 'off'}</p>
         </div>
         <div className="rounded-lg border border-white/10 bg-white/[0.04] p-4">
-          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Latest Signals</p>
-          <p className="mt-2 text-xl font-bold text-white">{state.signals.length}</p>
-          <p className="mt-1 text-sm text-slate-400">Stored strategy outputs</p>
+          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Paper PnL</p>
+          <p className={['mt-2 text-xl font-bold', realizedPnl < 0 ? 'text-rose-300' : 'text-emerald-300'].join(' ')}>
+            {formatKrw(realizedPnl)}
+          </p>
+          <p className="mt-1 text-sm text-slate-400">Win rate: {formatPct(winRate)}</p>
         </div>
         <div className="rounded-lg border border-white/10 bg-white/[0.04] p-4">
-          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Risk Logs</p>
-          <p className="mt-2 text-xl font-bold text-white">{state.risks.length}</p>
-          <p className="mt-1 text-sm text-slate-400">Allow/block audit trail</p>
+          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Auto Approval Sim</p>
+          <p className="mt-2 text-xl font-bold text-white">{simulatedApprovals}/{state.autoApprovalSimulations.length}</p>
+          <p className="mt-1 text-sm text-slate-400">Would pass current policy</p>
+        </div>
+      </div>
+
+      <div className="grid gap-3 md:grid-cols-3">
+        <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
+          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Paper Volume</p>
+          <p className="mt-2 text-xl font-bold text-white">{formatKrw(totalNotional)}</p>
+          <p className="mt-1 text-sm text-slate-400">{state.trades.length} simulated fills</p>
+        </div>
+        <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
+          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Open Exposure Estimate</p>
+          <p className="mt-2 text-xl font-bold text-white">{formatKrw(Math.max(openExposure, 0))}</p>
+          <p className="mt-1 text-sm text-slate-400">BUY notional minus SELL notional</p>
+        </div>
+        <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
+          <p className="text-xs font-bold uppercase tracking-normal text-slate-500">Risk Decisions</p>
+          <p className="mt-2 text-xl font-bold text-white">{state.risks.filter((risk) => risk.decision === 'ALLOW').length}/{state.risks.length}</p>
+          <p className="mt-1 text-sm text-slate-400">Allowed paper executions</p>
         </div>
       </div>
 
       <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
-          <h3 className="text-base font-bold text-white">AI Research Summary</h3>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="text-base font-bold text-white">AI Research Summary</h3>
+            {state.previewSource ? (
+              <span className="rounded-full border border-blue-300/20 bg-blue-300/10 px-2.5 py-1 text-xs font-bold text-blue-100">
+                Live preview
+              </span>
+            ) : null}
+          </div>
           <p className="mt-3 text-sm leading-6 text-slate-300">{latestResearch?.summary || '아직 저장된 시장 요약이 없습니다.'}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {(latestResearch?.risk_factors || []).map((item) => (
@@ -191,6 +273,103 @@ export function TradingPage() {
             ))}
             {state.signals.length === 0 ? <p className="text-sm text-slate-400">저장된 신호가 없습니다.</p> : null}
           </div>
+        </div>
+      </div>
+
+      <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h3 className="text-base font-bold text-white">Agent Decision Log</h3>
+            <p className="mt-1 text-sm text-slate-400">시장 데이터와 리스크 요약이 어떤 신호로 이어졌는지 확인합니다.</p>
+          </div>
+          <span className="rounded-full border border-slate-300/20 bg-slate-300/10 px-2.5 py-1 text-xs font-bold text-slate-200">
+            {state.signals.length} signals
+          </span>
+        </div>
+        <div className="mt-4 grid gap-3 lg:grid-cols-2">
+          {state.signals.slice(0, 6).map((signal) => (
+            <div className="rounded-lg border border-white/10 bg-white/[0.03] p-4" key={signal.id ?? `${signal.market}-${signal.signal_time}`}>
+              <div className="flex items-center justify-between gap-3">
+                <div>
+                  <p className="font-bold text-white">{signal.market}</p>
+                  <p className="mt-1 text-xs text-slate-500">{formatDate(signal.signal_time)}</p>
+                </div>
+                <span className="rounded-full border border-blue-300/20 bg-blue-300/10 px-2.5 py-1 text-xs font-bold text-blue-100">
+                  {signal.signal} · {formatPct(signal.confidence)}
+                </span>
+              </div>
+              <p className="mt-3 text-sm leading-6 text-slate-300">{signal.reason}</p>
+              <dl className="mt-3 grid gap-2 text-xs text-slate-400 sm:grid-cols-2">
+                <div>
+                  <dt className="font-bold text-slate-500">Recent change</dt>
+                  <dd className="mt-1 text-slate-300">{formatPct(signal.inputs?.recentChangeRate)}</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-slate-500">Risk factors</dt>
+                  <dd className="mt-1 text-slate-300">{signal.inputs?.riskFactors?.length ?? 0}</dd>
+                </div>
+              </dl>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {(signal.inputs?.riskFactors || []).slice(0, 3).map((item) => (
+                  <span className="rounded-full border border-amber-300/20 bg-amber-300/10 px-2.5 py-1 text-xs text-amber-100" key={item}>
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+          {state.signals.length === 0 ? <p className="text-sm text-slate-400">저장된 의사결정 로그가 없습니다.</p> : null}
+        </div>
+      </div>
+
+      <div className="rounded-lg border border-white/10 bg-slate-950/50 p-4">
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h3 className="text-base font-bold text-white">Auto Approval Policy Simulation</h3>
+            <p className="mt-1 text-sm text-slate-400">실제 주문 승인 없이 현재 정책으로 자동 승인 여부만 계산합니다.</p>
+          </div>
+          <div className="flex flex-wrap gap-2 text-xs text-slate-300">
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1">
+              confidence ≥ {formatPct(state.autoApprovalPolicy?.minConfidence)}
+            </span>
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1">
+              {state.autoApprovalPolicy?.allowedSignals?.join(', ') || 'BUY, SELL'}
+            </span>
+            <span className="rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-1">
+              max {formatKrw(state.autoApprovalPolicy?.maxNotionalKrw)}
+            </span>
+          </div>
+        </div>
+        <div className="mt-3 overflow-x-auto">
+          <table className="w-full min-w-[720px] text-left text-sm">
+            <thead className="text-xs uppercase tracking-normal text-slate-500">
+              <tr>
+                <th className="py-2">Time</th>
+                <th>Market</th>
+                <th>Signal</th>
+                <th>Confidence</th>
+                <th>Decision</th>
+                <th>Reason</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-white/10 text-slate-300">
+              {state.autoApprovalSimulations.slice(0, 8).map((item) => (
+                <tr key={item.signalId ?? `${item.market}-${item.signalTime}`}>
+                  <td className="py-2">{formatDate(item.signalTime)}</td>
+                  <td>{item.market}</td>
+                  <td>{item.signal}</td>
+                  <td>{formatPct(item.confidence)}</td>
+                  <td>
+                    <span className={['rounded-full border px-2.5 py-1 text-xs font-bold', item.wouldApprove ? 'border-emerald-300/20 bg-emerald-300/10 text-emerald-100' : 'border-rose-300/20 bg-rose-300/10 text-rose-100'].join(' ')}>
+                      {item.wouldApprove ? 'WOULD APPROVE' : 'BLOCK'}
+                    </span>
+                  </td>
+                  <td className="max-w-[280px] text-slate-400">{item.reason}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {state.autoApprovalSimulations.length === 0 ? <p className="mt-3 text-sm text-slate-400">시뮬레이션할 신호가 없습니다.</p> : null}
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import { blogPosts, generatedAt, newsItems, type BlogPost } from './generated-content'
-import { executePaperTrade, getTradingMarkets, runAnalysis, runCollector, runJob } from './services/trading'
+import { executePaperTrade, getAutoApprovalSimulation, getLiveResearchPreview, getTradingMarkets, runAnalysis, runCollector, runJob } from './services/trading'
 import { getReadDb } from './services/supabase'
 import type { TradingEnv } from './services/types'
 import { approveOrderIntent, listOrderIntents, rejectOrderIntent } from './routes/trading/approvals'
@@ -170,6 +170,19 @@ function requireAdmin(request: Request, env: Env): Response | null {
   return json({ error: 'Unauthorized' }, NO_STORE, { status: 401 })
 }
 
+type ReadOptions = Parameters<ReturnType<typeof getReadDb>['select']>[1]
+
+async function readTradingRows<T>(env: Env, table: string, options: ReadOptions) {
+  try {
+    return { items: await getReadDb(env).select<T>(table, options) }
+  } catch {
+    return {
+      items: [] as T[],
+      warning: 'trading-storage-unavailable'
+    }
+  }
+}
+
 async function handleTradingApi(request: Request, env: Env): Promise<Response | null> {
   const url = new URL(request.url)
   const { pathname } = url
@@ -194,50 +207,58 @@ async function handleTradingApi(request: Request, env: Env): Promise<Response | 
     if (pathname === '/api/trading/candles' && request.method === 'GET') {
       const market = (url.searchParams.get('market') || 'KRW-BTC').toUpperCase()
       const interval = url.searchParams.get('interval') || env.TRADING_CANDLE_INTERVAL || 'minutes5'
-      const rows = await getReadDb(env).select('market_candles', {
+      const rows = await readTradingRows(env, 'market_candles', {
         select: '*',
         filters: { exchange: 'eq.upbit', market: `eq.${market}`, interval: `eq.${interval}` },
         order: 'candle_time.desc',
         limit: 100
       })
-      return json({ market, interval, items: rows }, NO_STORE)
+      return json({ market, interval, items: rows.items, warning: rows.warning }, NO_STORE)
     }
 
     if (pathname === '/api/trading/research/latest' && request.method === 'GET') {
-      const rows = await getReadDb(env).select('market_research', {
+      const rows = await readTradingRows(env, 'market_research', {
         select: '*',
         order: 'research_time.desc',
         limit: 12
       })
-      const notes = await getReadDb(env).select('ai_research_notes', {
+      const notes = await readTradingRows(env, 'ai_research_notes', {
         select: '*',
         order: 'created_at.desc',
         limit: 12
       })
-      return json({ items: rows, notes }, NO_STORE)
+      return json({ items: rows.items, notes: notes.items, warnings: [rows.warning, notes.warning].filter(Boolean) }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/research/preview' && request.method === 'GET') {
+      return json(await getLiveResearchPreview(env), NO_STORE)
     }
 
     if (pathname === '/api/trading/signals/latest' && request.method === 'GET') {
-      const rows = await getReadDb(env).select('strategy_signals', {
+      const rows = await readTradingRows(env, 'strategy_signals', {
         select: '*',
         order: 'signal_time.desc',
         limit: 20
       })
-      return json({ items: rows }, NO_STORE)
+      return json({ items: rows.items, warning: rows.warning }, NO_STORE)
     }
 
     if (pathname === '/api/trading/paper-trades' && request.method === 'GET') {
-      const rows = await getReadDb(env).select('paper_trades', {
+      const rows = await readTradingRows(env, 'paper_trades', {
         select: '*',
         order: 'executed_at.desc',
         limit: 50
       })
-      const risks = await getReadDb(env).select('risk_logs', {
+      const risks = await readTradingRows(env, 'risk_logs', {
         select: '*',
         order: 'created_at.desc',
         limit: 30
       })
-      return json({ items: rows, riskLogs: risks }, NO_STORE)
+      return json({ items: rows.items, riskLogs: risks.items, warnings: [rows.warning, risks.warning].filter(Boolean) }, NO_STORE)
+    }
+
+    if (pathname === '/api/trading/auto-approval-simulation' && request.method === 'GET') {
+      return json(await getAutoApprovalSimulation(env), NO_STORE)
     }
 
     if (pathname === '/api/trading/paper-trades/execute' && request.method === 'POST') {

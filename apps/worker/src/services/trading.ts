@@ -1,7 +1,7 @@
 import { summarizeMarketData } from './ai'
 import { getUpbitCandles, getUpbitTickers, parseMarkets } from './upbit'
 import { generateStrategySignal } from './strategy'
-import { evaluatePaperTradeRisk, getRiskConfig } from './risk'
+import { evaluatePaperTradeRisk, getAutoApprovalPolicy, getRiskConfig, simulateAutoApproval } from './risk'
 import { signalToOrderIntent } from './trading/orderMapper.ts'
 import {
   getReadDb,
@@ -210,4 +210,74 @@ export async function executePaperTrade(env: TradingEnv, signalId?: string, mark
   })
 
   return { executed: true, decision, trade }
+}
+
+export async function getAutoApprovalSimulation(env: TradingEnv) {
+  try {
+    const signals = await getReadDb(env).select<StrategySignal>('strategy_signals', {
+      select: '*',
+      order: 'signal_time.desc',
+      limit: 20
+    })
+
+    const today = new Date()
+    today.setUTCHours(0, 0, 0, 0)
+    const todayTrades = await getReadDb(env).select<PaperTrade>('paper_trades', {
+      select: '*',
+      filters: { created_at: `gte.${today.toISOString()}` },
+      order: 'created_at.desc',
+      limit: 100
+    })
+    const recentTrades = await getReadDb(env).select<PaperTrade>('paper_trades', {
+      select: '*',
+      order: 'executed_at.desc',
+      limit: 100
+    })
+
+    return {
+      policy: getAutoApprovalPolicy(env),
+      items: signals.map((signal) => simulateAutoApproval(
+        env,
+        signal,
+        todayTrades,
+        recentTrades.filter((trade) => trade.exchange === signal.exchange && trade.market === signal.market)
+      ))
+    }
+  } catch {
+    return {
+      policy: getAutoApprovalPolicy(env),
+      items: [],
+      warning: 'trading-storage-unavailable'
+    }
+  }
+}
+
+export async function getLiveResearchPreview(env: TradingEnv) {
+  const markets = getTradingMarkets(env).slice(0, 3)
+  const interval = env.TRADING_CANDLE_INTERVAL || 'minutes5'
+
+  try {
+    const tickers = await getUpbitTickers(markets)
+    const research = []
+    const signals = []
+
+    for (const market of markets) {
+      const candles = await getUpbitCandles(market, interval, 20)
+      const summary = await summarizeMarketData(env, market, interval, candles, tickers)
+      research.push({
+        ...summary,
+        id: `preview-${market}`,
+        research_time: new Date().toISOString()
+      })
+      signals.push({
+        ...generateStrategySignal(summary, candles),
+        id: `preview-${market}`,
+        signal_time: new Date().toISOString()
+      })
+    }
+
+    return { items: research, signals, source: 'live-preview' }
+  } catch {
+    return { items: [], signals: [], source: 'live-preview', warning: 'market-preview-unavailable' }
+  }
 }

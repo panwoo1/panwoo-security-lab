@@ -6,6 +6,25 @@ export type RiskDecision = {
   details: Record<string, unknown>
 }
 
+export type AutoApprovalPolicy = {
+  minConfidence: number
+  allowedSignals: Array<'BUY' | 'SELL'>
+  maxNotionalKrw: number
+  requirePaperRiskPass: boolean
+}
+
+export type AutoApprovalSimulation = {
+  signalId?: string
+  market: string
+  signal: StrategySignal['signal']
+  confidence: number
+  wouldApprove: boolean
+  reason: string
+  notionalKrw: number
+  signalTime?: string
+  riskDecision: RiskDecision
+}
+
 function numberEnv(value: string | undefined, fallback: number) {
   const parsed = Number(value)
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback
@@ -18,6 +37,100 @@ export function getRiskConfig(env: TradingEnv) {
     maxTradeKrw: numberEnv(env.MAX_TRADE_KRW, 50000),
     dailyMaxTrades: Math.floor(numberEnv(env.DAILY_MAX_TRADES, 8)),
     dailyMaxLossRate: numberEnv(env.DAILY_MAX_LOSS_RATE, 0.03)
+  }
+}
+
+export function getAutoApprovalPolicy(env: TradingEnv): AutoApprovalPolicy {
+  const config = getRiskConfig(env)
+  const allowedSignals = (env.AUTO_APPROVAL_SIGNALS || 'BUY,SELL')
+    .split(',')
+    .map((item) => item.trim().toUpperCase())
+    .filter((item): item is 'BUY' | 'SELL' => item === 'BUY' || item === 'SELL')
+
+  return {
+    minConfidence: Math.min(numberEnv(env.AUTO_APPROVAL_MIN_CONFIDENCE, 0.7), 1),
+    allowedSignals: allowedSignals.length > 0 ? allowedSignals : ['BUY', 'SELL'],
+    maxNotionalKrw: Math.min(config.orderKrw, config.maxTradeKrw),
+    requirePaperRiskPass: true
+  }
+}
+
+export function simulateAutoApproval(
+  env: TradingEnv,
+  signal: StrategySignal,
+  todayTrades: PaperTrade[],
+  latestMarketTrades: PaperTrade[]
+): AutoApprovalSimulation {
+  const policy = getAutoApprovalPolicy(env)
+  const riskDecision = evaluatePaperTradeRisk({ ...env, ENABLE_REAL_TRADING: 'false' }, signal, todayTrades, latestMarketTrades)
+  const confidence = Number(signal.confidence ?? 0)
+
+  if (signal.signal === 'HOLD') {
+    return {
+      signalId: signal.id,
+      market: signal.market,
+      signal: signal.signal,
+      confidence,
+      wouldApprove: false,
+      reason: 'HOLD signals are never auto-approved.',
+      notionalKrw: policy.maxNotionalKrw,
+      signalTime: signal.signal_time,
+      riskDecision
+    }
+  }
+
+  if (!policy.allowedSignals.includes(signal.signal)) {
+    return {
+      signalId: signal.id,
+      market: signal.market,
+      signal: signal.signal,
+      confidence,
+      wouldApprove: false,
+      reason: `${signal.signal} is not allowed by the simulated policy.`,
+      notionalKrw: policy.maxNotionalKrw,
+      signalTime: signal.signal_time,
+      riskDecision
+    }
+  }
+
+  if (confidence < policy.minConfidence) {
+    return {
+      signalId: signal.id,
+      market: signal.market,
+      signal: signal.signal,
+      confidence,
+      wouldApprove: false,
+      reason: 'Signal confidence is below the auto-approval threshold.',
+      notionalKrw: policy.maxNotionalKrw,
+      signalTime: signal.signal_time,
+      riskDecision
+    }
+  }
+
+  if (!riskDecision.allowed) {
+    return {
+      signalId: signal.id,
+      market: signal.market,
+      signal: signal.signal,
+      confidence,
+      wouldApprove: false,
+      reason: riskDecision.reason,
+      notionalKrw: policy.maxNotionalKrw,
+      signalTime: signal.signal_time,
+      riskDecision
+    }
+  }
+
+  return {
+    signalId: signal.id,
+    market: signal.market,
+    signal: signal.signal,
+    confidence,
+    wouldApprove: true,
+    reason: 'Signal would pass the simulated auto-approval policy.',
+    notionalKrw: policy.maxNotionalKrw,
+    signalTime: signal.signal_time,
+    riskDecision
   }
 }
 

@@ -15,6 +15,8 @@ export type TradingEnv = {
   LIVE_TRADING_CONFIRM?: string
   KILL_SWITCH?: string
   PROVIDER_ALLOWLIST_HOSTS?: string
+  AUTO_APPROVAL_MIN_CONFIDENCE?: string
+  AUTO_APPROVAL_SIGNALS?: string
   UPBIT_ACCESS_KEY?: string
   UPBIT_SECRET_KEY?: string
   AI_PROVIDER?: string
