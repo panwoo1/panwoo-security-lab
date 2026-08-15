@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-14T19:11:15.271818+00:00",
+  "generated_at": "2026-08-15T01:47:36.630771+00:00",
   "items": [
+    {
+      "source": "보안뉴스",
+      "region": "domestic",
+      "slug": "f93f56eb6876",
+      "title": "英 범죄기록청(ACRO), 2년간 3차례 침해 사고 ‘인식조차 못해’... ICO 견책 처분",
+      "url": "http://www.boannews.com/media/view.asp?idx=145168&kind=&sub_kind=",
+      "translateUrl": "",
+      "published": "Sat, 15 Aug 2026 09:07:00 +0900",
+      "summary": "2년간 3차례 해킹에도 경고 무시... 가정폭력 피해자 등 민감정보 유출 위기[보안뉴스 김형근 기자] 영국 범죄기록청(ACRO)이 약 2년에 걸쳐 세 차례의 시스템 침해를 당해 가정폭력 피해자 등 수천 명의 민감 정보가 노출 위험에 처했음에도 이를 제때 인지하지 못한 것으로 드러났다. 영국 정보위원회(ICO)는 보안 체계의 총체적 부실을 이유로 ACRO에",
+      "articleText": "2년간 3차례 해킹에도 경고 무시... 가정폭력 피해자 등 민감정보 유출 위기 [보안뉴스 김형근 기자] 영국 범죄기록청(ACRO)이 약 2년에 걸쳐 세 차례의 시스템 침해를 당해 가정폭력 피해자 등 수천 명의 민감 정보가 노출 위험에 처했음에도 이를 제때 인지하지 못한 것으로 드러났다. 영국 정보위원회(ICO)는 보안 체계의 총체적 부실을 이유로 ACRO에 공식 견책(Reprimand) 처분을 내렸다. [출처: gettyimagesbank] 조사 결과, ACRO는 2021년 7월부터 2023년 6월 사이 세 차례 공격을 받았다. 공격자들은 켄티코(Kentico) CMS 기반 대민 포털 취약점을 파고들었다. 이 시스템은 2019년 9월 이후 약 4년간 보안 패치가 적용되지 않은 상태였다. ACRO와 유지보수 업체(MSP), 웹 개발사 간 패치 적용 책임 소재가 불명확했던 것이 원인으로 지목됐다. 보안 관제 실패도 확인됐다. 트렌드마이크로 백신이 자격증명 탈취 도구인 미미카츠(Mimikatz) 설치 시도를 감지해 4차례 격리 조치하고 경고를 보냈으나, 조직 내 보안 알림 검토 및 에스컬레이션 프로세스가 전무해 침해 징후가 장기간 방치됐다. 가장 피해가 컸던 한 침해 사건의 경우 공격자는 2022년 8월부터 2023년 3월까지 약 7개월간 웹 서버에 은닉하며 정찰했고, 2023년 2월 약 1만1000명분의 민감 데이터를 탈취하기 위해 스테이징(Staging)해 둔 것으로 나타났다. ACRO의 로그 보관 부실로 인해 실제 외부 유출(Exfiltration) 여부는 확인되지 않았다. ACRO는 사건 인지 후 초기 웹사이트 폐쇄 당시 ‘필수 유지보수’로 공지했으나, 언론 취재가 시작되자 2023년 4월 사이버 침해 사실을 시인하고 8만4000여명에게 사전 통지를 진행했다. 이후 메두사(Medusa) 랜섬웨어 조직이 배후를 주장했으나 유출 데이터 게시나 몸값 지급 여부는 확인되지 않았다. ICO는 네트워크 분리를 통해 침해가 핵심 경찰 전산망으로 확산되지 않은 점을 참작해 금전적 과징금 대신 공식 견책 처분을 확정했다. ACRO는 침해된 인프라를 전면 폐기하고 차세대 SIEM 도입 등 보안 강화 조치를 단행했다고 밝혔다. [김형근 기자( editor@boannews.com )] www.boannews.com ) 무단전재-재배포금지>"
+    },
     {
       "source": "보안뉴스",
       "region": "domestic",
@@ -54,7 +65,7 @@
       "translateUrl": "",
       "published": "Fri, 14 Aug 2026 15:30:00 +0900",
       "summary": "로봇청소기 라이다 센서가 생성한 3D 공간 도면이 무암호화 상태로 전송되어 외부로 노출되는 취약점이 발견되었다. 유출된 실내 구조 및 가구 배치 데이터는 침입자의 사전 정찰 정보로 오용될 수 있어 사이버 데이터 유출이 물리적 주거 범죄로 이어지는 위험을 초래한다. 스마트홈 프라이버시를 지키기 위해 가전 단말의 ‘공간 데이터 암호화’ 적용과 외부 클라우드 전",
-      "articleText": "[사진으로 보는 DEF CON 34ⓛ] ‘해커들의... 비에스아이시스템·남양주시, 방범·환경 통합형 CCT... Microsoft 365 AitM 악용 피싱 공격으... [한국정보보호학회 칼럼] 미토스가 촉발한 취약점의 ... 체코, 1억달러 투입 ‘C-ITS’ 본격 가동하며 ... [DEF CON 34] 데프콘 본선, AI 사용 제... [사진으로 보는 DEF CON 34②] 한국팀 데프... 스카이넷의 전조? ‘오픈AI-앤트로픽-메타’ 주요 ... 단순 미끼 넘어 자동화, 北 해킹조직의 AI 무기화... [DEF CON 34 해커 인터뷰] K-해커가 잘하..."
+      "articleText": "[사진으로 보는 DEF CON 34ⓛ] ‘해커들의... Microsoft 365 AitM 악용 피싱 공격으... [한국정보보호학회 칼럼] 미토스가 촉발한 취약점의 ... 체코, 1억달러 투입 ‘C-ITS’ 본격 가동하며 ... [DEF CON 34] 데프콘 본선, AI 사용 제... [사진으로 보는 DEF CON 34②] 한국팀 데프... 스카이넷의 전조? ‘오픈AI-앤트로픽-메타’ 주요 ... 단순 미끼 넘어 자동화, 北 해킹조직의 AI 무기화... [DEF CON 34 해커 인터뷰] K-해커가 잘하... 아시아 최대 보안 콘퍼런스 ISEC 2026, ‘‘..."
     },
     {
       "source": "보안뉴스",
@@ -99,17 +110,6 @@
       "published": "Fri, 14 Aug 2026 13:10:00 +0900",
       "summary": "비대면 계좌 개설 시 신분증 관리에 극도로 주의하세요보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐,",
       "articleText": "비대면 계좌 개설 시 신분증 관리에 극도로 주의하세요 보안 사고의 90%는 해킹이 아니라 ‘실수’에서 시작된다. 그래서 우리는 기술보다 습관을 배워야 한다. 속담으로 배우는 100가지 보안 습관에서는 △스마트폰 보안 △계정·비밀번호 △PC·인터넷 △생활 보안 △금융·개인정보 등 100가지 보안 습관을 속담과 연관시켜 소개한다. 보안은 어렵지 않다. 지키느냐, 안 지키느냐의 차이다. 나 하나의 습관이 모두를 지킨다는 생각으로 사소한 습관부터 실천해 보자. [편집자 주] [보안뉴스 박미영 기자] 비대면 계좌 개설은 편리하지만, 개인정보 유출·휴대폰 인증 도용·신분증 위조 등으로 본인 모르게 계좌가 만들어져 보이스피싱이나 불법 자금 세탁에 악용될 위험이 있다. 이런 위험이 걱정되면 평소에는 비대면 신규 계좌 개설을 막아두고, 필요할 때만 해제하는 ‘비대면 계좌개설 안심차단’ 같은 사전 차단 장치를 활용하는 것이 좋다. [출처: gettyimagesbank] 비대면 계좌 개설 시 위험 △ 명의도용으로 본인도 모르는 계좌가 개설되고, 해당 계좌가 범죄에 이용될 수 있다. △ 유출된 개인정보, 도용된 휴대폰 인증, 위조 신분증 이미지 등을 악용한 비대면 인증 우회가 가능하다. △ 피해가 발생하면 계좌 압류, 금융거래 제한, 수사기관 조사 등 연쇄적인 불편을 겪을 수 있다. 위험을 줄이는 방법 △ 비대면 계좌개설 안심차단을 신청하면, 본인이 영업점 방문 등으로 해제하기 전까지 금융기관에서 비대면 신규 계좌 개설이 차단돼 명의도용 위험을 낮출 수 있다. △ 신청은 영업점 방문 외에도 어카운트인포 앱/홈페이지, 각 은행 앱 등으로 가능하다. △ 해제는 보안상 영업점 방문 등 본인 확인 절차가 필요할 수 있어, 자주 개설할 계획이 있으면 미리 해제 가능 여부를 확인하는 편이 안전하다. 이용 시 주의사항 안심차단은 ‘기존 계좌 사용’이 아니라 ‘비대면 신규 계좌 개설’을 막는 기능이므로, 이체·카드 등 기존 거래는 유지된다. 다만 차단 상태를 잊으면 급히 계좌가 필요할 때 개설이 막혀 불편할 수 있으니, 필요 시점에만 해제하는 방식으로 운영하는 것이 좋다. [박미영 기자( mypark@boannews.com )] www.boannews.com ) 무단전재-재배포금지>"
-    },
-    {
-      "source": "보안뉴스",
-      "region": "domestic",
-      "slug": "68b99247d88b",
-      "title": "서산시, IoT 주차정보·AI 보이스봇 등 스마트도시 사업 18개 하반기 추진",
-      "url": "http://www.boannews.com/media/view.asp?idx=145158&kind=&sub_kind=",
-      "translateUrl": "",
-      "published": "Fri, 14 Aug 2026 13:06:00 +0900",
-      "summary": "AI 기본계획 수립, 챗봇 구축 등 데이터 기반 행정 역량도 강화상반기엔 드론배송 상용화·직원 AI 교육 등 추진[보안뉴스 강초희 기자] 충남 서산시(시장 이완섭)가 올해 하반기 IoT 기반 주차정보 공유 시스템과 AI 보이스봇 기반 민원응대 시스템 등 AI와 ICT를 활용한 스마트도시 사업을 추진한다.시는 ‘데이터 기반 지능형 행정 혁신으로 스마트도시 서",
-      "articleText": "AI 기본계획 수립, 챗봇 구축 등 데이터 기반 행정 역량도 강화 상반기엔 드론배송 상용화·직원 AI 교육 등 추진 [보안뉴스 강초희 기자] 충남 서산시(시장 이완섭)가 올해 하반기 IoT 기반 주차정보 공유 시스템과 AI 보이스봇 기반 민원응대 시스템 등 AI와 ICT를 활용한 스마트도시 사업을 추진한다. [출처: 서산시] 시는 ‘데이터 기반 지능형 행정 혁신으로 스마트도시 서산 확립’을 목표로 2대 핵심 역점시책과 4대 분야 16개 주요업무 등 모두 18개 사업을 추진한다고 밝혔다. IoT 기반 주차정보 공유 시스템은 중앙호수공원과 동부전통시장, 공용버스터미널 등 주요 혼잡지역 3개소에 실시간 주차정보 안내 시설물을 설치하고 공유 시스템을 구축하는 사업이다. 민간 네비게이션과 스마트포털 등과 연계해 실시간 주차정보를 제공할 계획이다. AI 보이스봇 기반 민원 응대 시스템도 도입한다. 생성형 AI와 RAG(검색 증강 생성) 기술을 적용해 야간과 휴일 당직 전화를 우선 자동 응대하고, 단순·반복 민원을 처리하도록 할 예정이다. 디지털 정책 및 데이터 기반 도시 역량 강화 분야에서는 서산시 지능정보사회 종합계획 및 AI 기본계획을 수립한다. 디지털정부 성과관리 수준 진단을 통한 정보 시스템 효율화와 충남 사회조사 및 경제총조사 맞춤형 통계 보고서 작성, 조달청 혁신제품 시범 사용을 통한 서산시 홈페이지 AI 챗봇 구축, 데이터 통합 플랫폼 개선 및 데이터 기반 행정 강화도 추진한다. 스마트도시 분야에서는 2차 스마트도시계획 수립 용역과 가로림만 특화 지능형 드론배송 상용화, AI 활용 지능형 선별관제 시스템 고도화, 우범지역 방범용 및 차량번호인식 CCTV 설치·교체 사업을 진행한다. 정보 시스템 안정 운영 및 정보보안 강화를 위해 차세대 지방행정 공통 시스템 구축, 서산여행 앱의 충남 민간 클라우드 통합 전환, 정보보안 역량 강화 사업도 추진한다. 네트워크 분야에서는 본청 네트워크 구간분리 및 재구성, 상황실 방송음향 시스템 신형 POE 방식 교체, 스마트 마을방송 시스템 운영, 연면적 1만㎡ 이상 건축물 대상 정보통신설비 유지보수·관리제도 이행상황 관리 등을 진행할 계획이다. 아울러 서산시는 상반기에 디지털 전환과 스마트도시 관련 사업을 추진했다. 6년 연속 ‘드론 실증도시 공모사업’에 선정돼 전국 1호 주·야간 드론배송 상용화 서비스를 시작했다. 직원 688명을 대상으로 생성형 AI 도구를 보급하고 관련 교육을 진행했으며, 방범용 CCTV 확대 설치 및 CCTV 관제, 민간데이터 70종 공동 활용, 그린 PC 보급 및 맞춤형 시민 정보화 교육도 추진했다. 이완섭 서산시장은 “AI와 빅데이터는 시민의 일상을 더 안전하고 편리하게 바꾸는 미래 혁신의 동력”이라며 “AI 디지털 전환을 통해 시민이 체감할 수 있는 지능형 스마트 행정을 구현하겠다”고 말했다. [강초희 기자( choh@boannews.com )] www.boannews.com ) 무단전재-재배포금지>"
     },
     {
       "source": "KISA 보안공지",
@@ -175,7 +175,7 @@
       "translateUrl": "",
       "published": "Mon, 10 Aug 2026 15:00:00 +0000",
       "summary": "알림 2026년 7월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 경우가 있어, 공식 발표 여부를 교차 검증할 필요가 있다. 주요 이슈 RaidForums는 메인 도메인을 변경하고 기존 도메인 운영을 중단한 뒤 신규 도메인으로 전환했다. 신규 RaidBin 서비스 운영도 확인됐고, Ransom",
-      "articleText": "다크웹 2026년 7월 다크웹 이슈 동향 보고서 8월 11 2026 알림 2026년 7월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 일부 정보는 출처 특성상 사실 여부를 완전히 확인하기 어려운 경우가 있어, 공식 발표 여부를 교차 검증할 필요가 있다. 주요 이슈 RaidForums는 메인 도메인을 변경하고 기존 도메인 운영을 중단한 뒤 신규 도메인으로 전환했다. 신규 RaidBin 서비스 운영도 확인됐고, Ransomware-as-a-Service(RaaS, 랜섬웨어 제휴 프로그램) 섹션 운영 규칙도 공개됐다. Hasan의 BreachForums에서는 운영자 HasanBroker의 은퇴 및 운영 승계 예고가 확인됐다. LAPSUS$를 표방한 웹사이트는 재정적 목표 달성을 이유로 영구적인 활동 중단을 선언했다. Leaked 포럼은 베타 운영 홍보와 구조 공개를 진행했고, BreachStars 2.0 포럼도 알려졌다. Sevyware 랜섬웨어 유출 사이트에는 국제 수사기관의 압수를 나타내는 배너가 게시됐으나, 관련 공식 입장은 확인되지 않았다. 결론 2026년 7월 다크웹은 기존 주요 포럼의 인프라 개편과 운영진 교체 예고, 그리고 신규 플랫폼의 연속적 등장으로 특징지어졌다. RaidForums의 RaaS 섹션 공개는 데이터 유출 포럼과 랜섬웨어 생태계의 통합 흐름을 보여줬고, Hasan의 BreachForums의 승계 예고는 주요 유출 허브의 향후 방향 변화 가능성을 시사했다. LAPSUS$ 표방 웹사이트의 활동 중단 선언과 재개설 가능성, Sevyware 유출 사이트의 압수 배너 사례는 다크웹 게시물의 진위를 공식 발표로 재확인하는 절차가 중요함을 보여줬다. Tags: AML-drainer BreachForums BreachStars card-fraud Cardy-Shop DamageLib DarkWeb data-leak-forum DeepWeb 딥웹 다크웹 HasanBroker Lapsus marketplace RaaS RaidBin RaidForums SevyWare"
+      "articleText": ""
     },
     {
       "source": "ASEC KR",
@@ -444,6 +444,17 @@
     {
       "source": "BleepingComputer",
       "region": "global",
+      "slug": "d0cd08b3ec2e",
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fartificial-intelligence%2Fhow-anthropic-plans-to-watermark-claudes-ai-generated-text%2F",
+      "published": "Fri, 14 Aug 2026 19:24:17 -0400",
+      "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+      "articleText": "How Anthropic plans to watermark Claude's AI-generated text By Mayank Parmar August 14, 2026 07:24 PM 0 It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. As you may be aware, the EU now requires AI companies serving its market to mark their AI-generated content so it's easier to identify. Anthropic and several other major AI providers have agreed to comply with the EU's Code of Practice, with Anthropic becoming one of the first companies to share details about how it will implement watermarking across Claude. Anthropic has also confirmed that a regular user won't be able to see the watermark. According to the company, it has no practical impact on the quality or content of Claude's output, including creativity and readability. For those unaware, invisible watermarking and provenance systems are already being used for some AI-generated images, and text-based output will now follow a similar concept, although the underlying implementation is different. While the change is being introduced to comply with the EU AI Act, Anthropic says the watermark will initially be applied to Claude-generated text worldwide. \"We’re applying watermarking globally at launch because we don't yet have a durable way to scope it by region,\" Anthropic explained in a blog post. Anthropic says future Claude models will generate watermarked text. Models launched before August 2, 2026, are covered by the EU's transition period, and Anthropic says it is working to add watermarking to those models over the coming months. Claude's watermark doesn't add hidden characters Anthropic says its implementation is based on Google DeepMind's SynthID-Text approach and explained that it works during generation, with certain exceptions. As you may be aware, AI models generate text by repeatedly choosing which token could reasonably come next. Instead of adding characters or modifying the finished response afterward, Claude's watermark changes the source of randomness used when making some of those choices. \"Watermarking uses low-stakes choices like these—which occur many times over a piece of generated text—to leave a pattern in Claude’s responses. That pattern is undetectable to the reader, but is detectable to anyone who has a key that encodes it,\" Anthropic explained. \"When watermarking is used, choices are still made at random, but the source of the randomness is different. Instead of using an arbitrary random number generator to pick the next word, watermaking uses the key a"
+    },
+    {
+      "source": "BleepingComputer",
+      "region": "global",
       "slug": "2be96fadaf5a",
       "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
@@ -539,17 +550,6 @@
       "published": "Thu, 13 Aug 2026 17:12:47 -0400",
       "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
       "articleText": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash By Bill Toulas August 13, 2026 05:12 PM 1 Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. The operation occurred this week, and police officers conducted a total of 411 searches following an investigation that involved the National Police, Ukraine's Security Service, the Prosecutor General’s Office, and the German police. According to the Ukrainian police, the fraudsters ran various schemes to obtain money from victims or gain access to their bank accounts. In some cases, they posed as bank officers and called victims under the pretense of suspicious transactions, threatening to block accounts unless a payment was made. Sometimes, the scammers persuaded victims to apply for loans, provide payment card details, and install remote access tools on phones and computers. “Law enforcement officers simultaneously inspected the infrastructure of fraudulent call centers whose operators posed as bankers, brokers, and law enforcement officers, lured people onto fake investment platforms, and gained access to their bank accounts,” the Ukrainian police say in a press release . “A total of 411 searches were conducted, and the operations of 94 fraudulent call centers were shut down.” Ukrainian police raid at a fraudulent call center Source: cyberpolice.gov.ua During the raids, the police discovered and seized the following items: 1,794 fully equipped workstations 3,336 pieces of computer equipment 1,346 phones 5,200 SIM cards 90 bank cards Access tools for 20 cryptocurrency wallets 22 vehicles. $2 million, 64,000 euros, and Ukrainian hryvnias in cash 1 kilogram of bank gold in bars and jewelry Also, 26 individuals have been formally notified that they are suspects. The police say that some of the call centers investigated targeted citizens in foreign countries, particularly in the European Union, tricking them into “investing” on fake brokerage platforms and installing remote-access software on their computers. In other cases, the operators called on behalf of banks and informed targets that supposedly suspicious transactions had been detected on their accounts and that the accounts would be blocked. Some victims were promised assistance in recovering money they had already lost to fraudsters, only to be scammed a second time. According to police, some call centers promoted products as medical treatments for various diseases, despite the products having no actual medicinal properties. Th"
-    },
-    {
-      "source": "BleepingComputer",
-      "region": "global",
-      "slug": "d8c43e4f1c0d",
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fakira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt%2F",
-      "published": "Thu, 13 Aug 2026 16:47:02 -0400",
-      "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "articleText": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt By Bill Toulas August 13, 2026 04:47 PM 0 An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. The attack occurred on August 4 after the hacker obtained initial access through an exposed SonicWall VPN device without multi-factor authentication (MFA). Managed detection and response (MDR) services company Huntress says that roughly two hours after a successful VPN login, the attacker connected to the domain controller via RDP, enumerated Active Directory users and computers, and then moved to an application server. They used WinRAR to archive mapped file shares and the s5cmd command-line tool to upload the stolen data to an attacker-controlled S3 bucket, before installing AnyDesk for remote access. At that stage, the attacker used AnyDesk to force the compromised host to boot into Safe Mode with Networking and disable both the Huntress agent and Microsoft Defender’s real-time protection. Safe Mode is a Windows startup state designed for troubleshooting and diagnostic operations. It starts Windows with a limited set of drivers and services, generally preventing most third-party software and services from loading. For 10 minutes while in Safe Mode, \"the host had no working EDR, and AV was blinded,\" Huntress says . Meanwhile, the attackers added AnyDesk to Windows’ Safe Mode registry, allowing it to start after reboot and retain their remote access to the breached machine. However, when they attempted to launch the main ransomware payload (akira.exe) via AnyDesk in Safe Mode, it failed to execute as the system reported low virtual memory and generated out-of-memory and PowerShell errors. Akira ransomware attack flow Source: Huntress A scheduled Defender scan eventually detected the Akira executable, even if real-time protection was disabled in Safe Mode, but the security tool could not remove it while the machine remained in that mode. Defender quarantined the file only after the attacker rebooted the system into normal mode, which restored real-time protection. Despite the failure to encrypt files, the Akira operator still managed to steal credentials and files for data extortion, all in less than five hours from initial access. Huntress notes that other ransomware families, such as Snatch and AvosLocker, have used this tactic for years, but this incident marks the first time the company observed it in an Akira attack. The researchers recommend adding MFA to all VPN acc"
     },
     {
       "source": "The Hacker News",
