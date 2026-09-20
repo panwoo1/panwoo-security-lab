@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:01:02.404035+00:00",
+  "generated_at": "2026-09-20T20:46:04.453703+00:00",
   "items": [
     {
       "source": "ASEC KR",
@@ -114,17 +114,6 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "21387cb3dde5",
-      "title": "2026년 8월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/95389/",
-      "translateUrl": "",
-      "published": "Sun, 13 Sep 2026 15:00:00 +0000",
-      "summary": "알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을",
-      "articleText": "다크웹 2026년 8월 다크웹 위협 행위자 동향 보고서 9월 14 2026 알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을 주장했다. DDoS는 대량의 요청을 발생시켜 서비스 이용을 어렵게 만드는 공격이다. BD Anonymous는 박물관, 문화재단, 경찰 관련 포털 등도 표적으로 삼았고, Dark Storm Team 역시 일본의 정부기관과 금융기관 등 다수 웹사이트에 대한 공격을 주장했다. 노르웨이의 공공 디지털 서비스 기관도 DDoS 공격 대상이 되었다. 일본에서는 주요 인터넷 인프라 및 호스팅 서비스 기업의 렌탈 서버 계정 수백 건에 대한 무단 접근이 확인되었고, 영향 가능성이 최대 수백만 계정 규모로 추가 공개되었다. 일본 소재 글로벌 보험사는 파일 전송 솔루션 취약점 악용으로 고객정보 유출 가능성을 공개했다. 일본의 IT 서비스 기업은 비인가 접근 사고를 조사 중이며, 일본의 주요 언론사는 계정 탈취로 연락처 정보 유출 가능성을 공개했다. 미국에서는 글로벌 의료·의약품 유통 기업이 사이버보안 사고를 공식 공개했고, 글로벌 의류 제조·유통 기업은 사회공학 공격으로 임직원 단말기가 침해되어 기업 정보가 유출되었다고 밝혔다. 영국에서는 이란 연계 해커에 의해 소규모 발전소가 공격받아 수일간 운영이 중단되었다. 싱가포르에서는 가상자산 지갑 서비스 기업의 주문 추적 시스템 인증 결함으로 고객 주문정보에 대한 무단 접근이 확인되었고, 하드웨어 지갑 제조사는 물류업체 침해의 영향으로 고객 정보 유출 사실을 공개했다. LockBitSupp 운영자의 실명이 특정 인물로 지목되었고, 기존에 알려진 주요 운영자와 역할이 구분된다는 주장이 제기되었다. 이는 랜섬웨어 그룹의 운영 실체와 관련한 추가 정보로 보고되었다. rootor는 다크웹 포럼에서 초기 접근 권한 공급자를 모집했고, 또 다른 포럼에서는 기업 네트워크 침투 전문 인력 모집 정황이 확인되었다. 초기 접근 권한 거래와 침투 전문 인력 수요가 다크웹 포럼에서 지속적으로 확인되었다. Eclipse는 Windows 지원 RaaS(Ransomware-as-a-Service, 랜섬웨어 대여형 서비스) 제휴 프로그램을 홍보했고, Storm과 Panzer도 제휴자 및 전문 인력 모집 활동을 이어갔다. 법 집행 기관은 공급망 공격 조직 관련 구성원 2명을 체포했으며, 미국 법무부와 연방수사국은 중국 연계 국가 지원 해킹 그룹이 사용하던 공격 인프라를 압수했다. INTERPOL은 국제 공조 작전을 통해 서아프리카 조직범죄 네트워크 관련자들을 대거 검거했으며, 랜섬웨어 조직 운영자는 중형을 선고받았다. 결론 2026년 8월에는 일본을 겨냥한 핵티비스트의 반복적인 DDoS 공격 주장과 일본·미국·영국·싱가포르에서의 실제 침해 사고가 동시에 관측되었다. 특히 일본의 주요 인터넷 인프라 및 호스팅 서비스 기업 침해 사례는 핵심 디지털 서비스 제공업체에 대한 공격이 광범위한 연쇄 피해로 이어질 수 있음을 보여주었다. 또한 LockBitSupp 관련 실명 지목, 초기 접근 권한 공급자와 침투 전문 인력 모집, 신규 RaaS 제휴 프로그램 홍보는 랜섬웨어 및 데이터 강탈 생태계의 분업화가 지속되고 있음을 시사했다. 이와 함께 공급망 공격 조직 구성원 체포, 중국 연계 국가 지원 해킹 그룹의 공격 인프라 압수, 국제 공조 수사에 따른 조직범죄 네트워크 검거, 랜섬웨어 조직 운영자에 대한 중형 선고 등 법 집행 기관의 대응 성과도 이어졌다. Tags: Arrest Australia BD-Anonymous China Dark-Storm-Team DarkWeb DDOS Eclipse Energy 미국 딥웹 노르웨이 다크웹 Finance government Hacktivism IAB Iran 이란 일본 중국 영국 호주 싱가포르 Japan law-enforcement LockBitSupp Manufacturing NoName05716 norway Panzer QScan QTFY QTRouter RaaS Ransom-Cartel Retail rootor seizure Sentencing Singapore Social-Engineering Storm supply-chain-attack T1ER0NE TeamPCP transportation unauthorized-access United-Kingdom United-States vulnerability-exploitation XSS Zero-Day"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "669f3bac8e63",
       "title": "2026년 8월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/95384/",
@@ -143,6 +132,17 @@
       "published": "Sun, 13 Sep 2026 15:00:00 +0000",
       "summary": "알림 2026년 8월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 일부 포함될 수 있다고 밝혔다. 주요 이슈 RaidForums는 도메인이 중지된 뒤 신규 도메인이 공개되었고, 동일한 RaidForums 명칭을 사용하는 사이버 범죄 포럼도 재등장했다. 이로 인해 원 운영진의 인프라 전환과 명칭을 차",
       "articleText": "다크웹 2026년 8월 다크웹 이슈 동향 보고서 9월 14 2026 알림 2026년 8월 다크웹 이슈 동향 보고서는 딥웹 및 다크웹에서 발생한 주요 이슈를 정리한 내용이다. 출처 특성상 사실 여부를 완전히 확인하기 어려운 정보가 일부 포함될 수 있다고 밝혔다. 주요 이슈 RaidForums는 도메인이 중지된 뒤 신규 도메인이 공개되었고, 동일한 RaidForums 명칭을 사용하는 사이버 범죄 포럼도 재등장했다. 이로 인해 원 운영진의 인프라 전환과 명칭을 차용한 제3자 포럼이 혼재하는 양상이 관측됐다. DarkForums는 다수 도메인이 일시 중단된 뒤 신규 도메인이 등록되고, 다시 새로운 도메인으로 재등장하는 등 도메인 전환이 반복됐다. XSS Forum은 신규 메인 도메인과 링크 모니터링 도메인을 공개했으며, 기존 도메인의 WHOIS 상태 변경 정황도 확인됐다. BreachForums에서는 신규 도메인과 Tor 주소가 확인됐다. PwnForums는 미러 도메인이 메인 사이트로 리디렉션되도록 정리됐고, Shoutbox에서는 최근 활동 감소와 일부 기존 사용자 이탈이 언급됐다. LeakZone의 운영 정황, DamageLib, UpDap Forums, Carders 같은 신규 사이버 범죄 포럼의 등장도 확인됐다. GitHub에서 주요 사이버 범죄 포럼의 데이터 유출 자료를 모아 놓은 저장소가 공개된 정황이 확인됐다. 정상 개발 플랫폼이 유출 자료의 색인과 유통 경로로 활용된 사례다. Leek Road는 미공개 게임 유출 자료를 공개하는 사이트로 관측됐고, 저작권 침해 콘텐츠가 암호화폐 홍보 캠페인과 결합될 가능성도 언급됐다. 결론 이달 다크웹 동향의 핵심은 주요 포럼들의 동시다발적 도메인 전환, RaidForums 명칭을 둘러싼 혼재, PwnForums의 활동 위축, 그리고 LeakZone, DamageLib, UpDap Forums, Carders 등 신규 플랫폼의 연속적 등장이다. 이러한 변화는 법 집행 기관의 압박이나 인프라 불안정성에 대한 대응으로 설명됐으며, 명칭만으로 게시물 출처를 판단해서는 안 된다고 정리했다. 또한 GitHub 저장소와 Leek Road 사례는 정상 플랫폼과 저작권 침해 콘텐츠가 다크웹 확산과 사기성 활동에 활용될 수 있음을 보여줬다. 조직은 특정 포럼이나 도메인에만 의존하지 않는 다각적 모니터링을 유지하고, 신규 포럼으로의 이용자 이동 양상까지 함께 추적할 필요가 있다. Tags: BreachForums Carders copyright-infringement cryptocurrency-scam cybercrime-forum DamageLib DarkForums DarkWeb data-leak-repository domain-migration 딥웹 다크웹 game-leak GitHub law-enforcement LeakZone Leek-Road PwnForums RaidForums UpDap-Forums WHOIS-change XSS-Forum"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "21387cb3dde5",
+      "title": "2026년 8월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/95389/",
+      "translateUrl": "",
+      "published": "Sun, 13 Sep 2026 15:00:00 +0000",
+      "summary": "알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을",
+      "articleText": "다크웹 2026년 8월 다크웹 위협 행위자 동향 보고서 9월 14 2026 알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을 주장했다. DDoS는 대량의 요청을 발생시켜 서비스 이용을 어렵게 만드는 공격이다. BD Anonymous는 박물관, 문화재단, 경찰 관련 포털 등도 표적으로 삼았고, Dark Storm Team 역시 일본의 정부기관과 금융기관 등 다수 웹사이트에 대한 공격을 주장했다. 노르웨이의 공공 디지털 서비스 기관도 DDoS 공격 대상이 되었다. 일본에서는 주요 인터넷 인프라 및 호스팅 서비스 기업의 렌탈 서버 계정 수백 건에 대한 무단 접근이 확인되었고, 영향 가능성이 최대 수백만 계정 규모로 추가 공개되었다. 일본 소재 글로벌 보험사는 파일 전송 솔루션 취약점 악용으로 고객정보 유출 가능성을 공개했다. 일본의 IT 서비스 기업은 비인가 접근 사고를 조사 중이며, 일본의 주요 언론사는 계정 탈취로 연락처 정보 유출 가능성을 공개했다. 미국에서는 글로벌 의료·의약품 유통 기업이 사이버보안 사고를 공식 공개했고, 글로벌 의류 제조·유통 기업은 사회공학 공격으로 임직원 단말기가 침해되어 기업 정보가 유출되었다고 밝혔다. 영국에서는 이란 연계 해커에 의해 소규모 발전소가 공격받아 수일간 운영이 중단되었다. 싱가포르에서는 가상자산 지갑 서비스 기업의 주문 추적 시스템 인증 결함으로 고객 주문정보에 대한 무단 접근이 확인되었고, 하드웨어 지갑 제조사는 물류업체 침해의 영향으로 고객 정보 유출 사실을 공개했다. LockBitSupp 운영자의 실명이 특정 인물로 지목되었고, 기존에 알려진 주요 운영자와 역할이 구분된다는 주장이 제기되었다. 이는 랜섬웨어 그룹의 운영 실체와 관련한 추가 정보로 보고되었다. rootor는 다크웹 포럼에서 초기 접근 권한 공급자를 모집했고, 또 다른 포럼에서는 기업 네트워크 침투 전문 인력 모집 정황이 확인되었다. 초기 접근 권한 거래와 침투 전문 인력 수요가 다크웹 포럼에서 지속적으로 확인되었다. Eclipse는 Windows 지원 RaaS(Ransomware-as-a-Service, 랜섬웨어 대여형 서비스) 제휴 프로그램을 홍보했고, Storm과 Panzer도 제휴자 및 전문 인력 모집 활동을 이어갔다. 법 집행 기관은 공급망 공격 조직 관련 구성원 2명을 체포했으며, 미국 법무부와 연방수사국은 중국 연계 국가 지원 해킹 그룹이 사용하던 공격 인프라를 압수했다. INTERPOL은 국제 공조 작전을 통해 서아프리카 조직범죄 네트워크 관련자들을 대거 검거했으며, 랜섬웨어 조직 운영자는 중형을 선고받았다. 결론 2026년 8월에는 일본을 겨냥한 핵티비스트의 반복적인 DDoS 공격 주장과 일본·미국·영국·싱가포르에서의 실제 침해 사고가 동시에 관측되었다. 특히 일본의 주요 인터넷 인프라 및 호스팅 서비스 기업 침해 사례는 핵심 디지털 서비스 제공업체에 대한 공격이 광범위한 연쇄 피해로 이어질 수 있음을 보여주었다. 또한 LockBitSupp 관련 실명 지목, 초기 접근 권한 공급자와 침투 전문 인력 모집, 신규 RaaS 제휴 프로그램 홍보는 랜섬웨어 및 데이터 강탈 생태계의 분업화가 지속되고 있음을 시사했다. 이와 함께 공급망 공격 조직 구성원 체포, 중국 연계 국가 지원 해킹 그룹의 공격 인프라 압수, 국제 공조 수사에 따른 조직범죄 네트워크 검거, 랜섬웨어 조직 운영자에 대한 중형 선고 등 법 집행 기관의 대응 성과도 이어졌다. Tags: Arrest Australia BD-Anonymous China Dark-Storm-Team DarkWeb DDOS Eclipse Energy 미국 딥웹 노르웨이 다크웹 Finance government Hacktivism IAB Iran 이란 일본 중국 영국 호주 싱가포르 Japan law-enforcement LockBitSupp Manufacturing NoName05716 norway Panzer QScan QTFY QTRouter RaaS Ransom-Cartel Retail rootor seizure Sentencing Singapore Social-Engineering Storm supply-chain-attack T1ER0NE TeamPCP transportation unauthorized-access United-Kingdom United-States vulnerability-exploitation XSS Zero-Day"
     },
     {
       "source": "ASEC KR",
