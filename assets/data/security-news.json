@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-21T21:57:08.433928+00:00",
+  "generated_at": "2026-09-22T04:49:15.972115+00:00",
   "items": [
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "f23c1ce0d220",
+      "title": "WordPress 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72196",
+      "translateUrl": "",
+      "published": "2026-09-22",
+      "summary": "",
+      "articleText": "□ 개요 o WordPress 재단은 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o WordPress에서 발생하는 SQL Injection 취약점(CVE-2026-60137) [1][2] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-60137 WordPress 6.8.0 이상 6.8.6 미만 6.8.6 CVE-2026-60137 WordPress 6.9.0 이상 6.9.5 미만 6.9.5 CVE-2026-60137 WordPress 7.0.0 이상 7.0.2 미만 7.0.2"
+    },
     {
       "source": "KISA 보안공지",
       "region": "domestic",
@@ -125,17 +136,6 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
-      "slug": "21387cb3dde5",
-      "title": "2026년 8월 다크웹 위협 행위자 동향 보고서",
-      "url": "https://asec.ahnlab.com/ko/95389/",
-      "translateUrl": "",
-      "published": "Sun, 13 Sep 2026 15:00:00 +0000",
-      "summary": "알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을",
-      "articleText": "다크웹 2026년 8월 다크웹 위협 행위자 동향 보고서 9월 14 2026 알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을 주장했다. DDoS는 대량의 요청을 발생시켜 서비스 이용을 어렵게 만드는 공격이다. BD Anonymous는 박물관, 문화재단, 경찰 관련 포털 등도 표적으로 삼았고, Dark Storm Team 역시 일본의 정부기관과 금융기관 등 다수 웹사이트에 대한 공격을 주장했다. 노르웨이의 공공 디지털 서비스 기관도 DDoS 공격 대상이 되었다. 일본에서는 주요 인터넷 인프라 및 호스팅 서비스 기업의 렌탈 서버 계정 수백 건에 대한 무단 접근이 확인되었고, 영향 가능성이 최대 수백만 계정 규모로 추가 공개되었다. 일본 소재 글로벌 보험사는 파일 전송 솔루션 취약점 악용으로 고객정보 유출 가능성을 공개했다. 일본의 IT 서비스 기업은 비인가 접근 사고를 조사 중이며, 일본의 주요 언론사는 계정 탈취로 연락처 정보 유출 가능성을 공개했다. 미국에서는 글로벌 의료·의약품 유통 기업이 사이버보안 사고를 공식 공개했고, 글로벌 의류 제조·유통 기업은 사회공학 공격으로 임직원 단말기가 침해되어 기업 정보가 유출되었다고 밝혔다. 영국에서는 이란 연계 해커에 의해 소규모 발전소가 공격받아 수일간 운영이 중단되었다. 싱가포르에서는 가상자산 지갑 서비스 기업의 주문 추적 시스템 인증 결함으로 고객 주문정보에 대한 무단 접근이 확인되었고, 하드웨어 지갑 제조사는 물류업체 침해의 영향으로 고객 정보 유출 사실을 공개했다. LockBitSupp 운영자의 실명이 특정 인물로 지목되었고, 기존에 알려진 주요 운영자와 역할이 구분된다는 주장이 제기되었다. 이는 랜섬웨어 그룹의 운영 실체와 관련한 추가 정보로 보고되었다. rootor는 다크웹 포럼에서 초기 접근 권한 공급자를 모집했고, 또 다른 포럼에서는 기업 네트워크 침투 전문 인력 모집 정황이 확인되었다. 초기 접근 권한 거래와 침투 전문 인력 수요가 다크웹 포럼에서 지속적으로 확인되었다. Eclipse는 Windows 지원 RaaS(Ransomware-as-a-Service, 랜섬웨어 대여형 서비스) 제휴 프로그램을 홍보했고, Storm과 Panzer도 제휴자 및 전문 인력 모집 활동을 이어갔다. 법 집행 기관은 공급망 공격 조직 관련 구성원 2명을 체포했으며, 미국 법무부와 연방수사국은 중국 연계 국가 지원 해킹 그룹이 사용하던 공격 인프라를 압수했다. INTERPOL은 국제 공조 작전을 통해 서아프리카 조직범죄 네트워크 관련자들을 대거 검거했으며, 랜섬웨어 조직 운영자는 중형을 선고받았다. 결론 2026년 8월에는 일본을 겨냥한 핵티비스트의 반복적인 DDoS 공격 주장과 일본·미국·영국·싱가포르에서의 실제 침해 사고가 동시에 관측되었다. 특히 일본의 주요 인터넷 인프라 및 호스팅 서비스 기업 침해 사례는 핵심 디지털 서비스 제공업체에 대한 공격이 광범위한 연쇄 피해로 이어질 수 있음을 보여주었다. 또한 LockBitSupp 관련 실명 지목, 초기 접근 권한 공급자와 침투 전문 인력 모집, 신규 RaaS 제휴 프로그램 홍보는 랜섬웨어 및 데이터 강탈 생태계의 분업화가 지속되고 있음을 시사했다. 이와 함께 공급망 공격 조직 구성원 체포, 중국 연계 국가 지원 해킹 그룹의 공격 인프라 압수, 국제 공조 수사에 따른 조직범죄 네트워크 검거, 랜섬웨어 조직 운영자에 대한 중형 선고 등 법 집행 기관의 대응 성과도 이어졌다. Tags: Arrest Australia BD-Anonymous China Dark-Storm-Team DarkWeb DDOS Eclipse Energy 미국 딥웹 노르웨이 다크웹 Finance government Hacktivism IAB Iran 이란 일본 중국 영국 호주 싱가포르 Japan law-enforcement LockBitSupp Manufacturing NoName05716 norway Panzer QScan QTFY QTRouter RaaS Ransom-Cartel Retail rootor seizure Sentencing Singapore Social-Engineering Storm supply-chain-attack T1ER0NE TeamPCP transportation unauthorized-access United-Kingdom United-States vulnerability-exploitation XSS Zero-Day"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
       "slug": "669f3bac8e63",
       "title": "2026년 8월 다크웹 침해사고 동향 보고서",
       "url": "https://asec.ahnlab.com/ko/95384/",
@@ -158,6 +158,17 @@
     {
       "source": "ASEC KR",
       "region": "domestic",
+      "slug": "21387cb3dde5",
+      "title": "2026년 8월 다크웹 위협 행위자 동향 보고서",
+      "url": "https://asec.ahnlab.com/ko/95389/",
+      "translateUrl": "",
+      "published": "Sun, 13 Sep 2026 15:00:00 +0000",
+      "summary": "알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을",
+      "articleText": "다크웹 2026년 8월 다크웹 위협 행위자 동향 보고서 9월 14 2026 알림 2026년 8월 다크웹 위협 행위자 동향 보고서는 핵티비스트를 포함해 딥웹과 다크웹에서 활동하는 위협 행위자의 동향을 중심으로 작성되었다. 일부 내용은 사실 관계를 확인할 수 없다고 명시되었다. 주요 이슈 NoName057(16), BD Anonymous, Dark Storm Team은 일본의 정부기관, 지방자치단체, 운송, 금융, 조선 분야 웹사이트를 대상으로 반복적인 DDoS 공격을 주장했다. DDoS는 대량의 요청을 발생시켜 서비스 이용을 어렵게 만드는 공격이다. BD Anonymous는 박물관, 문화재단, 경찰 관련 포털 등도 표적으로 삼았고, Dark Storm Team 역시 일본의 정부기관과 금융기관 등 다수 웹사이트에 대한 공격을 주장했다. 노르웨이의 공공 디지털 서비스 기관도 DDoS 공격 대상이 되었다. 일본에서는 주요 인터넷 인프라 및 호스팅 서비스 기업의 렌탈 서버 계정 수백 건에 대한 무단 접근이 확인되었고, 영향 가능성이 최대 수백만 계정 규모로 추가 공개되었다. 일본 소재 글로벌 보험사는 파일 전송 솔루션 취약점 악용으로 고객정보 유출 가능성을 공개했다. 일본의 IT 서비스 기업은 비인가 접근 사고를 조사 중이며, 일본의 주요 언론사는 계정 탈취로 연락처 정보 유출 가능성을 공개했다. 미국에서는 글로벌 의료·의약품 유통 기업이 사이버보안 사고를 공식 공개했고, 글로벌 의류 제조·유통 기업은 사회공학 공격으로 임직원 단말기가 침해되어 기업 정보가 유출되었다고 밝혔다. 영국에서는 이란 연계 해커에 의해 소규모 발전소가 공격받아 수일간 운영이 중단되었다. 싱가포르에서는 가상자산 지갑 서비스 기업의 주문 추적 시스템 인증 결함으로 고객 주문정보에 대한 무단 접근이 확인되었고, 하드웨어 지갑 제조사는 물류업체 침해의 영향으로 고객 정보 유출 사실을 공개했다. LockBitSupp 운영자의 실명이 특정 인물로 지목되었고, 기존에 알려진 주요 운영자와 역할이 구분된다는 주장이 제기되었다. 이는 랜섬웨어 그룹의 운영 실체와 관련한 추가 정보로 보고되었다. rootor는 다크웹 포럼에서 초기 접근 권한 공급자를 모집했고, 또 다른 포럼에서는 기업 네트워크 침투 전문 인력 모집 정황이 확인되었다. 초기 접근 권한 거래와 침투 전문 인력 수요가 다크웹 포럼에서 지속적으로 확인되었다. Eclipse는 Windows 지원 RaaS(Ransomware-as-a-Service, 랜섬웨어 대여형 서비스) 제휴 프로그램을 홍보했고, Storm과 Panzer도 제휴자 및 전문 인력 모집 활동을 이어갔다. 법 집행 기관은 공급망 공격 조직 관련 구성원 2명을 체포했으며, 미국 법무부와 연방수사국은 중국 연계 국가 지원 해킹 그룹이 사용하던 공격 인프라를 압수했다. INTERPOL은 국제 공조 작전을 통해 서아프리카 조직범죄 네트워크 관련자들을 대거 검거했으며, 랜섬웨어 조직 운영자는 중형을 선고받았다. 결론 2026년 8월에는 일본을 겨냥한 핵티비스트의 반복적인 DDoS 공격 주장과 일본·미국·영국·싱가포르에서의 실제 침해 사고가 동시에 관측되었다. 특히 일본의 주요 인터넷 인프라 및 호스팅 서비스 기업 침해 사례는 핵심 디지털 서비스 제공업체에 대한 공격이 광범위한 연쇄 피해로 이어질 수 있음을 보여주었다. 또한 LockBitSupp 관련 실명 지목, 초기 접근 권한 공급자와 침투 전문 인력 모집, 신규 RaaS 제휴 프로그램 홍보는 랜섬웨어 및 데이터 강탈 생태계의 분업화가 지속되고 있음을 시사했다. 이와 함께 공급망 공격 조직 구성원 체포, 중국 연계 국가 지원 해킹 그룹의 공격 인프라 압수, 국제 공조 수사에 따른 조직범죄 네트워크 검거, 랜섬웨어 조직 운영자에 대한 중형 선고 등 법 집행 기관의 대응 성과도 이어졌다. Tags: Arrest Australia BD-Anonymous China Dark-Storm-Team DarkWeb DDOS Eclipse Energy 미국 딥웹 노르웨이 다크웹 Finance government Hacktivism IAB Iran 이란 일본 중국 영국 호주 싱가포르 Japan law-enforcement LockBitSupp Manufacturing NoName05716 norway Panzer QScan QTFY QTRouter RaaS Ransom-Cartel Retail rootor seizure Sentencing Singapore Social-Engineering Storm supply-chain-attack T1ER0NE TeamPCP transportation unauthorized-access United-Kingdom United-States vulnerability-exploitation XSS Zero-Day"
+    },
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
       "slug": "6ba978d3a3b6",
       "title": "보안 인증 창을 믿었을 뿐인데… ClickFix 방식으로 유포 중인 LegionLoader 악성코드 주의",
       "url": "https://asec.ahnlab.com/ko/95373/",
@@ -176,17 +187,6 @@
       "published": "2026-09-10",
       "summary": "",
       "articleText": "□ 개요 o Linux 재단은 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Linux 커널에서 발생하는 Use After Free 취약점(CVE-2026-31554) [1][2] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-31554 Linux Kernel 6.7 이상 6.12.80 미만 6.12.80 이상 CVE-2026-31554 Linux Kernel 6.7 이상 6.18.21 미만 6.18.21 이상 CVE-2026-31554 Linux Kernel 6.7 이상 6.19.11 미만 6.19.11 이상 CVE-2026-31554 Linux Kernel 6.7 이상 7.0 미만 7.0 이상"
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "ea3c0d5c8b51",
-      "title": "PostgreSQL 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72184",
-      "translateUrl": "",
-      "published": "2026-09-10",
-      "summary": "",
-      "articleText": "□ 개요 o PostgreSQL 재단은 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1]~[6] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o PostgreSQL에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-6473) [1][7] o PostgreSQL에서 발생하는 UNIX Symbolic Link (Symlink) Following 취약점(CVE-2026-6475) [2][8] o PostgreSQL에서 발생하는 Use of Inherently Dangerous Function 취약점(CVE-2026-6477) [3][9] o PostgreSQL에서 발생하는 Uncontrolled Recursion 취약점(CVE-2026-6479) [4][10] o PostgreSQL에서 발생하는 Stack-based Buffer Overflow 취약점(CVE-2026-6637) [5][11] o PostgreSQL에서 발생하는 SQL Injection 취약점(CVE-2026-6476) [6][12] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-6473 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6473 PostgreSQL 17 이상 17.10 미만 17.10 이상 CVE-2026-6473 PostgreSQL 16 이상 16.14 미만 16.14 이상 CVE-2026-6473 PostgreSQL 15 이상 15.18 미만 15.18 이상 CVE-2026-6473 PostgreSQL 14 이상 14.23 미만 14.23 이상 CVE-2026-6475 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6475 PostgreSQL 17 이상 17.10 미만 17.10 이상 CVE-2026-6475 PostgreSQL 16 이상 16.14 미만 16.14 이상 CVE-2026-6475 PostgreSQL 15 이상 15.18 미만 15.18 이상 CVE-2026-6475 PostgreSQL 14 이상 14.23 미만 14.23 이상 CVE-2026-6477 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6477 PostgreSQL 17 이상 17.10 미만 17.10 이상 CVE-2026-6477 PostgreSQL 16 이상 16.14 미만 16.14 이상 CVE-2026-6477 PostgreSQL 15 이상 15.18 미만 15.18 이상 CVE-2026-6477 PostgreSQL 14 이상 14.23 미만 14.23 이상 CVE-2026-6479 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6479 PostgreSQL 17 이상 17.10 미만 17.10 이상 CVE-2026-6479 PostgreSQL 16 이상 16.14 미만 16.14 이상 CVE-2026-6479 PostgreSQL 15 이상 15.18 미만 15.18 이상 CVE-2026-6479 PostgreSQL 14 이상 14.23 미만 14.23 이상 CVE-2026-6637 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6637 PostgreSQL 17 이상 17.10 미만 17.10 이상 CVE-2026-6637 PostgreSQL 16 이상 16.14 미만 16.14 이상 CVE-2026-6637 PostgreSQL 15 이상 15.18 미만 15.18 이상 CVE-2026-6637 PostgreSQL 14 이상 14.23 미만 14.23 이상 CVE-2026-6476 PostgreSQL 18 이상 18.4 미만 18.4 이상 CVE-2026-6476 PostgreSQL 17 이상 17.10 미만 17.10 이상"
     },
     {
       "source": "ASEC KR",
@@ -450,7 +450,7 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fgoogle-fined-403-million-over-location-data-privacy-violations%2F",
       "published": "Mon, 21 Sep 2026 11:41:22 -0400",
       "summary": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
-      "articleText": "Google fined €403 million over location data privacy violations By Bill Toulas September 21, 2026 11:41 AM 0 Ireland’s Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users’ location data. The agency launched an investigation in February 2020 after receiving multiple complaints from consumer rights organizations. It examined three Google features that were active during the GDPR application period from May 25, 2018, through February 4, 2020. The features cover permissions that allowed Google to process users’ web and app activity, location history, and location accuracy data: Web and App Activity – A setting for Google Account holders that allows Google to process activity across its services, potentially including browsing history, search history, and location data. Location History – An opt-in service that tracks users carrying compatible mobile devices. It can infer visited places, activities, and routes, and displays this information through a private Google Maps Timeline, even when the user is not actively using a Google service. Location Accuracy – An Android feature that helps a device determine its position more accurately than GPS alone. It is available regardless of whether the user has a Google Account. The DPC found that Google processed location data through Web & App Activity and Location History without meeting the GDPR’s requirements. At the same time, the company failed to demonstrate compliance with GDPR principles when processing personal data through Location Accuracy. The Irish authority alleges that Google failed to meet transparency obligations for all three features and retained location data collected through Web & App Activity and Location History longer than necessary. “[...] individuals could have been unaware that their location was being used to, for example, influence them with ads or to infer their interests, and could lose control over their personal data,” stated Deputy Commissioner Graham Doyle . “The retention of users’ location data for longer than necessary aggravated this loss of control.” For these failures, the DPC has imposed administrative fines totaling €403 million and demands that Google bring its user data processing into compliance within the next six months. The DPC has not published its full decision yet, but promised to do so in the future. In a statement for BleepingComputer, Google said that it has updated its practices and policies, and implemented a mechanism for easy location data management. “This case centers around historic"
+      "articleText": "Google fined €403 million over location data privacy violations By Bill Toulas September 21, 2026 11:41 AM 1 Ireland’s Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users’ location data. The agency launched an investigation in February 2020 after receiving multiple complaints from consumer rights organizations. It examined three Google features that were active during the GDPR application period from May 25, 2018, through February 4, 2020. The features cover permissions that allowed Google to process users’ web and app activity, location history, and location accuracy data: Web and App Activity – A setting for Google Account holders that allows Google to process activity across its services, potentially including browsing history, search history, and location data. Location History – An opt-in service that tracks users carrying compatible mobile devices. It can infer visited places, activities, and routes, and displays this information through a private Google Maps Timeline, even when the user is not actively using a Google service. Location Accuracy – An Android feature that helps a device determine its position more accurately than GPS alone. It is available regardless of whether the user has a Google Account. The DPC found that Google processed location data through Web & App Activity and Location History without meeting the GDPR’s requirements. At the same time, the company failed to demonstrate compliance with GDPR principles when processing personal data through Location Accuracy. The Irish authority alleges that Google failed to meet transparency obligations for all three features and retained location data collected through Web & App Activity and Location History longer than necessary. “[...] individuals could have been unaware that their location was being used to, for example, influence them with ads or to infer their interests, and could lose control over their personal data,” stated Deputy Commissioner Graham Doyle . “The retention of users’ location data for longer than necessary aggravated this loss of control.” For these failures, the DPC has imposed administrative fines totaling €403 million and demands that Google bring its user data processing into compliance within the next six months. The DPC has not published its full decision yet, but promised to do so in the future. In a statement for BleepingComputer, Google said that it has updated its practices and policies, and implemented a mechanism for easy location data management. “This case centers around historic"
     },
     {
       "source": "The Hacker News",
