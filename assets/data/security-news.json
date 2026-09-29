@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-09-28T23:13:27.509863+00:00",
+  "generated_at": "2026-09-29T05:39:09.057379+00:00",
   "items": [
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "09823643dd1f",
+      "title": "Citrix 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72201",
+      "translateUrl": "",
+      "published": "2026-09-29",
+      "summary": "",
+      "articleText": "□ 개요 o Citrix社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o NetScaler ADC, NetScaler Gateway에서 발생하는 Improper Input Validation 취약점(CVE-2026-88771) [1][2] o NetScaler ADC, NetScaler Gateway에서 발생하는 Improper Restriction of Operations within the Bounds of a Memory Buffer 취약점(CVE-2026-88772) [1][3] o NetScaler ADC, NetScaler Gateway에서 발생하는 HTTP Request/Response Smuggling 취약점(CVE-2026-88773) [1][4] o NetScaler ADC, NetScaler Gateway에서 발생하는 보안 설정 미흡 취약점(CVE-2026-88774) [1][5] o NetScaler ADC, NetScaler Gateway에서 발생하는 Classic Buffer Overflow 취약점(CVE-2026-88775) [1][6] o NetScaler ADC, NetScaler Gateway에서 발생하는 Improper Restriction of Operations within the Bounds of a Memory Buffer 취약점(CVE-2026-88776) [1][7] o NetScaler ADC, NetScaler Gateway에서 발생하는 Improper Restriction of Operations within the Bounds of a Memory Buffer 취약점(CVE-2026-88777) [1][8] o NetScaler ADC, NetScaler Gateway에서 발생하는 Predictable Exact Value from Previous Values 취약점(CVE-2026-88778) [1][9] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-88771 NetScaler ADC 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88771 NetScaler ADC 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88771 NetScaler Gateway 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88771 NetScaler Gateway 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88771 NetScaler ADC FIPS/NDcPP 13.1-37.279 미만 13.1-37.279 이상 CVE-2026-88771 NetScaler ADC FIPS 14.1-73.37 FIPS 미만 14.1-73.37 FIPS 이상 CVE-2026-88772 NetScaler ADC 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88772 NetScaler ADC 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88772 NetScaler Gateway 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88772 NetScaler Gateway 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88772 NetScaler ADC FIPS/NDcPP 13.1-37.279 미만 13.1-37.279 이상 CVE-2026-88772 NetScaler ADC FIPS 14.1-73.37 FIPS 미만 14.1-73.37 FIPS 이상 CVE-2026-88773 NetScaler ADC 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88773 NetScaler ADC 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88773 NetScaler Gateway 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88773 NetScaler Gateway 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88773 NetScaler ADC FIPS/NDcPP 13.1-37.279 미만 13.1-37.279 이상 CVE-2026-88773 NetScaler ADC FIPS 14.1-73.37 FIPS 미만 14.1-73.37 FIPS 이상 CVE-2026-88774 NetScaler ADC 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88774 NetScaler ADC 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88774 NetScaler Gateway 13.1-64.23 미만 13.1-64.23 이상 CVE-2026-88774 NetScaler Gateway 14.1-73.37 미만 14.1-73.37 이상 CVE-2026-88774 NetScaler ADC FIPS/NDcPP 13.1-37.279 미만 13.1-37.279 이상 CVE-2026-88774 NetScaler ADC FIPS 14.1-73.37 FIPS 미만 14.1-73.37 FIPS 이상 CVE-2026-88775 NetScaler ADC 13.1-"
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "084afedc8fe0",
+      "title": "Adobe 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72200",
+      "translateUrl": "",
+      "published": "2026-09-29",
+      "summary": "",
+      "articleText": "□ 개요 o Adobe社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1][2] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Adobe Commerce, Adobe Commerce B2B, Magento Open Source에서 발생하는 Incorrect Authorization 취약점(CVE-2026-71362) [1][2][3] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-71362 Adobe Commerce 2.4.4-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce 2.4.5-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce 2.4.6-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce 2.4.7-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce 2.4.8-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce 2.4.9-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce B2B 1.3.3-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce B2B 1.3.4-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce B2B 1.4.2-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce B2B 1.5.2-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Adobe Commerce B2B 1.5.3-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Magento Open Source 2.4.6-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Magento Open Source 2.4.7-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Magento Open Source 2.4.8-2026-jul 이하 핫픽스 적용 CVE-2026-71362 Magento Open Source 2.4.9-2026-jul 이하 핫픽스 적용"
+    },
     {
       "source": "ASEC KR",
       "region": "domestic",
@@ -187,28 +209,6 @@
       "published": "Wed, 16 Sep 2026 15:00:00 +0000",
       "summary": "ASEC Blog를 통해 한 주간의 ‘Ransom & Dark Web Issues’ – 2026년 9월 3주차를 게시한다. 일본 제약 및 헬스케어 기업 사이버 사고 이후 내부 데이터 판매 정황 한국 전자상거래 및 유통 기업 고객 데이터 판매 정황 AUDIT TEAM, 한국 기업 및 기관 2곳 대상 랜섬웨어 공격",
       "articleText": "다크웹 Ransom & Dark Web Issues 2026년 9월 3주차 9월 17 2026 ASEC Blog를 통해 한 주간의 ‘Ransom & Dark Web Issues’ – 2026년 9월 3주차를 게시한다. 일본 제약 및 헬스케어 기업 사이버 사고 이후 내부 데이터 판매 정황 한국 전자상거래 및 유통 기업 고객 데이터 판매 정황 AUDIT TEAM, 한국 기업 및 기관 2곳 대상 랜섬웨어 공격 AhnLab TIP 를 구독하시면 연관 IOC 및 상세 분석 정보를 추가적으로 확인하실 수 있습니다. 자세한 내용은 아래 배너를 클릭하여 확인해보세요. Tags: AuditTeam DarkWeb DataLeak DDW DeepWeb 랜섬웨어 데이터유출 데이터탈취 개인정보유출 개인정보탈취 대한민국 딥웹 다크웹 일본 제약 전자상거래 유통 헬스케어 Japan Leaked Ransom Ransomware SouthKorea"
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "8c9e79e8dd7a",
-      "title": "Gitea 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72188",
-      "translateUrl": "",
-      "published": "2026-09-15",
-      "summary": "",
-      "articleText": "□ 개요 o Gitea 프로젝트는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 o 최근 해당 취약점으로 공격 및 피해가 발생하고 있어 이용자들의 주의를 요함 □ 설명 o Gitea에서 발생하는 Code Injection 취약점(CVE-2026-60004) [1][2] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-60004 Gitea 1.17 이상 1.27.1 미만 1.27.1 이상"
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "826a9ac2eb4c",
-      "title": "Fortinet 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72187",
-      "translateUrl": "",
-      "published": "2026-09-14",
-      "summary": "",
-      "articleText": "□ 개요 o Fortinet社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o FortiOS, FortiSwitchManager에서 발생하는 Heap-based Buffer Overflow 취약점(CVE-2025-25249) [1][2] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2025-25249 FortiOS 6.4 해결 버전으로 마이그레이션 CVE-2025-25249 FortiOS 7.0.0 이상 7.0.18 미만 7.0.18 이상 CVE-2025-25249 FortiOS 7.2.0 이상 7.2.12 미만 7.2.12 이상 CVE-2025-25249 FortiOS 7.4.0 이상 7.4.9 미만 7.4.9 이상 CVE-2025-25249 FortiOS 7.6.0 이상 7.6.4 미만 7.6.4 이상 CVE-2025-25249 FortiSwitchManager 7.0.0 이상 7.0.6 미만 7.0.6 이상 CVE-2025-25249 FortiSwitchManager 7.2.0 이상 7.2.7 미만 7.2.7 이상"
     },
     {
       "source": "ASEC KR",
@@ -450,7 +450,7 @@
       "translateUrl": "https://translate.google.com/translate?sl=auto&tl=ko&u=https%3A%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fdutch-police-confirm-arrest-in-shinyhunters-hacking-investigation%2F",
       "published": "Mon, 28 Sep 2026 15:49:10 -0400",
       "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-      "articleText": "Dutch police confirm arrest in ShinyHunters hacking investigation By Lawrence Abrams September 28, 2026 03:49 PM 0 Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said Monday. Police said the suspect will appear before the Rotterdam District Court on Tuesday, September 29, when further information will also be released. The suspect has been identified by KrebsOnSecurity and DataBreaches as Pepijn van der Stap, a Dutch hacker previously known online as \"Umbreon.\" Van der Stap was previously arrested in January 2023 and charged with hacking and blackmailing more than a dozen companies in the Netherlands and worldwide. He later pleaded guilty and was sentenced to four years in prison, with one year suspended, followed by a three-year probationary period with additional conditions. According to DataBreaches, Van der Stap was arrested again this year on September 15 when a Dutch tactical police unit searched the Amsterdam home he shared with his mother and seized electronic devices. KrebsOnSecurity reports that sources familiar with the investigation confirmed that authorities were examining a possible connection between Van der Stap and ShinyHunters. The report also states that the \"Umbreon\" identity previously used by Van der Stap could link him to ShinyHunters, which recently used the same Pokémon character in a recent FBI breach and the defacement of the Clop ransomware gang's data leak site . Van der Stap used the \"Umbreon\" alias and Pokémon imagery on BreachForums as early as 2021. However, the same Umbreon character also appeared a year earlier in a 2020 defacement of the HackForums website , a year before Van der Stap created the \"Umbreon\" account. Dutch police previously released the voice of a Dutch-speaking man suspected of involvement in the Odido hack. Police said the man called an Odido help desk employee, posing as a member of the company's IT department, and tricked the employee into entering credentials and a verification code into a fake login page, giving the attackers access to internal systems. DataBreaches, which says it has spoken to Van der Stap on multiple occasions, noted that the voice in the recording did not sound like him. A close friend of Van der Stap reportedly reached the same conclusion. When BleepingComputer asked about Van der St"
+      "articleText": "Dutch police confirm arrest in ShinyHunters hacking investigation By Lawrence Abrams September 28, 2026 03:49 PM 1 Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said Monday. Police said the suspect will appear before the Rotterdam District Court on Tuesday, September 29, when further information will also be released. The suspect has been identified by KrebsOnSecurity and DataBreaches as Pepijn van der Stap, a Dutch hacker previously known online as \"Umbreon.\" Van der Stap was previously arrested in January 2023 and charged with hacking and blackmailing more than a dozen companies in the Netherlands and worldwide. He later pleaded guilty and was sentenced to four years in prison, with one year suspended, followed by a three-year probationary period with additional conditions. According to DataBreaches, Van der Stap was arrested again this year on September 15 when a Dutch tactical police unit searched the Amsterdam home he shared with his mother and seized electronic devices. KrebsOnSecurity reports that sources familiar with the investigation confirmed that authorities were examining a possible connection between Van der Stap and ShinyHunters. The report also states that the \"Umbreon\" identity previously used by Van der Stap could link him to ShinyHunters, which recently used the same Pokémon character in a recent FBI breach and the defacement of the Clop ransomware gang's data leak site . Van der Stap used the \"Umbreon\" alias and Pokémon imagery on BreachForums as early as 2021. However, the same Umbreon character also appeared a year earlier in a 2020 defacement of the HackForums website , a year before Van der Stap created the \"Umbreon\" account. Dutch police previously released the voice of a Dutch-speaking man suspected of involvement in the Odido hack. Police said the man called an Odido help desk employee, posing as a member of the company's IT department, and tricked the employee into entering credentials and a verification code into a fake login page, giving the attackers access to internal systems. DataBreaches, which says it has spoken to Van der Stap on multiple occasions, noted that the voice in the recording did not sound like him. A close friend of Van der Stap reportedly reached the same conclusion. When BleepingComputer asked about Van der St"
     },
     {
       "source": "BleepingComputer",
