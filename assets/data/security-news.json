@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-06T22:37:58.875962+00:00",
+  "generated_at": "2026-10-07T05:52:18.354157+00:00",
   "items": [
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "54fdf0566ac3",
+      "title": "2026년 3분기 공격기법 동향보고서",
+      "url": "https://asec.ahnlab.com/ko/95732/",
+      "translateUrl": "",
+      "published": "Tue, 06 Oct 2026 15:00:00 +0000",
+      "summary": "개요 2026년 3분기에는 초기 접근 이후 조직이 신뢰하는 경로를 이용해 지속성과 공격 확장을 시도한 사례가 두드러졌다. NetScaler와 Cisco FMC 같은 경계 장비는 취약점 악용 뒤 웹쉘(web shell, 원격 명령 실행용 서버 측 스크립트) 설치로 이어졌고, 공급망에서는 공식 패키지 레지스트리를 통해 악성 버전이 전달됐다. 신원 공격에서는 패스키 전환 안내를 사칭해 세션과 토큰",
+      "articleText": "트렌드 2026년 3분기 공격기법 동향보고서 10월 07 2026 개요 2026년 3분기에는 초기 접근 이후 조직이 신뢰하는 경로를 이용해 지속성과 공격 확장을 시도한 사례가 두드러졌다. NetScaler와 Cisco FMC 같은 경계 장비는 취약점 악용 뒤 웹쉘(web shell, 원격 명령 실행용 서버 측 스크립트) 설치로 이어졌고, 공급망에서는 공식 패키지 레지스트리를 통해 악성 버전이 전달됐다. 신원 공격에서는 패스키 전환 안내를 사칭해 세션과 토큰을 확보하는 사례가 확인됐다. 분석 CISA KEV의 2026년 7월부터 9월까지 신규 등재는 100건으로, 2025년 동기 50건과 비교해 2배 증가했다. 이 가운데 웹 및 서버 애플리케이션 31건, 네트워크 및 경계 장비 30건이 전체의 61.0%를 차지했다. 개발 및 배포 도구 9건, AI 및 LLM 도구 6건도 포함됐다. 경계 장비 침해에서는 NetScaler ADC 및 Gateway의 CVE-2026-88771, CVE-2026-88772와 Cisco Secure Firewall Management Center(FMC)의 CVE-2026-20079, CVE-2026-20316 악용이 확인됐다. 공격자는 정상 웹 경로에 웹쉘을 배치하고, .deb 파일명이나 CSS 리소스처럼 보이게 위장했다. Cisco FMC 사례에서는 Tomcat 웹 경로에 JSP 웹쉘과 JAR 명령 실행기를 두고 인증 정보를 수집했다. 일부 사례에서는 /bin/sh 에 SUID 및 SGID 비트를 설정해 후속 명령의 권한을 높이기도 했다. 공급망 공격에서는 keyv 와 cacheable 계열, @7nohe/openapi-react-query-codegen , MemTensor의 npm 및 PyPI 패키지가 악성 버전으로 배포됐다. preinstall 스크립트, binding.gyp , 모듈 로드 시점, 게시 워크플로 트리거가 악성 코드 실행 경로로 사용됐다. @7nohe/openapi-react-query-codegen 의 악성 버전 10개에는 정상 npm provenance까지 부여됐다. 신원 공격에서는 Okta와 Microsoft가 패스키 등록, 비밀번호 복구, 헬프데스크 사칭 전화와 문자 메시지를 악용한 사례를 다뤘다. 중간자 피싱(AiTM, Adversary-in-the-Middle, 중간자 위치에서 세션을 가로채는 공격)으로 세션 토큰을 탈취하거나 디바이스 코드 승인으로 공격자 클라이언트에 토큰을 발급받는 방식이 확인됐다. 이후 OfficeHome, 신원 포털, Microsoft Graph, SharePoint, OneDrive, Exchange 접근으로 이어진 사례가 있었다. 주요 기법은 MITRE ATT&CK Enterprise로 T1190, T1505.003, T1548.001, T1036, T1195, T1566.004, T1078.004로 분류됐다. 공통점은 최초 침투보다 이후에 확보한 권한과 인증 수단이 지속성과 확장에 사용됐다는 점이다. 예방 및 진단 정보 경계 장비는 KEV와 제조사 권고에 따라 패치를 우선 적용하고, 노출된 관리 기능과 DTLS 설정을 점검해야 한다. /vpn/scripts/linux/ , /var/netscaler/logon/LogonPoint/custom/ 의 새 파일, 웹 서버 설정 변경, /bin/sh 권한 변경, 웹쉘 호출 흔적을 함께 확인해야 한다. 공급망과 빌드 파이프라인은 게시 트리거의 호출자 권한, 입력 소스, 소스 커밋과 배포 아티팩트의 일치 여부를 검증해야 한다. 개발자 및 CI 환경에서 접근 가능한 비밀정보를 점검하고, 악성 버전이 확인되면 영향 받은 환경의 토큰과 자격증명을 교체해야 한다. 신원 공격 대응에서는 패스키 등록과 복구 요청을 사내 검증 채널로 재확인하고, 불필요한 디바이스 코드 흐름을 제한해야 한다. 모든 활성 세션, 등록 인증 수단, 승인된 애플리케이션을 함께 점검하고, 조건부 접근과 피싱 저항성 인증을 적용해야 한다. 전반적으로 이번 분기는 단일 파일명이나 도메인보다 행위의 연결 순서를 보는 IoA(Indicator of Attack, 공격 징후) 기반 탐지가 중요하다는 점을 보여준다."
+    },
     {
       "source": "KISA 보안공지",
       "region": "domestic",
@@ -209,17 +220,6 @@
       "published": "Sun, 27 Sep 2026 15:00:00 +0000",
       "summary": "AhnLab Security Intelligence Center(ASEC)은 패치되지 않은 Telerik UI for ASP.NET AJAX 서버를 대상으로 원격 코드 실행 취약점(CVE-2019-18935)을 악용한 두 건의 공격 사례를 확인하였다. 첫 번째 사례에서는 취약점 악용 후 리버스 쉘을 실행하는 동시에 권한 상승을 시도하고 웹쉘을 설치했으며, 두 번째 사례에서는 추가 공격 대상을",
       "articleText": "악성코드 Telerik UI 취약점을 악용한 웹쉘 설치 및 스캐너 실행 공격 사례 9월 28 2026 AhnLab Security Intelligence Center(ASEC)은 패치되지 않은 Telerik UI for ASP.NET AJAX 서버를 대상으로 원격 코드 실행 취약점(CVE-2019-18935)을 악용한 두 건의 공격 사례를 확인하였다. 첫 번째 사례에서는 취약점 악용 후 리버스 쉘을 실행하는 동시에 권한 상승을 시도하고 웹쉘을 설치했으며, 두 번째 사례에서는 추가 공격 대상을 탐색하기 위한 스캐너 도구를 실행하였다. 1. Telerik UI for ASP.NET AJAX 원격 코드 실행 취약점 (CVE-2019-18935) Telerik UI for ASP.NET AJAX는 Microsoft ASP.NET 기반 웹 애플리케이션 개발에 사용되는 UI 컴포넌트 제품이다. CVE-2019-18935는 파일 업로드 기능인 RadAsyncUpload에서 발생하는 .NET 역직렬화 취약점으로, 공격자가 이를 악용할 경우 IIS 웹 서버의 w3wp.exe 프로세스 권한으로 원격 코드를 실행할 수 있다. 2020년 Red Canary사는 Blue Mockingbird 공격자가 CVE-2019-18935 취약점을 악용해 Windows IIS 서버에 악성 DLL을 실행하고 Monero 암호화폐 채굴 악성코드를 유포한 공격 사례를 공개하였다. [1] 그리고 2023년 CISA, FBI 및 MS-ISAC는 미국 연방기관의 IIS 서버를 대상으로 다수의 공격자가 악성 DLL을 업로드하고 원격 코드를 실행한 공격 사례를 공개하였으며, 해당 공격에서도 CVE-2019-18935 취약점이 악용된 것으로 알려졌다. [2] 2. 국내 공격 사례 – 1 첫 번째 공격 사례에서는 CVE-2019-18935 취약점을 통해 리버스 셸을 실행한 후 시스템 이름과 권한, 실행 중인 프로세스 등을 조회하였다. 이 과정에서 Potato 계열 도구를 이용한 권한 상승 시도도 확인되었으며, 최종적으로 Godzilla 방식의 웹쉘을 설치하였다. [그림 1] 리버스 쉘로 hostname.exe 명령 수행 2.1. 리버스 쉘 취약점 악용 과정에서 실행된 리버스 셸 페이로드는 Windows 소켓을 생성한 후 206[.]82.6.22의 80번 포트로 TCP 연결을 시도한다. 연결에 성공하면 소켓을 표준 입력·출력·오류 핸들로 지정한 뒤 cmd.exe 프로세스를 실행한다. 이를 통해 공격자는 원격에서 명령을 전달하고 실행 결과를 수신할 수 있다. C2 206.82.6[.]22:80 [그림 2] C2 서버와 연결하여 cmd.exe를 실행하는 리버스 셸 코드 2.2. 권한 상승 추가로 감염 시스템에서는 웹쉘 환경에서 사용할 수 있도록 수정된 SweetPotato를 비롯해 여러 변형된 Potato 계열 권한 상승 도구가 진단되었다. 해당 도구들은 PrintSpoofer 등의 토큰 가장 기법을 이용해 SYSTEM 권한을 획득한 후 cmd.exe와 같은 프로세스를 높은 권한으로 실행할 수 있다. [그림 3] SweetPotato 권한 상승 도구 2.3. 웹쉘 웹쉘의 설치 방식은 Telerik 기반 ASP.NET 환경에 메모리 웹쉘을 주입하는 형태이다. 페이로드 DLL이 로드되면 별도 스레드에서 Telerik.Web.UI가 로드된 실행 환경을 탐색하고, 내부에 포함된 godmemshell.dll을 메모리에 로드한다. 이후 ASP.NET의 VirtualPathProvider에 악성 요청 처리 기능을 등록함으로써 별도의 .aspx 파일 없이 웹 서버 프로세스의 메모리에서 웹쉘을 동작시킨다. [그림 4] 웹쉘 설치 페이로드 설치된 웹쉘은 HTTP 요청을 통해 .NET 페이로드를 전달받고 실행하는 Godzilla 방식의 웹쉘이다. 요청의 Type 헤더에 따라 처리 방식을 구분하고, 암호화된 요청 데이터를 복호화한다. 최초 요청에서는 전달받은 .NET 페이로드를 메모리에 로드하여 쿠키 기반의 자체 세션에 보관하며, 이후 요청에서는 저장된 페이로드를 호출하여 요청된 작업을 수행한다. 실행 결과는 다시 암호화하여 HTTP 응답으로 반환하며, 구체적인 후속 동작은 공격자가 전달하는 페이로드에 따라 달라진다. [그림 5] 웹쉘 코드 중 일부 3. 국내 공격 사례 – 2 두 번째 공격 사례의 경우 CVE-2019-18935를 통해 원격 코드 실행이 가능하다는 점을 악용하여 대상 시스템에 스캐너 파일을 생성하고 실행하였다. 첫 번째 사례와 달리 리버스 셸이나 웹쉘은 사용되지 않았으며, 취약점 악용 페이로드에서도 스캐너를 실행하는 명령만 확인되었다. [그림 6] 취약점 공격으로 생성되는 페이로드 파일 및 스캐너 도구 [그림 7] 스캐너 실행 명령 3.1. 스캐너 스캐너는 원격 서버에서 검사 대상 목록을 수신하고, WordPress 설치·설정 페이지로 연결되는 URL을 비동기로 탐색하는 Rust 기반 스캐너이다. WordPress가 설치된 서버로 판단되면 URL 및 공인 IP를 red.txt라는 첨부 이름으로 Telegram에 전송한다. WordPress가 설치된 서버를 판단하는 기준은 [표 1]과 같이 일반적으로 웹서버 경로로 사용되는 후보 경로 53개를 사용하여 해당 경로에 /wp-admin/setup-config.php 또는 /wp-adm"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
-      "slug": "001a272c1acd",
-      "title": "Ransom & Dark Web Issues 2026년 9월 4주차",
-      "url": "https://asec.ahnlab.com/ko/95544/",
-      "translateUrl": "",
-      "published": "Tue, 22 Sep 2026 15:00:00 +0000",
-      "summary": "ASEC Blog를 통해 한 주간의 ‘Ransom & Dark Web Issues’ – 2026년 9월 4주차를 게시한다. Metaencryptor, 한국 카메라 모듈 및 장비 제조 기업 대상 랜섬웨어 공격 Metaencryptor, 일본 자동차 부품 제조기업 대상 랜섬웨어 공격 ShinyHunters, 미국 연방 수사 기관 내부 시스템 침해 및 민감 데이터 탈취 주장",
-      "articleText": "다크웹 Ransom & Dark Web Issues 2026년 9월 4주차 9월 23 2026 ASEC Blog를 통해 한 주간의 ‘Ransom & Dark Web Issues’ – 2026년 9월 4주차를 게시한다. Metaencryptor, 한국 카메라 모듈 및 장비 제조 기업 대상 랜섬웨어 공격 Metaencryptor, 일본 자동차 부품 제조기업 대상 랜섬웨어 공격 ShinyHunters, 미국 연방 수사 기관 내부 시스템 침해 및 민감 데이터 탈취 주장 AhnLab TIP 를 구독하시면 연관 IOC 및 상세 분석 정보를 추가적으로 확인하실 수 있습니다. 자세한 내용은 아래 배너를 클릭하여 확인해보세요. Tags: Automotive DarkWeb DataBreach DataLeak DDW DeepWeb 랜섬웨어 데이터유출 데이터탈취 미국 개인정보유출 개인정보탈취 공공 대한민국 딥웹 다크웹 자동차 자동차부품 자동화장비 일본 제조 카메라모듈 Japan Leaked MetaEncryptor Ransom Ransomware ShinyHunters SouthKorea USA"
     },
     {
       "source": "KISA 취약점정보",
