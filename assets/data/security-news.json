@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-11-22T19:31:12.868674+00:00",
+  "generated_at": "2026-11-23T07:27:33.715379+00:00",
   "items": [
+    {
+      "source": "ASEC KR",
+      "region": "domestic",
+      "slug": "cfe57dc93612",
+      "title": "BYOVD를 통한 국내 보안 제품 무력화 시도: 정상 AI 도구로 위장한 악성코드 유포 주의",
+      "url": "https://asec.ahnlab.com/ko/96707/",
+      "translateUrl": "",
+      "published": "Mon, 23 Nov 2026 06:33:59 +0000",
+      "summary": "개요 최근 AhnLab SEcurity intelligence Center(ASEC)는 정상 AI 도구로 위장한 악성코드에서 BYOVD(Bring Your Own Vulnerable Driver)를 통한 국내 보안 솔루션 무력화 시도를 확인했다. 악성코드는 정상 AI 도구 배포 페이지로 위장한 사이트를 통해 유포된다. 해당 사이트가 한국어로 구성되어 있고, 무력화 대상 제품이 모두 국내 제품",
+      "articleText": "악성코드 BYOVD를 통한 국내 보안 제품 무력화 시도: 정상 AI 도구로 위장한 악성코드 유포 주의 11월 23 2026 개요 최근 AhnLab SEcurity intelligence Center(ASEC)는 정상 AI 도구로 위장한 악성코드에서 BYOVD(Bring Your Own Vulnerable Driver)를 통한 국내 보안 솔루션 무력화 시도를 확인했다. 악성코드는 정상 AI 도구 배포 페이지로 위장한 사이트를 통해 유포된다. 해당 사이트가 한국어로 구성되어 있고, 무력화 대상 제품이 모두 국내 제품이라는 점에서 본 사례는 국내 사용자를 겨냥한 공격으로 판단된다. 공격자는 취약한 드라이버인 NeacSafe64.sys를 설치한 뒤 이를 악용해 악성 커널 드라이버를 로드했다. 로드된 악성 드라이버는 IOCTL을 전달받아 국내 보안 제품의 구성 모듈 및 드라이버의 메모리를 패치해 탐지와 치료 기능에 대한 무력화를 시도한다. NeacSafe64.sys의 취약점과 공개 PoC NeacSafe64.sys는 중국 게임사 NeatEase의 정상 서명된 안티치트 드라이버로, 버전 1.0.0.8 이전에서 권한 상승 취약점(CVE-2025-45737)이 존재하는 것으로 알려져 있다. CVE-2025-45737의 공개된 PoC는 NeacSafe64.sys의 취약한 opcode를 통해 임의의 커널 메모리 읽기, 쓰기가 가능함을 보여준다. 공개 PoC : https://github.com/za233/NeacController/tree/main 분석 결과 위 PoC와 공격자의 구현이 상당 부분 동일했으며, 공격자는 HalDisPatchTable 변조 기법 등을 추가로 이용해 악성 드라이버를 로드했다. 비교 항목 공개 PoC 공격자 취약 드라이버 MD5 DCC288FAFAD0BF3B505C4B44791D423D 동일 통신 포트 \\OWNeacSafePort 동일 연결 구조체 Magic, 버전, 32바이트 키 동일 커널 읽기·쓰기 opcode 14, 70 동일 패킷 변환 encode_payload() 알고리즘 및 상수 동일 NonPagedPool 버퍼 활용 방식 간단한 쉘코드 실행 ExAllocatePoolWithTag 를 호출하여 악성 커널 드라이버를 로드할 커널 메모리 확보 [표 1] 공개 PoC와 공격자 비교 1. 유포 구조 및 최초 실행 확인된 위장 도메인은 다음과 같다. 해당 도메인을 공식 사이트로 소개한 블로그도 확인되어 주의가 필요하다. ollama-ko[.]com [그림 1] ollama-ko[.]com [그림 2] ollama-ko[.]com (2) 위장 사이트에서 다운받은 Windows용 설치 파일 내부에는 MSI 패키지인 data.cab이 포함되어 있으며, 해당 MSI의 InstallExecuteSequence에는 가상 환경이 아닌 경우에만 MSI 내부에 포함된 NVIDIA_Control.exe를 실행하도록 정의되어 있다. [그림 3] Windows용 설치 파일 (OllamaSetup.zip) 내부 [그림 4] InstallExecuteSequence Setup.exe 실행 시 ollama 공식 주소 (ollama.com) 로부터 Ollama 구성 요소를 설치·실행한다. 따라서 사용자 입장에서는 정상 설치 프로그램이 동작하는 것처럼 보이며, 악성 행위를 인지하기 어렵다. [그림 5] Ollama가 정상적으로 실행되는 모습 가상 환경이 아닐 경우 실행되는 NVIDIA_Control.exe는 NTFS ADS 경로에 악성 DLL을 은닉하여 후속 행위를 수행한다. ADS 영역의 DLL은 NeacSafe64.sys를 이용한 BYOVD 기법으로 악성 드라이버를 로드한다. 로드된 악성 드라이버인 WinWyvern은 C2로부터 수신하는 페이로드를 실행하거나, 메모리 패치를 통해 보안 제품 무력화를 시도하는 등의 기능이 존재한다. [그림 6] 전체 실행 흐름도 2. 취약 드라이버 (NeacSafe64.sys) 설치 NVIDIA_Control.exe는 내장된 NeacSafe64.sys 드라이버를 시스템 디렉터리에 기록한 후 서비스로 등록하고, 미니필터 드라이버로 동작할 수 있도록 레지스트리 환경을 구성한 뒤 서비스를 시작한다. 레지스트리 구성 값은 공개 PoC의 NeacDriver/NeacSafe64.inf 에 정의된 내용과 거의 동일하다. [그림 7] NVIDIA_Control.exe의 NeacSafe64.sys 설치 및 시작 흐름 2.1 NeacSafe64.sys 설치 및 서비스 등록 NVIDIA_Control.exe 실행 시 내장된 NeacSafe64.sys를 시스템 디렉터리에 기록한 뒤, 서비스로 등록한다. 공개 PoC의 서비스 시작 유형은 수동 시작인 반면, 공격자는 자동 시작으로 설정했다. [그림 8] NeacSafe64.sys를 시스템 경로에 복원 [그림 9] NeacSafe64 서비스 생성 또는 재구성 구분 값 파일명 NeacSafe64.sys MD5 DCC288FAFAD0BF3B505C4B44791D423D 파일 경로 C:\\Windows\\System32\\neacsafe64.sys 서비스명 NeacSafe64 서비스 유형 파일 시스템 드라이버 시작 유형 자동 시작 [표 2] NeacSafe64 서비스 등록 2.2 NeacSafe64 미니필터 레지스트리 구성 서비스 등록에"
+    },
+    {
+      "source": "KISA 보안공지",
+      "region": "domestic",
+      "slug": "36d8bb397c00",
+      "title": "Ascensio System 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72321",
+      "translateUrl": "",
+      "published": "2026-11-23",
+      "summary": "",
+      "articleText": "□ 개요 o Ascensio System社는 자사 ONLYOFFICE Docs(Document Server) 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o ONLYOFFICE Docs에서 발생하는 External Control of File Name or Path 취약점(CVE-2026-110385) [1][2] o ONLYOFFICE Docs에서 발생하는 OS Command Injection 취약점(CVE-2026-113630) [1][3] o ONLYOFFICE Docs에서 발생하는 인가 우회 및 파일 읽기 취약점(CVE-2026-113627) [1][4] o ONLYOFFICE Docs에서 발생하는 Path Traversal 취약점(CVE-2026-97727) [1][5] o ONLYOFFICE Docs에서 발생하는 Missing Authorization 취약점(CVE-2026-113631) [1][6] o ONLYOFFICE Docs에서 발생하는 Server-Side Request Forgery 취약점(CVE-2026-110652) [1][7] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-110385 ONLYOFFICE Docs(Document Server) 10.0.0 미만 10.0.0 CVE-2026-113630 ONLYOFFICE Docs(Document Server) 9.4.0-129 이상 10.0.0 미만 10.0.0 CVE-2026-113627 ONLYOFFICE Docs(Document Server) 10.0.0 미만 10.0.0 CVE-2026-97727 ONLYOFFICE Docs(Document Server) 10.0.0 미만 10.0.0 CVE-2026-113631 ONLYOFFICE Docs(Document Server) 9.4.0-129 이상 10.0.0 미만 10.0.0 CVE-2026-110652 ONLYOFFICE Docs(Document Server) 2.5.0 이상 10.0.0 미만 10.0.0"
+    },
     {
       "source": "ASEC KR",
       "region": "domestic",
@@ -198,28 +220,6 @@
       "published": "2026-11-17",
       "summary": "",
       "articleText": "□ 개요 o PostgreSQL 재단은 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1]~[25] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-6460) [1][26] o PostgreSQL에서 발생하는 Heap-based Buffer Overflow 취약점(CVE-2026-116317) [2][27] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116304) [3][28] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-116306) [4][29] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116307) [5][30] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-116309) [6][31] o PostgreSQL에서 발생하는 Improper Input Validation 취약점(CVE-2026-116314) [7][32] o PostgreSQL에서 발생하는 Heap-based Buffer Overflow 취약점(CVE-2026-116315) [8][33] o PostgreSQL에서 발생하는 SQL Injection 취약점(CVE-2026-116318) [9][34] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116319) [10][35] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116320) [11][36] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116323) [12][37] o PostgreSQL에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-116328) [13][38] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-116329) [14][39] o PostgreSQL에서 발생하는 Inclusion of Functionality from Untrusted Control Sphere 취약점(CVE-2026-116330) [15][40] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-116331) [16][41] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-116332) [17][42] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-116335) [18][43] o PostgreSQL에서 발생하는 Operation on a Resource after Expiration or Release 취약점(CVE-2026-116336) [19][44] o PostgreSQL에서 발생하는 Integer Overflow or Wraparound 취약점(CVE-2026-120139) [20][45] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-120141) [21][46] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-120142) [22][47] o PostgreSQL에서 발생하는 Use After Free 취약점(CVE-2026-120143) [23][48] o PostgreSQL에서 발생하는 Type Confusion 취약점(CVE-2026-120144) [24][49] o PostgreSQL에서 발생하는 Missing Authorization 취약점(CVE-2026-120145) [25][50] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-6460 PostgreSQL 18 이상 18.7 미만 18.7 이상 CVE-2026-6460 PostgreSQL 17 이상 17.12 미만 17.12 이상 CVE-2026-6460 PostgreSQL 16 이상 16.16 미만 16.16 이상 CVE-2026-6460 PostgreSQL 15 이상 15.20 미만 15.20 이상 CVE-2026-6460 PostgreSQL 14 이상 14.25 미만 14.25 이상 CVE-2026-116317 PostgreSQL 18 이상 18.7 미만 18.7 이상 CVE-2026-116317 PostgreSQL 17 이상 17.12 미만 17.12 이상 CVE-2026-116317 PostgreSQL 16 이상 16.16 미만 16.16 이상 CVE-2026-116317 PostgreSQL 15 이상 15.20 미만 15.20 이상 CVE-2026-116317 PostgreSQL 14 이상 14.25 미만 14.25 이상 CVE-2026-116304 PostgreSQL 18 이상 18.7 미만 18.7 이상 CVE-2026-116304 PostgreSQL 17 이상 17.12 미만 17.12 이상 CVE-2026-116304 PostgreSQL 16 이상 16.16 미만 16.16 이상 CVE-2026-116304 PostgreSQL"
-    },
-    {
-      "source": "KISA 보안공지",
-      "region": "domestic",
-      "slug": "06aea7fb2764",
-      "title": "MongoDB 제품 보안 업데이트 권고",
-      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72309",
-      "translateUrl": "",
-      "published": "2026-11-17",
-      "summary": "",
-      "articleText": "□ 개요 o MongoDB社는 자사 제품에서 발생하는 취약점을 해결한 보안 업데이트 발표 [1][2] o 영향을 받는 버전을 사용 중인 사용자는 해결 방안에 따라 최신 버전으로 업데이트 권고 □ 설명 o Node.js Driver에서 발생하는 Incorrect Behavior Order: Validate Before Canonicalize 취약점(CVE-2026-126837) [1]~[3] □ 영향을 받는 제품 및 해결 방안 취약점 제품명 영향받는 버전 해결 버전 CVE-2026-126837 Node.js Driver 3.3.3 이상 7.8.0 미만 7.8.0 이상"
-    },
-    {
-      "source": "ASEC KR",
-      "region": "domestic",
-      "slug": "b2d9c7f33c2f",
-      "title": "2026년 10월 주요 APT 그룹 동향",
-      "url": "https://asec.ahnlab.com/ko/96568/",
-      "translateUrl": "",
-      "published": "Mon, 16 Nov 2026 15:00:00 +0000",
-      "summary": "목적 및 범위 2026년 10월 국가 지원 위협 행위자들은 기존 스피어 피싱 중심 활동에서 벗어나 개발 환경, 클라우드, 가상자산 인프라, 네트워크 장비를 직접 노리는 방향으로 공격을 확대했다. GitHub, GitLab, OneDrive, Terraform, Visual Studio 같은 정상 플랫폼을 공격 인프라로 악용하는 사례가 늘었고, 일부 활동에서는 AI 기반 자동화가 실제 침투 과",
-      "articleText": "APT 2026년 10월 주요 APT 그룹 동향 11월 17 2026 목적 및 범위 2026년 10월 국가 지원 위협 행위자들은 기존 스피어 피싱 중심 활동에서 벗어나 개발 환경, 클라우드, 가상자산 인프라, 네트워크 장비를 직접 노리는 방향으로 공격을 확대했다. GitHub, GitLab, OneDrive, Terraform, Visual Studio 같은 정상 플랫폼을 공격 인프라로 악용하는 사례가 늘었고, 일부 활동에서는 AI 기반 자동화가 실제 침투 과정에 활용되었다. 지역별 주요 APT 그룹 현황 북한 . 개발자와 DevOps 환경을 노린 공급망 공격이 증가했다. Famous Chollima는 가짜 채용 면접과 ClickFix를 이용해 Node.js 기반 악성코드를 배포했고, Jade Sleet는 악성 Terraform Provider를 통해 FLATROOF와 ROOFDECK를 전달했다. 또 Binance 침해 사례에서는 DevOps 엔지니어 장비를 발판으로 내부 출금 시스템과 핫월렛 서명 인프라에 접근해 약 63억 달러 규모의 가상자산 탈취가 확인되었다. 중국 . APT41은 CVE-2022-21894를 악용한 BlackX UEFI bootkit(펌웨어 단계에서 동작하는 악성코드)을 사용해 외교기관에 장기 침투했다. TA419는 AI 정책 전문가를 상대로 AitM 피싱과 BitB를 결합해 Microsoft 365 자격 증명과 세션 쿠키 탈취를 시도했다. Vapor Panda는 ARTEX(DeepSeek 기반 AI 침투 프레임워크)를 이용해 취약점 악용, 권한 상승, 내부 정찰을 자동화하고 최소 9개 조직 침투를 관찰했다. 러시아 . APT28은 악성 Word 문서와 Hookedge를 이용해 NATO 회원국의 법 집행기관과 방산업체를 노렸고, SSH 역방향 터널과 NTLM 수집 시도를 수행했다. Insolent Werewolf는 NightStrike RAT, AdaptixC2, Havoc를 사용해 정부기관과 방산 연구기관을 대상으로 정보수집을 진행했다. 이란 . CL-STA-1178은 이라크 기반시설 분야 개발자를 대상으로 두바이 공항 채용을 사칭한 악성 Visual Studio 프로젝트를 전달해 ShelbyLoader V2와 ShelbyC2 V2를 실행했다. Chisel 터널링을 통해 지속적인 원격 접근과 내부망 침투 기반을 확보했다. 기타 . Kimsuky는 우크라이나 외교·안보 전문가를 대상으로 GitHub 기반 C2와 PowerShell 체인을 활용한 정보수집을 수행했고, Lazarus는 INISAFE CrossWeb EX를 악용한 다단계 공격과 GitHub 기반 C2로 한국 조직을 노렸다. UAT-11473은 Cisco SD-WAN 대상 CVE-2026-20127을 악용해 KeyDrift를 설치하고 제어 평면 통신에서 암호화 키 정보를 수집했다. 결론 10월의 핵심 변화는 공격자가 악성코드 자체보다 정상 플랫폼과 개발 생태계를 악용해 초기 침투부터 C2까지 수행한 점이다. 또한 개발자, 가상자산, 정부·외교, 방산, 중요 인프라가 주요 표적으로 확대되었고, UEFI bootkit과 AI 기반 자동화 같은 고도화된 기법이 두드러졌다. Tags: APT28 APT41 APTTrend2026 APTTrend202610 CL-STA-1178 FamousChollima InsolentWerewolf JadeSleet Kimsuky Lazarus TA419 TAG-193 UAT-11473 UAT-6275 VAPORPANDA"
     },
     {
       "source": "KISA 취약점정보",
